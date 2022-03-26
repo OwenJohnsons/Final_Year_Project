@@ -1,0 +1,6 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\contentsline {section}{\numberline {1}Introduction \& Background}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Classification of Open Clusters}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Existing Catalogues \& Survey's}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Using Open Clusters as Stellar Laboratories}{1}{section.2}%
+\contentsline {section}{\numberline {3}Use of Open Clusters in Galactic evolution }{2}{section.3}%

@@ -1,0 +1,8 @@
+ Reading file grid.fit
+ The 68 percent confidence contour is at tau^2 =   4.66480637    
+ Written file uncer.out
+  
+ For DISTANCE MODULUS one parameter of interest.
+   10.1121216     +   6.24084473E-02  -6.25162125E-02
+ i.e.    10.0496054      ->    10.1745300     (=          16  grid pixels.)
+   10.1120682     +/-   6.24623299E-02 (symmetrised)

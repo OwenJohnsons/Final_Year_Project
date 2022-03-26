@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<TITLE>Tau-squared Example 2</TITLE>
+<link media='screen' rel='stylesheet' TYPE='text/css' href='http://www.astro.ex.ac.uk/css/screen.css'>
+</head>
+<body>
+<h2> Example 2 - Low-mass stars.</h2>
+
+<p>
+This example is an update to the fit to the low-mass stars presented
+in <a
+href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?doi=10.1111%2Fj.1365-2966.2007.11327.x&amp;db_key=AST&amp;data_type=HTML&amp;format=&amp;high=45c84b2a4721026">Jeffries
+et al (2007)</a>.
+We've had to update it because we no longer distribute the Jeffries
+tuned isochrones, as the Bell et al (2014) ones supercede them.
+The output files are given in the download in a directory called
+Example2, but you should create a clean directory to try it in.
+<p>
+Once again we use monte to create the 2D isochrones.
+A range of 0.04 to 3 solar masses will cover the data.
+We will use the Baraffe et al (1998) mixing length 1.9 isochrones with the I vs R-I
+Bell et al (2014) bolometric corrections for the Bessell filter set (BT-Settl+Bell  Bessell).
+We require a binary fraction of 0.5, and an log10(age) range of 6.3 to
+7.5 in 0.01 steps.
+You also need to include an extinction of 0.20 in E(B-V).
+</p>
+
+<p>
+Monte will take some time to create the required 121 images, which are
+called things like I_R-I_07.200.fit.
+</p>
+
+<p>
+Now you need to run grid.  
+The input data catalogue is called hit.cat 
+(which you can copy from ~/CMDfit/Example2).
+You should add an extra uncertainty of 0.03 mags in 
+magnitude and 0.042 in colour.
+As before we use log10(age) 6.3 to 7.5 in steps of 0.01.
+You should search a distance modulus range of 8 to 11, with 200 points in the "grid".     
+Finally, since we have already reddened the models we created, you
+should not add any further extinction, and the fraction of stars which
+are likely to be members can be set to one.
+</p>
+
+<p>
+You should find a tau-squared minimum of around 13 Myr, a distance modulus of 9.8 and a tau-squared of about 27.
+The precise numbers may be a little different, since the isochrones are made by a Monte-Carlo method.
+The first thing you should do is overlay the model on the data and
+check it looks reasonable (see the manual on how to do this).
+Next you should check that the best fit does not lie outside the rage
+of the parameter search, by plotting grid.fit.
+Finally you should check that all the data points lay within the model
+areas created by monte by looking at grid_npts.fit.
+In this case you can see that at young ages and small distance modulii
+there is a decrease in the number of points fitted, but as this is far
+away from the best-fit parameters, it does not matter.
+<p>
+</p>
+To discover whether this is a good fit you need to run tau2. 
+You are first prompted for the best fitting model, which has been written out to best_model.fit.
+Then you need the original data, but with the adjusted
+uncertainties, which is called fitted.cat, and the number of free 
+parameters (2).
+The output should tell you that the probability of obtaining
+the best-fitting tau-squared is about 32 percent.
+<p>
+</p>
+Finally you need to run uncer, which will tell you that the 
+68 percent confidence level is at a tau-squared of about 30.
+If you plot this on grid.fit (Starlink's gaia can do this for you) you
+should find the contour closes at about 10Myr and a distance modulus of 10.05.
+At the other end it may well close before it reaches 30Myr, but in fact this
+grid is not large enough to be sure, the experiment needs repeating to greater
+ages (but at lower resolution).
+It also suffers (if you look at the models) from a lack of extreme
+mass ratio low-mass binaries (the "binary wedge") because the models
+do not go down to cool enough temperatures.
+
+<!-- START-OF-PHYSICS-FOOTER -->
+
+</div>
+<p>&nbsp;</p>
+<hr id=pexbottom width='100%'>
+
+<span class='e-crumbs'>
+ 
+   <a href='/'>Home</a>  &gt; <a href='./../../'>Group</a> &gt; <a href='./../'>Tim Naylor</a> &gt; <a href='./'>tau-squared</a> &gt; <span class='crumbs_here'>Example 2</span>
+</span>
+
+</table>
+<!-- End of main layout table -->
+
+<div  class=pexastro>
+<a  href='/'>Astrophysics</a>
+</div>
+</body>
+</html>
+

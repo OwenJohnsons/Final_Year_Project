@@ -1,0 +1,98 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%.IDENTIFICATION proposal-template.tex,v 2                       20/01/2019
+%.LANGUAGE       LaTeX
+%.PURPOSE        LaTeX template form for observing field trip proposal
+%.AUTHOR         Antonio Martin-Carrillo (UCD)
+% 
+%
+%                        4 PAGES MAXIMUM
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}     
+\usepackage{pdfpages}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{etoolbox}
+\usepackage{subfig}
+\usepackage{tabularx}
+\usepackage[colorlinks=true,citecolor=blue, linkcolor = blue, urlcolor = blue]{hyperref}
+\usepackage{cleveref}
+\usepackage{lscape}
+\usepackage{subfloat}
+%
+% DO NOT CHANGE ANYTHING IN THE FOLLOWING 6 LINES! (but see warning 1.)
+\textheight=230mm
+\textwidth=180mm
+\topmargin=-7mm
+\oddsidemargin=-10mm
+\evensidemargin=-10mm
+\parindent 10pt
+% \patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+
+%
+\begin{document}
+%
+%
+%---- ENTRY 1 ----------------------------------------------------------
+%
+\centerline{\large{\bf
+{Pathfinding with the Old Breed: Using the Old Open Clusters for Galactic Tracing}}}  
+
+\medskip
+%---- ENTRY 2 ----------------------------------------------------------
+% 
+\centerline{\bf PI: 
+{O. Johnson}}
+ 
+\bigskip
+%---- ENTRY 3 ----------------------------------------------------------
+%
+\noindent {\bf 1. Abstract}
+\smallskip
+% \textbf{MAX length of the proposal 4 PAGES - including references}
+
+The study of open clusters has been a keystone in the study of the Milky Way. They are large scale stellar laboratories and lend themselves to the study of stellar evolution due to the homogeneity of their stellar population. The use of open clusters in mapping the milky way is an old process of comparing the age of open clusters against their spatial distribution. With the progression of photometry and high-resolution astrometric studies, many open clusters can be re-examined with more detail on both the cluster parameter and the interplay between cluster age and distribution throughout the galactic disk. 8 clusters of varying age and disk location are proposed for a total of 58 minutes.
+
+%---- ENTRY 4 ----------------------------------------------------------
+%
+% This is the place where the proposed programme is to be described.
+% This description is composed of two different sections.
+%
+% A) Scientific rationale: scientific background of the project,
+% pertinent references; justification for present
+% proposal.
+%
+% B) Immediate objective of the proposal: what specifically is to 
+% be observed and what can be learnt from the observations so that 
+% the feasibility becomes clear.
+%
+
+
+\input{body.tex}
+
+%
+%---- ENTRY 7 ----------------------------------------------------------
+%
+% References
+%
+% Each reference should be separated by the LaTex command \smallskip\\
+% %
+% \pagebreak
+\begin{multicols}{2}
+\bibliography{cite}{}
+\bibliographystyle{aasjournal}
+\end{multicols}
+\vfill
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% THE END %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% Everything following \end{document} is discarded. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{table.tex}
+\end{document}

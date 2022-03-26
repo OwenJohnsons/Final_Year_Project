@@ -1,0 +1,1605 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2020.11.22)  20 OCT 2021 00:21
+entering extended mode
+**"e:/Dropbox/UCD - Physics Undergrad/4 - Fourth Year/FYP/Lit Review/fyp_lit_review/_Owen_Johnson_18305971.tex"
+("e:/Dropbox/UCD - Physics Undergrad/4 - Fourth Year/FYP/Lit Review/fyp_lit_review/_Owen_Johnson_18305971.tex"
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03> ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls"
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo"
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@section=\count176
+\c@subsection=\count177
+\c@subsubsection=\count178
+\c@paragraph=\count179
+\c@subparagraph=\count180
+\c@figure=\count181
+\c@table=\count182
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count183
+\Gm@cntv=\count184
+\c@Gm@tempcnt=\count185
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg")) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/preprint\fullpage.sty"
+Package: fullpage 1999/02/23 1.1 (PWD)
+\FP@margin=\skip49
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
+\f@nch@headwidth=\skip50
+\f@nch@O@elh=\skip51
+\f@nch@O@erh=\skip52
+\f@nch@O@olh=\skip53
+\f@nch@O@orh=\skip54
+\f@nch@O@elf=\skip55
+\f@nch@O@erf=\skip56
+\f@nch@O@olf=\skip57
+\f@nch@O@orf=\skip58
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count186
+\float@exts=\toks17
+\float@box=\box47
+\@float@everytoks=\toks18
+\@floatcapt=\box48
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box49
+\beforetitleunit=\skip59
+\aftertitleunit=\skip60
+\ttl@plus=\dimen147
+\ttl@minus=\dimen148
+\ttl@toksa=\toks19
+\titlewidth=\dimen149
+\titlewidthlast=\dimen150
+\titlewidthfirst=\dimen151
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty"
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count187
+\@cmidlb=\count188
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count189
+\@lastruleclass=\count190
+\@thisrulewidth=\dimen164
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen165
+\Gin@req@width=\dimen166
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen167
+\WF@size=\dimen168
+\c@WF@wrappedlines=\count191
+\WF@box=\box50
+\WF@everypar=\toks20
+Package: wrapfig 2003/01/31  v 3.6
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty"
+Package: subcaption 2020/08/23 v1.3g Sub-captions (AR)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty"
+Package: caption 2020/09/12 v3.5b Customizing captions (AR)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty"
+Package: caption3 2020/09/17 v2.1b caption3 kernel (AR)
+\captionmargin=\dimen169
+\captionmargin@=\dimen170
+\captionwidth=\dimen171
+\caption@tempdima=\dimen172
+\caption@indent=\dimen173
+\caption@parindent=\dimen174
+\caption@hangindent=\dimen175
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count192
+\c@continuedfloat=\count193
+Package caption Info: float package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count194
+\c@subtable=\count195
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/titlepic\titlepic.sty"
+Package: titlepic 2017/03/14 1.2 Package to display a picture on the title page
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty"
+Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
+\MT@toks=\toks21
+\MT@count=\count196
+LaTeX Info: Redefining \textls on input line 790.
+\MT@outer@kern=\dimen176
+LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
+\MT@listname@count=\count197
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 914.
+LaTeX Info: Redefining \lslig on input line 914.
+\MT@outer@space=\skip61
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg"
+File: microtype.cfg 2019/11/18 v2.7d microtype main configuration file (RS)
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen177
+\ar@mcellbox=\box51
+\extrarowheight=\dimen178
+\NC@list=\toks22
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box52
+)
+\everycr=\toks23
+\minrowclearance=\skip64
+)
+\rownum=\count198
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen179
+\TX@old@table=\dimen180
+\TX@old@col=\dimen181
+\TX@target=\dimen182
+\TX@delta=\dimen183
+\TX@cols=\count199
+\TX@ftn=\toks24
+)
+\c@tblerows=\count266
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty"
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen184
+\c@nlinenum=\count267
+\TeXr@lab=\toks25
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip65
+\LTright=\skip66
+\LTpre=\skip67
+\LTpost=\skip68
+\LTchunksize=\count268
+\LTcapwidth=\dimen185
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count269
+\LT@rows=\count270
+\c@LT@tables=\count271
+\c@LT@chunks=\count272
+\LT@p@ftn=\toks26
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty"
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip69
+\multirow@cntb=\count273
+\multirow@dima=\skip70
+\bigstrutjot=\dimen186
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks27
+\XKV@tempa@toks=\toks28
+)
+\XKV@depth=\count274
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box57
+)
+\tc@llx=\dimen187
+\tc@lly=\dimen188
+\tc@urx=\dimen189
+\tc@ury=\dimen190
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen191
+\adjbox@Height=\dimen192
+\adjbox@Depth=\dimen193
+\adjbox@Totalheight=\dimen194
+\adjbox@pwidth=\dimen195
+\adjbox@pheight=\dimen196
+\adjbox@pdepth=\dimen197
+\adjbox@ptotalheight=\dimen198
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count275
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box58
+\sift@deathcycles=\count276
+\@vwid@loff=\dimen199
+\@vwid@roff=\dimen256
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mhchem\mhchem.sty"
+Package: mhchem 2018/06/22 v4.08 for typesetting chemical formulae
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty"
+Package: expl3 2020-10-05 L3 programming layer (loader) 
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count277
+\l__pdf_internal_box=\box59
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty"
+Package: l3keys2e 2020-10-05 LaTeX2e option processing using LaTeX3 keys
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty"
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count278
+\calc@Bcount=\count279
+\calc@Adimen=\dimen257
+\calc@Bdimen=\dimen258
+\calc@Askip=\skip71
+\calc@Bskip=\skip72
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count280
+\calc@Cskip=\skip73
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip74
+
+For additional information on amsmath, use the `?' option.
+("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks29
+\ex@=\dimen259
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen260
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count281
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count282
+\leftroot@=\count283
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count284
+\DOTSCASE@=\count285
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box60
+\strutbox@=\box61
+\big@size=\dimen261
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count286
+\c@MaxMatrixCols=\count287
+\dotsspace@=\muskip16
+\c@parentequation=\count288
+\dspbrk@lvl=\count289
+\tag@help=\toks30
+\row@=\count290
+\column@=\count291
+\maxfields@=\count292
+\andhelp@=\toks31
+\eqnshift@=\dimen262
+\alignsep@=\dimen263
+\tagshift@=\dimen264
+\tagwidth@=\dimen265
+\totwidth@=\dimen266
+\lineht@=\dimen267
+\@envbody=\toks32
+\multlinegap=\skip75
+\multlinetaggap=\skip76
+\mathdisplay@stack=\toks33
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/chemgreek\chemgreek.sty" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty"
+Package: xparse 2020-10-05 L3 Experimental document command parser
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse-generic.tex"))
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use in chemistry (CN)
+\l__chemgreek_tmpa_int=\count293
+\g__chemgreek_tmpa_int=\count294
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count295
+\__mhchem_arrow_extPgfLength_skip=\skip77
+\mhchem@minispace@tmp=\skip78
+\mhchem@minibackspace@tmp=\skip79
+\mhchem@bondwidth=\skip80
+\mhchem@bondheight=\skip81
+\mhchem@smallbondwidth@tmpA=\skip82
+\mhchem@smallbondwidth@tmpB=\skip83
+\mhchem@smallbondwidth=\skip84
+\mhchem@bondtmp@minussidebearingleft=\skip85
+\mhchem@bondtmp@minussidebearingright=\skip86
+\l__mhchem_option_version_int=\count296
+\mhchem@option@minusmathsidebearingleft=\dimen268
+\mhchem@option@minusmathsidebearingright=\dimen269
+\mhchem@option@minustextsidebearingleft=\dimen270
+\mhchem@option@minustextsidebearingright=\dimen271
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count297
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty"
+Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty"
+Package: siunitx 2020/02/25 v2.8b A comprehensive (SI) units package
+\l__siunitx_tmp_box=\box62
+\l__siunitx_tmp_dim=\dimen272
+\l__siunitx_tmp_int=\count298
+\l__siunitx_number_mantissa_length_int=\count299
+\l__siunitx_number_uncert_length_int=\count300
+\l__siunitx_round_int=\count301
+\l__siunitx_process_decimal_int=\count302
+\l__siunitx_process_uncertainty_int=\count303
+\l__siunitx_process_fixed_int=\count304
+\l__siunitx_process_integer_min_int=\count305
+\l__siunitx_process_precision_int=\count306
+\l__siunitx_group_min_int=\count307
+\l__siunitx_angle_marker_box=\box63
+\l__siunitx_angle_unit_box=\box64
+\l__siunitx_angle_marker_dim=\dimen273
+\l__siunitx_angle_unit_dim=\dimen274
+\l__siunitx_unit_int=\count308
+\l__siunitx_unit_denominator_int=\count309
+\l__siunitx_unit_numerator_int=\count310
+\l__siunitx_unit_prefix_int=\count311
+\l__siunitx_unit_prefix_base_int=\count312
+\l__siunitx_unit_prefix_gram_int=\count313
+\l__siunitx_number_product_int=\count314
+\c__siunitx_one_fill_skip=\skip87
+\l__siunitx_table_unit_align_skip=\skip88
+\l__siunitx_table_exponent_dim=\dimen275
+\l__siunitx_table_integer_dim=\dimen276
+\l__siunitx_table_mantissa_dim=\dimen277
+\l__siunitx_table_marker_dim=\dimen278
+\l__siunitx_table_result_dim=\dimen279
+\l__siunitx_table_uncert_dim=\dimen280
+\l__siunitx_table_fill_pre_dim=\dimen281
+\l__siunitx_table_fill_post_dim=\dimen282
+\l__siunitx_table_fill_mid_dim=\dimen283
+\l__siunitx_table_pre_box=\box65
+\l__siunitx_table_post_box=\box66
+\l__siunitx_table_mantissa_box=\box67
+\l__siunitx_table_result_box=\box68
+\l__siunitx_table_number_align_skip=\skip89
+\l__siunitx_table_text_align_skip=\skip90
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator.sty"
+Package: translator 2020-08-03 v1.12c Easy translation of strings in LaTeX
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty"
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count315
+\mult@box=\box69
+\multicol@leftmargin=\dimen284
+\c@unbalance=\count316
+\c@collectmore=\count317
+\doublecol@number=\count318
+\multicoltolerance=\count319
+\multicolpretolerance=\count320
+\full@width=\dimen285
+\page@free=\dimen286
+\premulticols=\dimen287
+\postmulticols=\dimen288
+\multicolsep=\skip91
+\multicolbaselineskip=\skip92
+\partial@page=\box70
+\last@line=\box71
+\maxbalancingoverflow=\dimen289
+\mult@rightbox=\box72
+\mult@grightbox=\box73
+\mult@gfirstbox=\box74
+\mult@firstbox=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\c@minrows=\count321
+\c@columnbadness=\count322
+\c@finalcolumnbadness=\count323
+\last@try=\dimen290
+\multicolovershoot=\dimen291
+\multicolundershoot=\dimen292
+\mult@nat@firstbox=\box113
+\colbreak@box=\box114
+\mc@col@check@num=\count324
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mathdesign.sty"
+Package: mathdesign 2013/08/29 v2.31 Math Design Project
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdbch.cfg") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdbch.sty"
+Package: mdbch 2013/08/29 v2.31 bitstream bitstream charter + mdbch (Math Design Project)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdfont.def"
+File: mdfont.def 2013/08/29 v2.31 (Math Design Project)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdsffont.def"
+File: mdsffont.def 2013/08/29 v2.31 (Math Design Project)
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 53.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 56.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 59.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 79.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 102.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 105.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 108.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 128.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 259.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 262.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 265.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 268.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 313.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 316.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 319.
+
+
+LaTeX Warning: Font shape declaration has incorrect series value `mc'.
+               It should not contain an `m'! Please correct it.
+               Found on input line 322.
+
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdttfont.def"
+File: mdttfont.def 2013/08/29 v2.31 (Math Design Project)
+)
+\symmdcal=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mdcal' in version `bold'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/b/n on input line 97.
+\symmdscr=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `mdscr' in version `bold'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/b/n on input line 103.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/xmdeuf/m/n --> U/xmdeuf/b/n on input line 110.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/mdbch/m/n on input line 121.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/mdbch/m/it on input line 122.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/mdbch/m/n on input line 123.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/m/n on input line 124.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/mdbch/b/n on input line 126.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/mdbch/b/it on input line 127.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/mdbch/b/n on input line 128.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/mdbch/b/n on input line 129.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/mdbch/m/n --> T1/mdbch/m/n on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 132.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> T1/mdbch/m/it on input line 133.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> T1/cmss/m/n on input line 134.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/m/n on input line 135.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/mdbch/b/n --> T1/mdbch/b/n on input line 137.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> T1/mdbch/b/n on input line 138.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> T1/mdbch/b/it on input line 139.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> T1/cmss/b/n on input line 140.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> T1/cmtt/b/n on input line 141.
+\symlettersupright=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lettersupright' in version `bold'
+(Font)                  OML/mdbch/m/n --> OML/mdbch/b/n on input line 144.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 145.
+LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
+(Font)                  OMS/mdbch/m/n --> OMS/mdbch/m/n on input line 167.
+LaTeX Font Info:    Trying to load font information for T1+mdbch on input line 186.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\t1mdbch.fd"
+File: t1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for T1/mdbch.
+)
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 186.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 449.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 450.
+Now handling font encoding MDA ...
+... no UTF-8 mapping file for font encoding MDA
+\symmathdesignA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `mathdesignA' in version `bold'
+(Font)                  MDA/mdbch/m/n --> MDA/mdbch/b/n on input line 491.
+Now handling font encoding MDB ...
+... no UTF-8 mapping file for font encoding MDB
+\symmathdesignB=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `mathdesignB' in version `bold'
+(Font)                  MDB/mdbch/m/n --> MDB/mdbch/b/n on input line 498.
+LaTeX Font Info:    Redeclaring math accent \widetilde on input line 532.
+LaTeX Font Info:    Redeclaring math accent \widehat on input line 533.
+\rulethickness=\skip93
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty"
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen293
+\Hy@linkcounter=\count325
+\Hy@pagecounter=\count326
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count327
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count328
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen294
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count329
+\Field@Width=\dimen295
+\Fld@charsize=\dimen296
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty"
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi package
+with kernel methods
+)
+\Hy@abspage=\count330
+\c@Item=\count331
+\c@Hfootnote=\count332
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty"
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery package
+with kernel methods
+)
+\Fld@listcount=\count333
+\c@bookmark@seq@number=\count334
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 286.
+)
+\Hy@SectionHShift=\skip94
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty"
+Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
+Package cleveref Info: `hyperref' support loaded on input line 2370.
+LaTeX Info: Redefining \cref on input line 2370.
+LaTeX Info: Redefining \Cref on input line 2370.
+LaTeX Info: Redefining \crefrange on input line 2370.
+LaTeX Info: Redefining \Crefrange on input line 2370.
+LaTeX Info: Redefining \cpageref on input line 2370.
+LaTeX Info: Redefining \Cpageref on input line 2370.
+LaTeX Info: Redefining \cpagerefrange on input line 2370.
+LaTeX Info: Redefining \Cpagerefrange on input line 2370.
+LaTeX Info: Redefining \labelcref on input line 2370.
+LaTeX Info: Redefining \labelcpageref on input line 2370.
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.sty"
+Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/import\import.sty"
+Package: import 2020/04/01  v 6.2
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/was\gensymb.sty"
+Package: gensymb 2003/07/02 v1.0 (WaS)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty"
+\lst@mode=\count335
+\lst@gtempboxa=\box115
+\lst@token=\toks34
+\lst@length=\count336
+\lst@currlwidth=\dimen297
+\lst@column=\count337
+\lst@pos=\count338
+\lst@lostspace=\dimen298
+\lst@width=\dimen299
+\lst@newlines=\count339
+\lst@lineno=\count340
+\lst@maxwidth=\dimen300
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count341
+\lst@skipnumbers=\count342
+\lst@framebox=\box116
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox.sty"
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex"
+\pgfutil@everybye=\toks35
+\pgfutil@tempdima=\dimen301
+\pgfutil@tempdimb=\dimen302
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-lists.tex")) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def"
+\pgfutil@abb=\box117
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex")
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks36
+\pgfkeys@temptoks=\toks37
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.code.tex"
+\pgfkeys@tmptoks=\toks38
+))
+\pgf@x=\dimen303
+\pgf@y=\dimen304
+\pgf@xa=\dimen305
+\pgf@ya=\dimen306
+\pgf@xb=\dimen307
+\pgf@yb=\dimen308
+\pgf@xc=\dimen309
+\pgf@yc=\dimen310
+\pgf@xd=\dimen311
+\pgf@yd=\dimen312
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count343
+\c@pgf@countb=\count344
+\c@pgf@countc=\count345
+\c@pgf@countd=\count346
+\t@pgf@toka=\toks39
+\t@pgf@tokb=\toks40
+\t@pgf@tokc=\toks41
+\pgf@sys@id@count=\count347
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg"
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/10/01 v3.1.6a (3.1.6a)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+))) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex"
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count348
+\pgfsyssoftpath@bigbuffer@items=\count349
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex"
+\pgfmath@dimen=\dimen313
+\pgfmath@count=\count350
+\pgfmath@box=\box118
+\pgfmath@toks=\toks42
+\pgfmath@stack@operand=\toks43
+\pgfmath@stack@operation=\toks44
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex" ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex"))) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count351
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex") ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex"
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen314
+\pgf@picmaxx=\dimen315
+\pgf@picminy=\dimen316
+\pgf@picmaxy=\dimen317
+\pgf@pathminx=\dimen318
+\pgf@pathmaxx=\dimen319
+\pgf@pathminy=\dimen320
+\pgf@pathmaxy=\dimen321
+\pgf@xx=\dimen322
+\pgf@xy=\dimen323
+\pgf@yx=\dimen324
+\pgf@yy=\dimen325
+\pgf@zx=\dimen326
+\pgf@zy=\dimen327
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex"
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen328
+\pgf@path@lasty=\dimen329
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex"
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen330
+\pgf@shorten@start@additional=\dimen331
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex"
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box119
+\pgf@hbox=\box120
+\pgf@layerbox@main=\box121
+\pgf@picture@serial@count=\count352
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen332
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex"
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen333
+\pgf@pt@y=\dimen334
+\pgf@pt@temp=\dimen335
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen336
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex"
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen337
+\pgf@sys@shading@range@num=\count353
+\pgf@shadingcount=\count354
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box122
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfnodeparttextbox=\box123
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty"
+Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@nodesepstart=\dimen338
+\pgf@nodesepend=\dimen339
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+)) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty"
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read3
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty"
+Package: environ 2014/05/04 v0.3 A new way to define environments
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspaces.sty"
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box124
+\tcb@upperbox=\box125
+\tcb@lowerbox=\box126
+\tcb@phantombox=\box127
+\c@tcbbreakpart=\count355
+\c@tcblayer=\count356
+\c@tcolorbox@number=\count357
+\tcb@temp=\box128
+\tcb@temp=\box129
+\tcb@temp=\box130
+\tcb@temp=\box131
+\tcb@out=\write4
+\tcb@record@out=\write5
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty"
+Package: biblatex 2020/08/23 v3.15a programmable bibliographies (PK/MW)
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty"
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count358
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def"
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count359
+\c@listtotal=\count360
+\c@listcount=\count361
+\c@liststart=\count362
+\c@liststop=\count363
+\c@citecount=\count364
+\c@citetotal=\count365
+\c@multicitecount=\count366
+\c@multicitetotal=\count367
+\c@instcount=\count368
+\c@maxnames=\count369
+\c@minnames=\count370
+\c@maxitems=\count371
+\c@minitems=\count372
+\c@citecounter=\count373
+\c@maxcitecounter=\count374
+\c@savedcitecounter=\count375
+\c@uniquelist=\count376
+\c@uniquename=\count377
+\c@refsection=\count378
+\c@refsegment=\count379
+\c@maxextratitle=\count380
+\c@maxextratitleyear=\count381
+\c@maxextraname=\count382
+\c@maxextradate=\count383
+\c@maxextraalpha=\count384
+\c@abbrvpenalty=\count385
+\c@highnamepenalty=\count386
+\c@lownamepenalty=\count387
+\c@maxparens=\count388
+\c@parenlevel=\count389
+\blx@tempcnta=\count390
+\blx@tempcntb=\count391
+\blx@tempcntc=\count392
+\blx@maxsection=\count393
+\blx@maxsegment@0=\count394
+\blx@notetype=\count395
+\blx@parenlevel@text=\count396
+\blx@parenlevel@foot=\count397
+\blx@sectionciteorder@0=\count398
+\blx@entrysetcounter=\count399
+\blx@biblioinstance=\count400
+\labelnumberwidth=\skip95
+\labelalphawidth=\skip96
+\biblabelsep=\skip97
+\bibitemsep=\skip98
+\bibnamesep=\skip99
+\bibinitsep=\skip100
+\bibparsep=\skip101
+\bibhang=\skip102
+\blx@bcfin=\read4
+\blx@bcfout=\write6
+\blx@langwohyphens=\language79
+\c@mincomprange=\count401
+\c@maxcomprange=\count402
+\c@mincompwidth=\count403
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def"
+File: blx-dm.def 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'phys.dbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-phys\phys.dbx"
+File: phys.dbx 2019/12/03 v1.1b biblatex database model extension
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count404
+\c@savedafterword=\count405
+\c@annotator=\count406
+\c@savedannotator=\count407
+\c@author=\count408
+\c@savedauthor=\count409
+\c@bookauthor=\count410
+\c@savedbookauthor=\count411
+\c@commentator=\count412
+\c@savedcommentator=\count413
+\c@editor=\count414
+\c@savededitor=\count415
+\c@editora=\count416
+\c@savededitora=\count417
+\c@editorb=\count418
+\c@savededitorb=\count419
+\c@editorc=\count420
+\c@savededitorc=\count421
+\c@foreword=\count422
+\c@savedforeword=\count423
+\c@holder=\count424
+\c@savedholder=\count425
+\c@introduction=\count426
+\c@savedintroduction=\count427
+\c@namea=\count428
+\c@savednamea=\count429
+\c@nameb=\count430
+\c@savednameb=\count431
+\c@namec=\count432
+\c@savednamec=\count433
+\c@translator=\count434
+\c@savedtranslator=\count435
+\c@shortauthor=\count436
+\c@savedshortauthor=\count437
+\c@shorteditor=\count438
+\c@savedshorteditor=\count439
+\c@labelname=\count440
+\c@savedlabelname=\count441
+\c@institution=\count442
+\c@savedinstitution=\count443
+\c@lista=\count444
+\c@savedlista=\count445
+\c@listb=\count446
+\c@savedlistb=\count447
+\c@listc=\count448
+\c@savedlistc=\count449
+\c@listd=\count450
+\c@savedlistd=\count451
+\c@liste=\count452
+\c@savedliste=\count453
+\c@listf=\count454
+\c@savedlistf=\count455
+\c@location=\count456
+\c@savedlocation=\count457
+\c@organization=\count458
+\c@savedorganization=\count459
+\c@origlocation=\count460
+\c@savedoriglocation=\count461
+\c@origpublisher=\count462
+\c@savedorigpublisher=\count463
+\c@publisher=\count464
+\c@savedpublisher=\count465
+\c@language=\count466
+\c@savedlanguage=\count467
+\c@origlanguage=\count468
+\c@savedoriglanguage=\count469
+\c@pageref=\count470
+\c@savedpageref=\count471
+\shorthandwidth=\skip103
+\shortjournalwidth=\skip104
+\shortserieswidth=\skip105
+\shorttitlewidth=\skip106
+\shortauthorwidth=\skip107
+\shorteditorwidth=\skip108
+\locallabelnumberwidth=\skip109
+\locallabelalphawidth=\skip110
+\localshorthandwidth=\skip111
+\localshortjournalwidth=\skip112
+\localshortserieswidth=\skip113
+\localshorttitlewidth=\skip114
+\localshortauthorwidth=\skip115
+\localshorteditorwidth=\skip116
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def"
+File: blx-compat.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+)
+Package biblatex Info: expl3
+(biblatex)             2020-10-05 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+Package biblatex Info: Trying to load expl3 case changing code...
+Package biblatex Info: ... file 'blx-case-expl3.def' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.def"
+File: blx-case-expl3 2020/08/23 v3.15a expl3 case changing code for biblatex
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def"
+File: biblatex.def 2020/08/23 v3.15a biblatex compatibility (PK/MW)
+\c@textcitecount=\count472
+\c@textcitetotal=\count473
+\c@textcitemaxnames=\count474
+\c@biburlbigbreakpenalty=\count475
+\c@biburlbreakpenalty=\count476
+\c@biburlnumpenalty=\count477
+\c@biburlucpenalty=\count478
+\c@biburllcpenalty=\count479
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count480
+)
+Package biblatex Info: Trying to load bibliography style 'phys'...
+Package biblatex Info: ... file 'phys.bbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-phys\phys.bbx"
+File: phys.bbx 2019/12/03 v1.1b biblatex bibliography style
+Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.bbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric-comp.bbx"
+File: numeric-comp.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx"
+File: numeric.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx"
+File: standard.bbx 2020/08/23 v3.15a biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count481
+\c@bbx:relatedtotal=\count482
+))))
+Package biblatex Info: Trying to load citation style 'phys'...
+Package biblatex Info: ... file 'phys.cbx' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-phys\phys.cbx"
+File: phys.cbx 2019/12/03 v1.1b biblatex citation style
+Package biblatex Info: Trying to load citation style 'numeric-comp'...
+Package biblatex Info: ... file 'numeric-comp.cbx' found.
+
+("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx"
+File: numeric-comp.cbx 2020/08/23 v3.15a biblatex citation style (PK/MW)
+\c@cbx@tempcnta=\count483
+\c@cbx@tempcntb=\count484
+\c@cbx@tempcntc=\count485
+\c@cbx@tempcntd=\count486
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+))
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg"
+File: biblatex.cfg 
+))
+\@quotelevel=\count487
+\@quotereset=\count488
+ ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.aux")
+\openout1 = `_Owen_Johnson_18305971.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for MDA/cmr/m/n on input line 167.
+LaTeX Font Info:    Trying to load font information for MDA+cmr on input line 167.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdacmr.fd"
+File: mdacmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for MDB/cmr/m/n on input line 167.
+LaTeX Font Info:    Trying to load font information for MDB+cmr on input line 167.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign\mdbcmr.fd"
+File: mdbcmr.fd 
+)
+LaTeX Font Info:    ... okay on input line 167.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 167.
+LaTeX Font Info:    ... okay on input line 167.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.70166pt, 418.25368pt, 107.55254pt)
+* v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=633.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=0.0pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=121.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 167.
+("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count489
+\scratchdimen=\dimen340
+\scratchbox=\box132
+\nofMPsegments=\count490
+\nofMParguments=\count491
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count492
+\MPscratchDim=\dimen341
+\MPnumerator=\count493
+\makeMPintoPDFobject=\count494
+\everyMPtoPDFconversion=\toks48
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty"
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty"
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
+LaTeX Info: Redefining \microtypecontext on input line 167.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+LaTeX Info: Redefining \showhyphens on input line 167.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-bch.cfg"
+File: mt-bch.cfg 2007/03/03 v1.5 microtype config. file: Bitstream Charter (RS)
+)
+
+Package chemgreek Info: Activating mapping `mathdesign' on line 167.
+
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx-abbreviations.cfg"
+File: siunitx-abbreviations.cfg 2017/11/26 v2.7k siunitx: Abbreviated units
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+Package hyperref Info: Link coloring OFF on input line 167.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count495
+)
+LaTeX Info: Redefining \ref on input line 167.
+LaTeX Info: Redefining \pageref on input line 167.
+LaTeX Info: Redefining \nameref on input line 167.
+ ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.out") ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.out")
+\@outlinefile=\write7
+\openout7 = `_Owen_Johnson_18305971.out'.
+
+LaTeX Info: Redefining \celsius on input line 167.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 167.
+
+
+Package gensymb Warning: Not defining \perthousand.
+
+LaTeX Info: Redefining \ohm on input line 167.
+Package gensymb Info: Using \Omega for \ohm on input line 167.
+
+Package gensymb Warning: Not defining \micro.
+
+\c@lstlisting=\count496
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx"
+File: english.lbx 2020/08/23 v3.15a biblatex localization (PK/MW)
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout6 = `_Owen_Johnson_18305971.bcf'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '_Owen_Johnson_18305971.bbl' found.
+ ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.bbl"
+LaTeX Font Info:    Trying to load font information for OT1+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\ot1mdbch.fd"
+File: ot1mdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OT1/mdbch.
+)
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Trying to load font information for OML+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omlmdbch.fd"
+File: omlmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OML/mdbch.
+)
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Trying to load font information for OMS+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omsmdbch.fd"
+File: omsmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMS/mdbch.
+)
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Trying to load font information for OMX+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\omxmdbch.fd"
+File: omxmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for OMX/mdbch.
+)
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Trying to load font information for MDA+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdamdbch.fd"
+File: mdamdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDA/mdbch.
+)
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Trying to load font information for MDB+mdbch on input line 64.
+ ("C:\Users\Owen Johnson\AppData\Local\Programs\MiKTeX\tex/latex/mathdesign/mdbch\mdbmdbch.fd"
+File: mdbmdbch.fd 2013/08/29 Fontinst v1.933 font definitions for MDB/mdbch.
+)
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 9.60007pt on input line 64.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 4.80003pt on input line 64.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 6.72005pt on input line 64.
+)
+Package biblatex Info: Reference section=0 on input line 167.
+Package biblatex Info: Reference segment=0 on input line 167.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 10.39001pt on input line 167.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 7.27301pt on input line 167.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 5.195pt on input line 167.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 10.72006pt on input line 167.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 7.50404pt on input line 167.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 5.36003pt on input line 167.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 16.58891pt on input line 209.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 209.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 23.88496pt on input line 209.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 12.46802pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 8.31201pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 6.23401pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 12.86407pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 8.57605pt on input line 209.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 6.43204pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 209.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 209.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 11.52008pt on input line 209.
+<Images/physics.png, id=26, 698.61pt x 174.6525pt>
+File: Images/physics.png Graphic file (type png)
+<use Images/physics.png>
+Package pdftex.def Info: Images/physics.png  used on input line 209.
+(pdftex.def)             Requested size: 227.62204pt x 56.90529pt.
+ [1
+
+{C:/Users/Owen Johnson/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <e:/Dropbox/UCD - Physics Undergrad/4 - Fourth Year/FYP/Lit Review/fyp_lit_review/Images/physics.png>] ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\sections/abstract.tex"
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 8.64006pt on input line 1.
+)
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 13.82408pt on input line 229.
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 13.82408pt on input line 229.
+ ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.toc"
+LaTeX Font Info:    Font shape `T1/mdbch/b/n' will be
+(Font)              scaled to size 9.60007pt on input line 2.
+)
+\tf@toc=\write8
+\openout8 = `_Owen_Johnson_18305971.toc'.
+
+ [2] ("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\sections/theorey.tex"
+LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
+(Font)              scaled to size 9.60007pt on input line 8.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 7.68005pt on input line 8.
+LaTeX Font Info:    Font shape `T1/mdbch/m/n' will be
+(Font)              scaled to size 5.76004pt on input line 8.
+LaTeX Font Info:    Font shape `T1/mdbch/m/it' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `T1/mdbch/b/it' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `OT1/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `OML/mdbch/m/it' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `OMS/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `OMX/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `T1/cmss/m/n' will be
+(Font)              scaled to size 9.35101pt on input line 19.
+LaTeX Font Info:    Font shape `T1/cmtt/m/n' will be
+(Font)              scaled to size 9.64806pt on input line 19.
+LaTeX Font Info:    Font shape `OML/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `MDA/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+LaTeX Font Info:    Font shape `MDB/mdbch/m/n' will be
+(Font)              scaled to size 8.64006pt on input line 19.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 \newpage
+               [1]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 \newpage
+               [2] [3] 
+AED: lastpage setting LastPage
+("e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.aux")
+Package rerunfilecheck Info: File `_Owen_Johnson_18305971.out' has not changed.
+(rerunfilecheck)             Checksum: 14D755876744BA57A609B275A118B7EE;381.
+Package logreq Info: Writing requests to '_Owen_Johnson_18305971.run.xml'.
+\openout1 = `_Owen_Johnson_18305971.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 36457 strings out of 480231
+ 721622 string characters out of 2877108
+ 1523091 words of memory out of 3000000
+ 52213 multiletter control sequences out of 15000+200000
+ 615757 words of font info for 222 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 76i,12n,88p,3279b,1551s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/ly1/texnansi.enc}<C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchb8a.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchbi8a.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchr8a.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/bitstrea/charter/bchri8a.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chr7t.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chr8t.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chri7m.pfb><C:/Users/Owen Johnson/AppData/Local/Programs/MiKTeX/fonts/type1/mathdesign/mdbch/md-chri8t.pfb>
+Output written on "e:/Dropbox\UCD - Physics Undergrad\4 - Fourth Year\FYP\Lit Review\fyp_lit_review\_Owen_Johnson_18305971.pdf" (5 pages, 93784 bytes).
+PDF statistics:
+ 108 PDF objects out of 1000 (max. 8388607)
+ 13 named destinations out of 1000 (max. 500000)
+ 61498 words of extra memory for PDF output out of 61914 (max. 10000000)
+

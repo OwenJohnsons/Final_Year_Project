@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<TITLE>CMDfit Bolometric Corrections</TITLE>
+
+<link media='screen' rel='stylesheet' TYPE='text/css' href='http://www.astro.ex.ac.uk/css/screen.css'>
+</head>
+<body>
+
+<p>
+</p>
+
+<h1>CMDfit Bolometric Corrections</h1> 
+
+<p>
+Most of the bolometric corrections provided we have calculated ourselves by folding spectra through the appropriate filter responses.
+In addition, by reddening the spectra before folding them through the resposes, we produce extinction tables.
+The atmospheres we have used are the BT-Settl (<a href="http://adsabs.harvard.edu/abs/2011ASPC..448...91A">Allard et al, 2011</a>) and the Kurucz
+(<a href="http://adsabs.harvard.edu/abs/2004astro.ph..5087C">Castelli & Kurucz, 2004</a>) new opacity, microturbulance 2km/s models.
+
+The optical filter resposes we have are Bessell, INT-WFC, IPHAS/UVEX and SDSS.
+In many cases we provide both photon counting and energy integrating versions, the former being suitable for CCD detectors, the latter for photomultiplier tubes.
+In the IR we have the 2MASS and UKIDSS filters.
+The extinctions are calculated using the <a href="http://adsabs.harvard.edu/abs/1999PASP..111...63F">Fitzpatrick (1999)</a> curve, since <a href="http://adsabs.harvard.edu/abs/2013MNRAS.430.2188Y">Yuan el al (2013)</a> show this reproduces the observed extinctions in the optical and near IR well.
+The references for the system responses are as follows.
+</p><p>
+Bessell.  The UBVRI Johnson-Cousins system defined in <a href="http://adsabs.harvard.edu/abs/2012PASP..124..140B">Bessell & Murphy (2012)</a>.
+</p><p>
+INT-WFC. The UgriZ system with an AB zeropoint described in <a href="http://adsabs.harvard.edu/abs/2012MNRAS.424.3178B">Bell et al (2012)</a>.
+</p><p>
+IPHAS/UVEX. Bolometric corrections for the IPHAS and UVEX ugri surveys with the INT.  Created using the system responses in <a href="http://adsabs.harvard.edu/abs/2012MNRAS.424.3178B">Bell et al (2012)</a>, but with the zero point set to be Vega.
+</p><p>
+SDSS.  The ugriz system with an AB zeropoint defined in <a href="http://adsabs.harvard.edu/abs/2010AJ....139.1628D">Doi et al (2010)</a>.
+</p><p>
+2MASS. The JHKs system described in <a href="http://adsabs.harvard.edu/abs/2003AJ....126.1090C">
+Cohen, Wheaton & Megeath (2003)</a>.
+</p><p>
+UKIDSS.  The YZJHK system described in <a href="http://adsabs.harvard.edu/abs/2006MNRAS.367..454H">Hewett et al (2006)</a>.  The zero point is assuming Vega has a magnitide of zero, except in the H-band where it is 0.03 mags (see <a href="http://adsabs.harvard.edu/abs/2009MNRAS.394..675H">Hodgkin et al 2009</a>).
+</p>
+<p>
+In addition we provide the following sets of published tables of bolometric corrections.
+</p>
+<p>
+The Bell et al (in prep) tuning to the Pleiades or Praesepe is noted in the options as "BT-Settl/Bell".
+It is only available for certain interior models.
+The tuning (which is for temperatures cooler than about 4000K) is based on the BT-Settl model atmospheres.
+Above about 4000K the tables are either the BT-Settl BCs (for temperatures less than 8000K), or the Kurucz BCs (temperatures greater than
+8000K).
+</p>
+<p>
+Jeffries/Naylor.  These are available on request (since we believe they are superceded by Bell et al).
+The bolometric corrections are derived from fitting observations for cool low-mass stars, and from 
+<A HREF="http://adsabs.harvard.edu/abs/1998A%26A...333..231B">
+Bessell, Castelli & Plez (1998)</A> for the the hooter stars.
+The technique is outlined in 
+<A HREF="http://cdsads.u-strasbg.fr/cgi-bin/nph-bib_query?bibcode=2002MNRAS.335..291N&db_key=AST">Naylor et al (2002)</A>.
+In one case the bolometric correction is from 
+<A HREF="http://adsabs.harvard.edu/abs/1996ApJ...469..355F">
+Flower (1996)</A>.
+The conversions from effective temperature are derived from fitting the 
+Pleiades ("Pleiades tuning") and is described in 
+<A
+HREF="http://ukads.nottingham.ac.uk/cgi-bin/nph-bib_query?bibcode=2001A%26A...375..863J&amp;db_key=AST&amp;data_type=HTML&amp;format=">Jeffries
+et al (2001).</a>
+</p>
+<p>
+Bessell Tycho: Bolometric corrections and effective temperature to colour
+conversions into the Hipparcos Tycho system from 
+<A HREF="http://adsabs.harvard.edu/abs/2000PASP..112..961B">
+Bessell (2000)</A>.
+Currently there are no extinctions available.
+</p>
+<p>
+Kenyon & Hartmann (1995).  The emprical tables from <A HREF="http://adsabs.harvard.edu/abs/1995ApJS..101..117K">Kenyon & Hartmann (1995)</A>.
+</p>
+
+<!-- START-OF-PHYSICS-FOOTER -->
+
+</div>
+<p>&nbsp;</p>
+<hr id=pexbottom width='100%'>
+
+<span class='e-crumbs'>
+ 
+   <a href='/'>Home</a>  &gt; <a href='./../../'>Group</a> &gt; <a href='./../'>Tim Naylor</a> &gt; <a href='./'>tau-squared</a> &gt; <span class='crumbs_here'>Manual</span>
+</span>
+
+</table>
+<!-- End of main layout table -->
+
+<div  class=pexastro>
+<a  href='/'>Astrophysics</a>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,89 @@
+ What range of masses do you want (low, high)?
+ The following interior models are available.
+ -1  Single age user isochrone file
+  1  Schaller et al (1992) [Geneva]
+  2  D'Antona & Mazzitelli (1997)
+  3  Baraffe et al (1998) Lmix=1.0
+  4  Baraffe et al (1998) Lmix=1.9
+  5  Palla & Stahler (1999)
+  6  Chabrier et al (2000) [DUSTY00]
+  7  Siess, Dufour & Forestini (2000) z=0.02
+  8  Siess, Dufour & Forestini (2000) z=0.01
+  9  Girardi et al (2002) z=0.019 [Padova]
+ 10  Baraffe et al (2003) [COND03]
+ 11  Dotter et al (2008) z=0.018
+ 12  Dotter et al (2008) z=0.026
+ 13  Brott et al (2011)
+ 14  Tognelli et al (2012) + updates [Pisa]
+ 15  Baraffe et al (2015)
+ 16  PARSEC
+ 17  Ekstrom
+ What model number do you want?
+ This isochrone comes with the following colours V         U-B       B-V       V-R       V-I       V-K       R-I       I-K       J-H       H-K       K-L       J-K       J-L       J-L2      K-M       
+ The following atmospheric models are available.
+ -1  user supplied file
+  1  BCs from Bessell Tycho
+  2  BCs from Kenyon & Hartmann (1995).
+  3  Tlusty         Bessell     energy
+  4  BT-Settl       Bessell     energy
+  5  BT-Settl       Bessell     photon
+  6  CIFIST         Bessell     photon
+ 10  BT-Settl       INT-WFC     photon
+ 11  BT-Settl M+0.3 INT-WFC     photon
+ 16  BT-Settl       IPAHS/UVEX  photon
+ 21  BT-Settl M+0.3 SDSS        photon
+ 22  BT-Settl       SDSS        photon
+ 27  BT-Settl       CFHT        photon
+ 28  BT-Settl       UKIDSS      photon
+ 29  BT-Settl       2MASS       photon
+ 33  CIFIST M+0.5   INT-WFC     photon
+ 34  CIFIST         INT-WFC     photon
+ 35  CIFIST         2MASS       photon
+ 36  Kurucz         Bessell     energy (ext vect)
+ 37  Kurucz         Bessell     energy
+ 38  Kurucz         Bessell     photon
+ 39  Kurucz         INT-WFC     photon
+ 40  Kurucz         SDSS        photon
+ 41  Kurucz   M+0.3 SDSS        photon
+ 42  Kurucz         UKIDSS      photon
+ 43  Kurucz         2MASS       photon
+ 44  NEXTGEN        INT-WFC     photon
+ 45  BT-Settl       DECam       photon
+ 46  BT-Settl       Bess_2MASS  photon
+ 47  BT-Settl+Bell  Kepler      photon
+  0  Or the colours supplied with the isochrone
+ What model number do you want?
+ Available filters are V         U-B       B-V       V-R       V-I       V-K       R-I       I-K       J-H       H-K       K-L       J-K       J-L       J-L2      K-M       
+ > Which magnitude do you require?
+ > Which colour do you require?
+ Give the required reddening in B-V.
+ What binary fraction do you want?
+ What range of log10(ages) do you want?
+ Doing log10(age)   7.00000000    
+ With      1000000  simulated objects.
+ Using interior model data file /Users/timn/CMDfit/Data/Geneva/geneva.iso
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were      1000000  usable stars.
+ Grid will be          555        4231
+ Covering mags    5.29749966      to   -5.27749968    
+ and colours  -0.462499976      to   0.922499955    
+ Placed    10.0000000      percent of stars in grid.
+ Placed    20.0000000      percent of stars in grid.
+ Placed    30.0000000      percent of stars in grid.
+ Placed    40.0000000      percent of stars in grid.
+ Placed    50.0000000      percent of stars in grid.
+ Placed    60.0000000      percent of stars in grid.
+ Placed    70.0000000      percent of stars in grid.
+ Placed    80.0000000      percent of stars in grid.
+ Placed    90.0000000      percent of stars in grid.
+ Placed    100.000000      percent of stars in grid.
+ Written file V_B-V_07.000.fit

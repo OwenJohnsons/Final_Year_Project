@@ -1,0 +1,37 @@
+ First read the input catalogue.
+ > Give input cluster file name.
+ * Will fit magnitude V              
+ * Available magnitudes are 
+ *            1 V              
+ *            2 B-V            
+ *            3 U-B            
+ > Give the number of the one you want.
+ * Available colours are 
+ *            1 V              
+ *            2 B-V            
+ *            3 U-B            
+ > Give the number of the one you want.
+ Read           16  of V vs B-V
+ Will add V to B-V to create B
+ > Give the extra uncertainty to be added to each magnitude.
+ > Give the extra uncertainty to be added to each colour.
+ > Give range of log10(ages) to be searched.
+ > Give the range in distance modulus to be searched.
+ > And the number of distance modulus points in the grid.
+ > Give the required reddening in B-V
+ > Give the fraction of stars which are likely to be members.
+ Reading file V_B-V_07.000.fit
+ Reading extinction vectors from /Users/timn/CMDfit/Data/with_isochrones.rv
+ Written file grid.fit
+ Written file grid_npts.fit
+ Lowest value    3.81530905    
+  
+  For parameter DISTANCE MODULUS
+  Range searched    9.69999981       10.5000000    
+  Best value    10.1121216    
+ Reading file V_B-V_07.000.fit
+ Written file best_model.fit
+  
+ Prior membership fraction    1.00000000    
+ Posterior membership fraction is    1.00000000    
+ Difference and Prior_frac are    0.00000000       1.00000000    

@@ -1,0 +1,41 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.11) (preloaded format=pdflatex 2021.10.23)  23 OCT 2021 11:31
+entering extended mode
+**./Main.tex
+(Main.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03> (aastex63.cls
+Document Class: aastex63 2019/06/03 Version 6.3/AAS markup document class
+Class aastex Info: 
+ 
+ Original \LaTeX2.09 style by Chris Biemesderfer (chris@seagoat.com). 
+ Adapted to \LaTeXe by A. Ogawa (ogawa@teleport.com)
+ emulateapj.cls included, Copyright 2000-2015 Alexey Vikhlinin 
+ Rewrite and update of emulateapj.cls, revised and enhanced with table macros, 
+gridlines, draft watermark,
+ track changes, new `modern' style and much more, by Amy Hendrickson,
+ (amyh@texnology.com, http://www.texnology.com) 
+ 
+  on input line 104.
+\bibbaselineskip=\skip47
+
+
+ Please update your system to include revtex4-1.cls
+
+
+ ) )
+(\end occurred when \ifx on line 3 was incomplete) 
+Here is how much of TeX's memory you used:
+ 116 strings out of 480231
+ 1860 string characters out of 2877108
+ 262974 words of memory out of 3000000
+ 16769 multiletter control sequences out of 15000+200000
+ 535088 words of font info for 29 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 36i,1n,44p,171b,14s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

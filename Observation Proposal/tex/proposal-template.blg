@@ -1,0 +1,47 @@
+This is BibTeX, Version 0.99d (TeX Live 2021)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proposal-template.aux
+The style file: aasjournal.bst
+Database file #1: cite.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+You've used 14 entries,
+            3168 wiz_defined-function locations,
+            769 strings with 8286 characters,
+and the built_in function-call counts, 6313 in all, are:
+= -- 503
+> -- 463
+< -- 9
++ -- 154
+- -- 162
+* -- 524
+:= -- 1155
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 74
+chr.to.int$ -- 14
+cite$ -- 14
+duplicate$ -- 249
+empty$ -- 412
+format.name$ -- 179
+if$ -- 1287
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 50
+num.names$ -- 57
+pop$ -- 92
+preamble$ -- 1
+purify$ -- 74
+quote$ -- 0
+skip$ -- 216
+stack$ -- 0
+substring$ -- 235
+swap$ -- 16
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 126
+warning$ -- 0
+while$ -- 55
+width$ -- 0
+write$ -- 149

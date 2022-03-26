@@ -1,0 +1,75 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{{Bonatto} {et~al.}(2006){Bonatto}, {Kerber}, {Bica}, \&
+  {Santiago}}]{2006A&A...446..121B}
+{Bonatto}, C., {Kerber}, L.~O., {Bica}, E., \& {Santiago}, B.~X. 2006,
+  Astronomy and Astrophysics, 446, 121
+
+\bibitem[{{Cantat-Gaudin} {et~al.}(2020){Cantat-Gaudin}, {Anders},
+  {Castro-Ginard}, {Jordi}, {Romero-G{\'o}mez}, {Soubiran}, {Casamiquela},
+  {Tarricq}, {Moitinho}, {Vallenari}, {Bragaglia}, {Krone-Martins}, \&
+  {Kounkel}}]{2020A&A...640A...1C}
+{Cantat-Gaudin}, T., {Anders}, F., {Castro-Ginard}, A., {et~al.} 2020,
+  Astronomy and Astrophysics, 640, A1
+
+\bibitem[{{Choi} {et~al.}(2016){Choi}, {Dotter}, {Conroy}, {Cantiello},
+  {Paxton}, \& {Johnson}}]{2016ApJ...823..102C}
+{Choi}, J., {Dotter}, A., {Conroy}, C., {et~al.} 2016, Astrophysical Journal,
+  823, 102
+
+\bibitem[{{Jackson} {et~al.}(2022){Jackson}, {Jeffries}, {Wright}, {Randich},
+  {Sacco}, {Bragaglia}, {Hourihane}, {Tognelli}, {Degl'Innocenti}, {Prada
+  Moroni}, {Gilmore}, {Bensby}, {Pancino}, {Smiljanic}, {Bergemann}, {Carraro},
+  {Franciosini}, {Gonneau}, {Jofr{\'e}}, {Lewis}, {Magrini}, {Morbidelli},
+  {Prisinzano}, {Worley}, {Zaggia}, {Tautvai{\v{s}}iene}, {Guti{\'e}rrez
+  Albarr{\'a}n}, {Montes}, \& {Jim{\'e}nez-Esteban}}]{2022MNRAS.509.1664J}
+{Jackson}, R.~J., {Jeffries}, R.~D., {Wright}, N.~J., {et~al.} 2022, Monthly
+  Notices of the RAS, 509, 1664
+
+\bibitem[{{Janes} {et~al.}(1988){Janes}, {Tilley}, \&
+  {Lynga}}]{1988AJ.....95..771J}
+{Janes}, K.~A., {Tilley}, C., \& {Lynga}, G. 1988, Astronomical Journal, 95,
+  771
+
+\bibitem[{{Lynga}(1982)}]{1982A&A...109..213L}
+{Lynga}, G. 1982, Astronomy and Astrophysics, 109, 213
+
+\bibitem[{{Mermilliod}(1995)}]{1995ASSL..203..127M}
+{Mermilliod}, J.-C. 1995, in Information \& On-Line Data in Astronomy, ed.
+  D.~{Egret} \& M.~A. {Albrecht}, Vol. 203, 127
+
+\bibitem[{{Montgomery} {et~al.}(1990){Montgomery}, {Marschall}, \&
+  {Janes}}]{1990BAAS...22.1288M}
+{Montgomery}, K., {Marschall}, L., \& {Janes}, K.~A. 1990, in Bulletin of the
+  American Astronomical Society, Vol.~22, 1288
+
+\bibitem[{{Oort}(1950)}]{1950BAN....11...91O}
+{Oort}, J.~H. 1950, Bulletin Astronomical Institute of the Netherlands, 11, 91
+
+\bibitem[{{Spitzer}(1958)}]{1958ApJ...127...17S}
+{Spitzer}, Lyman, J. 1958, Astrophysical Journal, 127, 17
+
+\bibitem[{Tojeiro {et~al.}(2009)Tojeiro, Wilkins, Heavens, Panter, \&
+  Jimenez}]{Metallicity_catalogue}
+Tojeiro, R., Wilkins, S., Heavens, A.~F., Panter, B., \& Jimenez, R. 2009, The
+  Astrophysical Journal Supplement Series, 185, 1–19,
+  \dodoi{10.1088/0067-0049/185/1/1}
+
+\bibitem[{{Trumpler}(1930)}]{1930LicOB..14..154T}
+{Trumpler}, R.~J. 1930, Lick Observatory Bulletin, 420, 154,
+  \dodoi{10.5479/ADS/bib/1930LicOB.14.154T}
+
+\bibitem[{{van den Bergh} \& {McClure}(1980)}]{1980A&A....88..360V}
+{van den Bergh}, S., \& {McClure}, R.~D. 1980, Astronomy and Astrophysics, 88,
+  360
+
+\bibitem[{{VandenBerg} \& {Stetson}(2004)}]{2004PASP..116..997V}
+{VandenBerg}, D.~A., \& {Stetson}, P.~B. 2004, Publications of the ASP, 116,
+  997
+
+\end{thebibliography}

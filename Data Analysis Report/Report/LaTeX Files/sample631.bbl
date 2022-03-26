@@ -1,0 +1,77 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+\bibitem[{Bradley {et~al.}(2020)Bradley, Sip{\H o}cz, Robitaille, Tollerud,
+  Vin{\'{\i}}cius, Deil, Barbary, Wilson, Busko, G{\"u}nther, Cara, Conseil,
+  Bostroem, Droettboom, Bray, Bratholm, Lim, Barentsen, Craig, Pascual, Perren,
+  Greco, Donath, de~Val-Borro, Kerzendorf, Bach, Weaver, D'Eugenio, Souchereau,
+  \& Ferreira}]{larry_bradley_2020_4044744}
+Bradley, L., Sip{\H o}cz, B., Robitaille, T., {et~al.} 2020, astropy/photutils:
+  1.0.0, 1.0.0,  Zenodo, \dodoi{10.5281/zenodo.4044744}
+
+\bibitem[{Budding \& Demircan(2007)}]{budding_o_2007}
+Budding, E., \& Demircan, O. 2007, Introduction to astronomical photometry
+  (Cambridge University Press)
+
+\bibitem[{{Choi} {et~al.}(2016){Choi}, {Dotter}, {Conroy}, {Cantiello},
+  {Paxton}, \& {Johnson}}]{choi}
+{Choi}, J., {Dotter}, A., {Conroy}, C., {et~al.} 2016, \apj, 823, 102,
+  \dodoi{10.3847/0004-637X/823/2/102}
+
+\bibitem[{Friel(1995)}]{review}
+Friel, E.~D. 1995, Annual Review of Astronomy and Astrophysics, 33, 381,
+  \dodoi{10.1146/annurev.aa.33.090195.002121}
+
+\bibitem[{Howell(2006)}]{howell_2006}
+Howell, S.~B. 2006, Handbook of CCD Astronomy, 2nd edn., Cambridge Observing
+  Handbooks for Research Astronomers (Cambridge University Press),
+  \dodoi{10.1017/CBO9780511807909}
+
+\bibitem[{Karaali {et~al.}(2011)Karaali, Bilir, Ak, Yaz, \& Coşkunoğlu}]{kar}
+Karaali, S., Bilir, S., Ak, S., Yaz, E., \& Coşkunoğlu, B. 2011, Publications
+  of the Astronomical Society of Australia, 28, 95–106,
+  \dodoi{10.1071/AS10026}
+
+\bibitem[{{Nataf} {et~al.}(2013){Nataf}, {Gould}, {Fouqu{\'e}}, {Gonzalez},
+  {Johnson}, {Skowron}, {Udalski}, {Szyma{\'n}ski}, {Kubiak},
+  {Pietrzy{\'n}ski}, {Soszy{\'n}ski}, {Ulaczyk}, {Wyrzykowski}, \&
+  {Poleski}}]{DAVID_M_Reddening}
+{Nataf}, D.~M., {Gould}, A., {Fouqu{\'e}}, P., {et~al.} 2013, \apj, 769, 88,
+  \dodoi{10.1088/0004-637X/769/2/88}
+
+\bibitem[{{Naylor} \& {Jeffries}(2006)}]{2006MNRAS.373.1251N}
+{Naylor}, T., \& {Jeffries}, R.~D. 2006, \mnras, 373, 1251,
+  \dodoi{10.1111/j.1365-2966.2006.11099.x}
+
+\bibitem[{{Paxton} {et~al.}(2018){Paxton}, {Schwab}, {Bauer}, {Bildsten},
+  {Blinnikov}, {Duffell}, {Farmer}, {Goldberg}, {Marchant}, {Sorokina},
+  {Thoul}, {Townsend}, \& {Timmes}}]{PAXTON}
+{Paxton}, B., {Schwab}, J., {Bauer}, E.~B., {et~al.} 2018, \apjs, 234, 34,
+  \dodoi{10.3847/1538-4365/aaa5a8}
+
+\bibitem[{{Stetson}(1987)}]{DAO_PHOT}
+{Stetson}, P.~B. 1987, \pasp, 99, 191, \dodoi{10.1086/131977}
+
+\bibitem[{Tojeiro {et~al.}(2009)Tojeiro, Wilkins, Heavens, Panter, \&
+  Jimenez}]{Metallicity_catalogue}
+Tojeiro, R., Wilkins, S., Heavens, A.~F., Panter, B., \& Jimenez, R. 2009, The
+  Astrophysical Journal Supplement Series, 185, 1–19,
+  \dodoi{10.1088/0067-0049/185/1/1}
+
+\bibitem[{{Valle} {et~al.}(2021){Valle}, {Dell'Omodarme}, \&
+  {Tognelli}}]{GoodnessValle}
+{Valle}, G., {Dell'Omodarme}, M., \& {Tognelli}, E. 2021, \aap, 649, A127,
+  \dodoi{10.1051/0004-6361/202140413}
+
+\bibitem[{{Vandenberg}(1985)}]{1985_Vandenberg}
+{Vandenberg}, D.~A. 1985, \apjs, 58, 711, \dodoi{10.1086/191055}
+
+\bibitem[{{VandenBerg} \& {Stetson}(2004)}]{Overshooting_Vandenberg}
+{VandenBerg}, D.~A., \& {Stetson}, P.~B. 2004, \pasp, 116, 997,
+  \dodoi{10.1086/426340}
+
+\end{thebibliography}

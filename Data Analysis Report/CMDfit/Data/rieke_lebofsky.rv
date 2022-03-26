@@ -1,0 +1,6 @@
+# The Rieke & Lebofsky (1985) extinction vectors
+# mag col Const  red1 red2 col1 col2
+J   J-H  2.64 0.0 0.0 0.0 0.0
+K   J-K  0.659 0.0 0.0 0.0 0.0
+J-H H-K  1.70 0.0 0.0 0.0 0.0
+J   J-K  1.659 0.0 0.0 0.0 0.0

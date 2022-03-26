@@ -1,0 +1,17 @@
+# A(F555W)/(A(F555W) - A(F814W)) = 2.458 at E(B-V)=1.0 according to Holtzman et al (1995).
+# Ag = 1.75 E(g-z) according to Jason Curtis, who got it from the Padova isochrone website.
+# Implication here is that E(R-I)=0.23Av
+# Tim re-calculated I vs R-I, and got the same answer by the following
+# route. E(V-I)/B(B-V) is about 1.250 (Dean et al 1978), 
+# Av/E(B-V)=3.1 (trad.) and E(R-I)/E(B-V) is about 0.72 (Taylor,
+# 1986).  Magically, this gave the answer already in the code!
+# Ai=2.57E(R-I).
+# E(U-B)=0.73*E(B-V) (Nathan says everyone uses this.)
+# mag col Const  red1 red2 col1 col2
+F555W F555W-F814W 2.458 0.0 0.0 0.0 0.0
+g       g-z       1.75  0.0 0.0 0.0 0.0
+I R-I 2.57 0.0 0.0 0.0 0.0
+U-B B-V 0.73 0.0 0.0 0.0 0.0
+V B-V 3.1 0.0 0.0 0.0 0.0
+V V-I 2.4 0.0 0.0 0.0 0.0
+V V-Ic 2.4 0.0 0.0 0.0 0.0

@@ -1,0 +1,153 @@
+ First read the input catalogue.
+ > Give input cluster file name.
+ * Will fit magnitude I              
+ * Against colour R-I            
+ Read           35  of I vs R-I
+ Will add I to R-I to create R
+ > Give the extra uncertainty to be added to each magnitude.
+ > Give the extra uncertainty to be added to each colour.
+ > Give range of log10(ages) to be searched.
+ > And the log10(age) step to be used.
+ > Give the range in distance modulus to be searched.
+ > And the number of distance modulus points in the grid.
+   The models have already been reddened by   0.198074535      mags.
+ > Give extra reddening you wish to apply (or zero for no more).
+ > Give the fraction of stars which are likely to be members.
+ Reading file I_R-I_06.300.fit
+ Reading file I_R-I_06.310.fit
+ Reading file I_R-I_06.320.fit
+ Reading file I_R-I_06.330.fit
+ Reading file I_R-I_06.340.fit
+ Reading file I_R-I_06.350.fit
+ Reading file I_R-I_06.360.fit
+ Reading file I_R-I_06.370.fit
+ Reading file I_R-I_06.380.fit
+ Reading file I_R-I_06.390.fit
+ Reading file I_R-I_06.400.fit
+ Reading file I_R-I_06.410.fit
+ Reading file I_R-I_06.420.fit
+ Reading file I_R-I_06.430.fit
+ Reading file I_R-I_06.440.fit
+ Reading file I_R-I_06.450.fit
+ Reading file I_R-I_06.460.fit
+ Reading file I_R-I_06.470.fit
+ Reading file I_R-I_06.480.fit
+ Reading file I_R-I_06.490.fit
+ Reading file I_R-I_06.500.fit
+ Reading file I_R-I_06.510.fit
+ Reading file I_R-I_06.520.fit
+ Reading file I_R-I_06.530.fit
+ Reading file I_R-I_06.540.fit
+ Reading file I_R-I_06.550.fit
+ Reading file I_R-I_06.560.fit
+ Reading file I_R-I_06.570.fit
+ Reading file I_R-I_06.580.fit
+ Reading file I_R-I_06.590.fit
+ Reading file I_R-I_06.600.fit
+ Reading file I_R-I_06.610.fit
+ Reading file I_R-I_06.620.fit
+ Reading file I_R-I_06.630.fit
+ Reading file I_R-I_06.640.fit
+ Reading file I_R-I_06.650.fit
+ Reading file I_R-I_06.660.fit
+ Reading file I_R-I_06.670.fit
+ Reading file I_R-I_06.680.fit
+ Reading file I_R-I_06.690.fit
+ Reading file I_R-I_06.700.fit
+ Reading file I_R-I_06.710.fit
+ Reading file I_R-I_06.720.fit
+ Reading file I_R-I_06.730.fit
+ Reading file I_R-I_06.740.fit
+ Reading file I_R-I_06.750.fit
+ Reading file I_R-I_06.760.fit
+ Reading file I_R-I_06.770.fit
+ Reading file I_R-I_06.780.fit
+ Reading file I_R-I_06.790.fit
+ Reading file I_R-I_06.800.fit
+ Reading file I_R-I_06.810.fit
+ Reading file I_R-I_06.820.fit
+ Reading file I_R-I_06.830.fit
+ Reading file I_R-I_06.840.fit
+ Reading file I_R-I_06.850.fit
+ Reading file I_R-I_06.860.fit
+ Reading file I_R-I_06.870.fit
+ Reading file I_R-I_06.880.fit
+ Reading file I_R-I_06.890.fit
+ Reading file I_R-I_06.900.fit
+ Reading file I_R-I_06.910.fit
+ Reading file I_R-I_06.920.fit
+ Reading file I_R-I_06.930.fit
+ Reading file I_R-I_06.940.fit
+ Reading file I_R-I_06.950.fit
+ Reading file I_R-I_06.960.fit
+ Reading file I_R-I_06.970.fit
+ Reading file I_R-I_06.980.fit
+ Reading file I_R-I_06.990.fit
+ Reading file I_R-I_07.000.fit
+ Reading file I_R-I_07.010.fit
+ Reading file I_R-I_07.020.fit
+ Reading file I_R-I_07.030.fit
+ Reading file I_R-I_07.040.fit
+ Reading file I_R-I_07.050.fit
+ Reading file I_R-I_07.060.fit
+ Reading file I_R-I_07.070.fit
+ Reading file I_R-I_07.080.fit
+ Reading file I_R-I_07.090.fit
+ Reading file I_R-I_07.100.fit
+ Reading file I_R-I_07.110.fit
+ Reading file I_R-I_07.120.fit
+ Reading file I_R-I_07.130.fit
+ Reading file I_R-I_07.140.fit
+ Reading file I_R-I_07.150.fit
+ Reading file I_R-I_07.160.fit
+ Reading file I_R-I_07.170.fit
+ Reading file I_R-I_07.180.fit
+ Reading file I_R-I_07.190.fit
+ Reading file I_R-I_07.200.fit
+ Reading file I_R-I_07.210.fit
+ Reading file I_R-I_07.220.fit
+ Reading file I_R-I_07.230.fit
+ Reading file I_R-I_07.240.fit
+ Reading file I_R-I_07.250.fit
+ Reading file I_R-I_07.260.fit
+ Reading file I_R-I_07.270.fit
+ Reading file I_R-I_07.280.fit
+ Reading file I_R-I_07.290.fit
+ Reading file I_R-I_07.300.fit
+ Reading file I_R-I_07.310.fit
+ Reading file I_R-I_07.320.fit
+ Reading file I_R-I_07.330.fit
+ Reading file I_R-I_07.340.fit
+ Reading file I_R-I_07.350.fit
+ Reading file I_R-I_07.360.fit
+ Reading file I_R-I_07.370.fit
+ Reading file I_R-I_07.380.fit
+ Reading file I_R-I_07.390.fit
+ Reading file I_R-I_07.400.fit
+ Reading file I_R-I_07.410.fit
+ Reading file I_R-I_07.420.fit
+ Reading file I_R-I_07.430.fit
+ Reading file I_R-I_07.440.fit
+ Reading file I_R-I_07.450.fit
+ Reading file I_R-I_07.460.fit
+ Reading file I_R-I_07.470.fit
+ Reading file I_R-I_07.480.fit
+ Reading file I_R-I_07.490.fit
+ Reading file I_R-I_07.500.fit
+ Written file grid.fit
+ Written file grid_npts.fit
+ Lowest value               NaN
+  
+  For parameter (AGE)/10^6
+  Range searched    1.99526322       31.6227760    
+  Best value    1.99526322    
+  
+  For parameter DISTANCE MODULUS
+  Range searched    9.00000000       11.0000000    
+  Best value    9.00000000    
+ Reading file I_R-I_06.300.fit
+ Written file best_model.fit
+  
+ Prior membership fraction   -20.0000000    
+ Posterior membership fraction is   -1.17707849    
+ Difference and Prior_frac are   -18.8229218      -20.0000000    

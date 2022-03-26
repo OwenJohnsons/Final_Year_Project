@@ -1,0 +1,24 @@
+ First read in the best fitting model FITS file (normally best_model.fit).
+Give input file ("?" gives help)>  Reading file best_model.fit
+ And now the file of data points (normally fitted.cat).
+ > Give input cluster file name.
+ Read           16  data points.
+ The available magnitudes are
+           1 V    
+           2 B-V  
+           3 Prior
+           4 Post 
+ Give the number of the magnitude you want.
+ The available colours are
+           1 V    
+           2 B-V  
+           3 Prior
+           4 Post 
+ Give the number of the colour you want.
+ Will add V to B-V to create B
+ Number of very high tau^2 fits            0
+  
+ > Give the number of free parameters.
+ Reading best-fit tau^2 value from grid.fit
+ Reading file grid.fit
+ Pr(   3.81530905     ) is    5.60000017E-02

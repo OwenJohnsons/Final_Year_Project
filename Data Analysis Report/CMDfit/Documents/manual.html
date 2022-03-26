@@ -1,0 +1,390 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<TITLE>CMDfit Manual</TITLE>
+
+<link media='screen' rel='stylesheet' TYPE='text/css' href='http://www.astro.ex.ac.uk/css/screen.css'>
+</head>
+
+
+<h1> Running the Code</h1>
+
+
+<body>
+The basic use of the code involves running the following programs in
+this order.
+
+<h2>1) Iso</h2>
+
+<p>
+Creates a single-star isochrone which you can overlay on your data.
+You should use this before you do any fitting to get a feel for where the correct parameters lie, and if there are any obvious outliers.
+</p>
+
+<h2> 2) monte </h2>
+
+<p>
+This creates the 2D isochrone models required by grid using a
+Monte-Carlo technique.
+You will be asked for a model number and the colour combination you want.
+The output files consist of the 2D isochrones (e.g. geneva_V_B-V_07.000.00.fit,
+where the number is the base ten logarithm of the age in years)
+and a list of the first 10,000 simulated stars (e.g. geneva_V_B-V_07.000.00.iso).  
+The latter is useful if the isochrone does not stretch as far in the 2D 
+CMD as you think it should.
+If you sort the file on the third column (mass), and then examine the last
+column (flag) you can get an idea of if it is (say) the model isochrone
+which does not stretch to the mass you want, or the conversions from 
+luminosity and temperature to magnitude and colour.
+</p>
+
+<h2>3) ascii2cluster</h2>
+
+<p>
+Takes an ASCII file of one row for each star, with many columns of
+colours, uncertainties and ID number and converts it to a cluster
+format file, which is appropriate for the remaining programs.
+You are prompted for which colours you have, and which columns are which.
+</p>
+
+<h2>4) grid</h2>
+
+<p>
+This takes a catalogue of observations in 
+<a href="../Catalogues/format.html">cluster format</a> and fits them
+to a model.  
+It does this by a grid search in the parameter space.
+It assumes that the uncertainties you give for say V and B-V are 
+correlated, unless the uncertainties in colour are smaller than those
+in magnitude.
+It then creates uncertainties in each magnitude, e.g. V and B.
+The final tau-squared it gives you is after removing data points whose
+tau-squared lies above the clipping threshold.
+</p>
+
+<p>
+After running the code you should first look at grid_npts.fit, which
+shows the number of data points which were within the model image for
+each set of parameters.
+For grid to work properly you need to have all the data on all the
+models.
+If grid_npts shows this is not happening (i.e. the number of points is
+different for some models) you either need to trim your dataset, or
+expand the mass range in your models.
+</p>
+
+<p>
+Next look at grid.fit.  Does the minimum lie in the range of
+parameters you have searched?
+</p>
+
+<h3> Inputs </h3>
+<p>
+A catalogue of observations in 
+<a href="../Catalogues/format.html">cluster format</a>.
+If you wish to use individual membership priors for each star, they
+should be in a colour labelled "Prior".
+The file name is prompted for.
+</p>
+
+<p>
+You are prompted for the magnitudes and colours to use for fitting, if
+there are more than two of them. 
+</p>
+
+<p>
+You are prompted for the extra uncertainty to be added in quadrature to
+those given in the file for the colour and magnitude.
+</p>
+
+<p>
+Next you are asked for the range of ages (of course these have to
+match files which you created using monte), and the range in distance modulus to be searched.
+</p>
+
+<p>
+If the models are reddened using an extinction vector you will be prompted for the reddening to be applied.
+If the models use extinction tables, then you will be told the
+extinction which was applied by monte.
+</p>
+
+<p>
+Finally, if you have not provided membership probabilities in the
+input file you will be prompted for the fraction of stars which are
+likely to be members.
+If you did provide membership probabilities, you will be prompted for
+the maximum probability to be used, and all your individual
+probabilities will be multiplied by this.
+</p>
+
+<h3>Outputs</h3>
+
+<p>
+fitted.cat - All the data points that were actually used, with the 
+systematic uncertainty added.
+Columns are added for the prior membership probability used and the
+posterior membership probability calculated.
+</p>
+<p>
+grid.fit - The grid of tau-squared as a function of the parameters
+searched (in FITS format).  
+You should check this to ensure that your best-fitting parameter
+values are not near the edge of the parameter space you have searched.
+The values of tau-squared in this file include the
+contributions from all data points, though those with high tau-squared
+will have had their values set to the maximum allowed.
+Where the probability of any single datapoint becomes so small that it
+would cause a numerical underflow (and hence taking the log of it 
+would be problematical) the tau-squared for the entire fit is set to
+a high number.
+Hence the grid will have a sudden jump in tau-squared where the underflow happens.
+</p>
+<p>
+fitted_abs.cat - As above but in absolute magnitude.<br>
+</p>
+<p>
+best_model.fit - The best fitting model corrected to the appropriate
+reddening and distance modulus.
+</p>
+<p>
+distrib.tau - The histogram of the tau-squared from each data
+point.
+</p>
+<p>
+grid_npts.fit - An image representing the number of data points within
+the magnitude range of the model images as a function of the
+parameters searched.
+You should use this to check that none of your data points have
+"slipped off" the edge of your model images in the parts of the
+parameter space you care about.
+</p>
+
+<h2>5) tau2</h2>
+
+<p>
+Calculates the expected value of tau^2 for you. 
+</p>
+
+<h3>Inputs</h3>
+
+<p>
+The best fitting model (e.g. best_model.fit)<br>
+fitted.cat from grid.
+(In principle you can use the original catalogue if you have not added
+an extra uncertainty when running grid, but in practice its best to
+always use fitted.cat.)
+<br>
+Subtly, it takes the best fitting tau2 from grid.fit.
+</p>
+
+<h3>Outputs</h3>
+
+<p>
+integ.tau  - The cumulative distribution of tau-squared.  Search through
+this file to find the nearest value of tau-squared to the 
+one you have, and the number next to it is the 
+corresponding value of Pr(tau-squared).
+This is also given in the output from the program.
+<br>
+model_distrib.tau - The expected distribution of tau2 amongst the datapoints.
+If you have removed datapoints compare this with distrib.tau from grid to
+see if the remaining ones have a reasonable distribution of tau2.
+<br>
+tau.diff
+<br>
+</p>  
+
+<h2>6) Uncer</h2>  
+
+<p>
+Derives uncertainty contours in tau-squared space.
+The 68 percent confidence limit is printed to the screen, as are some one-dimensional parameter limits.
+Use the latter with the same caution you would in the chi-squared case, i.e. if you have one free parameter they are right, more than that and they do not allow for any correlation in the parameters.
+</p>
+<p>
+You should plot the 68 percent confidence limit over grid.fit, and
+check the parameter space is more than big enough to enclose it.
+If not, go back to running grid.
+A good test to see if the parameter space you have searched is large
+enough is to double the range of each parameter and see if the 68 percent confidence contour
+changes position.
+If it does, it implies the fist run did not include the bulk of the probability.
+</p>
+<h3>Inputs</h3>
+<p>
+grid.fit - From grid.  The tau-squared grid from the fitting process.
+You are not prompted for this, it is read automatically.<br>
+</p>
+<h3>Outputs</h3>
+<p>
+uncer.out - The values of tau^2 appropriate for each confidence
+limit.  Read down the confidence limits to find the appropriate value
+for a tau-squared contour.<br>
+</p>
+
+<h1>Model Isochrones</h1>
+
+The isochrones consist of two distinct parts.
+The first part is the model interiors which give effective temperature and luminosity.
+The second is the bolometric corrections which convert these into colour and magnitude, that are calculated by folding model atmospheres through the photometric system responses.
+Any set of bolometric corrections can be used with any of the model atmospheres but you may want to be careful about combining one metallicity of interior with a different metallicity atmosphere.
+
+<h2>Models supplied with the code</h2>
+
+The easiest thing to start with is to use the models supplied.
+There is a <a href="interiors.html">table of model interiors</a> and a <a href="bolometric.html">page describing the bolometric corrections</a> which are supplied with the code.
+</p>
+
+<h2>User supplied models with fixed ages</h2>
+
+<p>
+You can also supply your own isochrones.
+The simplest way to do this is to supply an isochrone at the age and extinction you
+require, with all the magnitudes supplied.
+The format of the file is as follows.
+</p>
+<p>
+ # <br>
+ # <br>
+ # <br>
+ #   log(age/yr)    M_ini    Mact   logTe  logG   logL/Lo     M_V  M_B   M_U<br>
+ 6.8 0.8 0.8 3.687 4.6518 -0.612 6.6713 7.5805 8.0755<br>
+ 6.8 0.81 0.81 3.6909 4.6498 -0.589 6.6005 7.4943 7.9698<br>
+</p>
+<p>
+The code uses the last header line to pick out the columns it wants, and is 
+quite intelligent at doing so. so not all the columns are needed.
+The mass used is M_ini.
+You then use user option for the interior models, and you will be prompted for
+a file name.
+When prompted for the atmospheric models to use, you can either give the answer
+0, in which case the ones from the file will be used, or you can choose from the list.
+</p>
+<p>
+You may have spotted that the code asks you for the age.
+This is because you can have many isochrones in the file, as provided one of them is
+a precise match to the age you want, the code will select it.
+The obvious next stage, therefore, is to supply a set of isochrones, and get the code
+to interpolate.
+A word of warning first.
+Interpolating in age for post-main-sequence isochrones is a subtle art best left to
+those who create the iscohrones, since they can track the structural changes which
+lead to sharp changes in the rate at which the observable parameters vary.
+Thus supplying an isochrone at the correct age is probably best.
+This contrasts with the situation for pre-main-sequence models where the variations
+are smooth and CMDfit's linear interpolation can cope.
+In that case you should follow the instructions below for adding new isochrones
+or tracks.
+</p>
+
+<h2>Adding New Isochrones and tracks for interpolation</h2>
+
+The code to read in the interior models distinguishes between models which are presented
+with many records with identical ages, but different masses (isochrones) and those with
+many records of identical masses, but different ages (tracks).  These use different
+read routines, and you distinguish between then by the suffixes.  For isochrones the
+suffix is .iso and the routine to read them is sophisticated, and will cope with the data
+within a record in any order you like provided you use the correct headers (see below).
+Conversely the track reader is primitive, and demands three lines of header, followed by
+records which are mass (in solar masses), age (in Gyr), effective temperature (in Kelvin),
+log gravity and log luminosity.  Any suffix will work for these files provided it is not
+.iso, and it also should not be .trk, as I am reserving this for a proper track reader.
+
+The file itself should be put in $CMDDATA.
+You should then edit the file in that directory called setup.int, and add a line which first
+has a label for the isochrones (in quotes) and then the name of the file (again in quotes).
+I strongly advise putting it at the end of the file, otherwise the code will renumber all
+the other interior models, and any scripts you have written will now use different isochrones.
+
+<h2>Adding new model atmospheres</h2>
+
+The first few lines of a bolometric correction file may look like this.<br>
+<br>
+# File written at 2010/06/01 10:38:21.647<br>
+# Kurucz model atmospheres odfnew; photon integration, Bessell filters including atmosphere.<br>
+# Teff LogG BC_B-U BC_B BC_V BC_R BC_I<br>
+3.50000e+03 0.00000e+00 2.34228e+00 -3.81739e+00 -2.06277e+00 -9.65708e-01 2.81608e-01<br>
+3.50000e+03 5.00000e-01 2.06988e+00 -3.74216e+00 -2.11063e+00 -1.01700e+00 2.78680e-01<br>
+<br>
+You should place such a file in $CMDDATA, and then add a new line to setup.bc.
+This file has four entries per line, each enclosed in quotes.
+The first is a general name for the atmospheres, the second is the data file in which they can
+be found, the third is the name of the extinction file to be used with them (can be left blank)
+and the last is the name of the isochrones the bolometric corrections should be used with.
+This is normally blank, but if the bolometric corrections are, say, Pleiades tuned, it should
+state which models they were tuned against.
+
+<h2>Adding new reddening vectors</h2>
+
+<p>
+Most of the reddening is now done through the .ext files prepared by reddening the spectra before folding
+them through band passes.
+However, there are a few reddening vectors which are stored in the .rv files.
+They are paired with model atmospheres in the file setup.bc.
+The format is as many lines of comments prefaced by a # as you want, followed by a line like
+</p>
+<p>
+# V B-V const, red1, red2, col1, col2
+</p>
+<p>
+where for a simple BV reddening law const is, say, Av/E(B-V), i.e. about 3.1.
+The other terms are first and second order terms in reddening and colour, such that
+for a given reddening E(B-V)=e the magnitude is increased by
+</p>
+<p>
+(const + red1*e + red2*e^2 + col1*(B-V) + col2*(B-V)^2 )*e.
+
+<h2>The File Format</h2>
+
+<p>
+The programs use a unified file format for isochrones, tracks and bolometric corrections.
+This is close to the format in which some of the theory groups provide the data, so simple
+changes in the headers will make them compatible, but also allows them to be read by 
+<a href='http://www.star.bris.ac.uk/~mbt/topcat/'>Topcat</a>.
+There are as many lines of header comments as you like, introduced with hash (#), but
+the final line must be a # followed by a list of the names of the columns.
+There are various standard names which allow you to label columns in a way the software
+will understand.  These are as follows. 
+<br>
+Mini - Initial mass.
+<br>
+logG - Log of gravity.
+<br>
+LogG - Log of gravity.
+<br>
+logg - Log of gravity.
+<br>
+logL/Lo - Log of ratio of bolometric luminosity to that of the Sun.
+<br>
+logTe - Log of effective temperature in Kelvin.
+<br>
+log(age/yr) - Log of age in years.
+<br>
+Teff - Effective temperature in Kelvin.
+<br>
+M_ - Is used to introduce an absolute magnitude.  So M_V is the V band absolute magnitude.
+<br>
+BC_ Is used to introduce a bolometric correction.
+</p>
+
+
+<!-- START-OF-PHYSICS-FOOTER -->
+
+</div>
+<p>&nbsp;</p>
+<hr id=pexbottom width='100%'>
+
+<span class='e-crumbs'>
+ 
+   a href='/'>Home</a>  &gt; <a href='./../../'>Group</a> &gt; <a href='./../'>Tim Naylor</a> &gt; <a href='./'>tau-squared</a> &gt; <span class='crumbs_here'>Manual</span>
+</span>
+
+</table>
+<!-- End of main layout table -->
+
+<div  class=pexastro>
+<a  href='/'>Astrophysics</a>
+</div>
+</body>
+</html>
+

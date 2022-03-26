@@ -1,0 +1,200 @@
+<h3> 21 August 2015 (Current release)</h3>
+<p>
+<a href="cmdfit.tar.gz">Source code and Mac-OS binaries</a>
+</p>
+<p>
+This release reflects the changes made for
+<a href="http://adsabs.harvard.edu/abs/2015arXiv150800898B">Bell, Mamajek & Naylor.</a>
+</p>
+<p>
+1) The grid now needs membership probabilities for all the stars.
+These can be given by having a colour labelled "Prior" in the input
+file, which allows you to have different probabilities for each star.
+If such a column is not present then grid will prompt for a value to
+apply to all stars.
+</br>
+2) The output catalogues grid writes now have the prior probability
+used written in, but also the calculated probability of membership from
+the stars CMD position, called "Post" (short for posterior probability).
+</br>
+3) The programme to calculate Pr(tau^2), called tau^2 has been
+completely re-written with a new algorithm, though the prompts
+remain the same.
+The old version is still available as old_tau2.
+</br>
+4) Some of the file names have changed, which I hope makes them more
+logical (see manual).
+</br>
+5) There is a program to create the cluster format input file from a
+simple ascii file, called ascii2cluster.
+<br>
+6) The mass function used by monte is now that of Dabringhausen J.,
+Hilker M., Kroupa P., 2008, MNRAS, 386, 864 (it was a Salpeter function).
+</p>
+
+<h3>16 October 2014</h3>
+<p>
+<a href="cmdfit.tar.gz_16-10-14">Source code and Mac-OS binaries</a>
+</p>
+<p>
+This release is primarily to update the available isochrones to include
+those from Bell et al (2014), and update Example 2 to use them rather
+than the older Jeffries Pleiades tuning.
+</p>
+1) Many of the sub-routines have been re-grouped.
+</br>
+2) A bug which made it impossible to use user isochrones in monte cured.
+</br>
+3) A bug whereby all the singe stars were written out twice in the ascii file which gives the first 10,000 stars from monte cured.
+</br>
+4) The Bolometric luminosity of the Sun now picked up from the BC file headers (if its there) and set to Eric Mamajek's value.
+</p>
+<h3>28 January 2014</h3>
+<p>
+<a href="cmdfit.tar.gz_28-01-14">Source code and Mac-OS binaries</a>
+</p>
+For this release large parts of the code which create the isochrones have
+been re-written, which has resulted in a simpler structure, within which
+it is easy to add new models.  As a result there is a far richer range of
+options available, yet the code is lightly shorter than the previous release.
+Old hands, used to previous versions should note the following points.
+</p>
+<p>
+1) The absolute values of tau^2 have changed.  Of course this does not make
+any practical difference as only relative values used, but there was a
+conceptual "bug" in which when normalising the isochrone image I did not divide
+by the pixel size.
+</br>
+2) Monte is structured so that the binary fraction can be a function of
+primary mass.  Now the binary fraction for stars greater than 14.4Mo
+is 1.5 times the normal binary fraction, and the mass ratio for such stars
+is distributed as described in
+<a href="http://arxiv.org/abs/0909.5320">Naylor (2009; IAU paper)</a>.
+</br>
+3) The extinction vector for the Tycho colours has been improved.  The
+difference between the new values and those in Mayne & Naylor (2008) is
+small (delta Av = 0.05*E(B-V)) so does not affect the results in Mayne &
+Naylor or Naylor (2009), but would change things if you had large extinctions.
+</br>
+4) Some more FITS keywords have been added to the output of monte so that both
+DS9 and the latest version of GAIA give you the co-ordinates in
+colour-magnitude space.
+</br>
+5) The scripts have been updated and uncer changed slightly to make the code
+compile on 64-bit machines.
+</p>
+<h3>21 August 2009</h3>
+<p>
+<a href="cmdfit.tar.gz_21-08-09">cmdfit.tar.gz_21-08-09</a>
+</p>
+<a href="cmdfit_mac.tar.gz_21-08-09">cmdfit_mac.tar.gz_21-08-09</a>
+</p>
+Bug found by Phill Cargile fixed, which caused a crash on certain
+Bessell atmospheres.
+</p>
+</p>
+<h3>27 June 2009</h3>
+<p>
+<a href="cmdfit.tar.gz_27-06-09">cmdfit.tar.gz_27-06-09</a>
+</p>
+<a href="cmdfit_mac.tar.gz-27-06-09">cmdfit_mac.tar.gz_27-06-09</a>
+</p>
+(1) This release is of the version of the software used in
+<a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..432N">
+Naylor (2009)</a>.<br>
+(2) The major change is that the age axis is now given in log10(yrs) rather
+than Myr.
+This makes things much easier when dealing with data which have a large
+uncertainty in age, as this is a far more natural axis to use.
+It also means the prior probability is flat in logarithmic not linear
+space, which makes a difference if the uncertainties are more than
+half a dex.
+<br>
+(3) There are now "user" isochrones, which allow you to supply a file of
+either (i) luminosity, effective temperature and gravity or (ii) colour
+and magnitude for a given age.
+Now interpolation in age is carried out on this files, allowing you to make
+the choice as to how this interpolation is done is therefore yours.
+The formats are dealt with in the section of the manual on isochrones.
+</p>
+</p>
+<h3>29 October 2008</h3>
+<p>
+<a href="cmdfit.tar.gz_29-10-08">cmdfit.tar.gz_29-10-08</a>
+</p>
+Documentation fix for example 2.
+</p>
+<h3>15 October 2008</h3>
+<p>
+<a href="cmdfit.tar.gz_15-10-08">cmdfit.tar.gz_15-10-08</a>
+</p>
+<p>
+To be on the safe side, I switched off the extrapolation of the 
+colour-Teff relationships.
+<h3>24 September 2008</h3>
+</p>
+<p>
+This was a major update in techniques, which were presented in
+<a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..432N">
+Naylor (2009)</a>.<br>
+</p>
+<p>
+(1) I use a new normalisation, which retains the mass function in the
+grids, but then normalises the grid to sum to one between the brightest and
+faintest datapoints.
+This avoids the problem of the normalisation going infinite if the isochrone
+is vertical.<br>
+(2) To generate the uncertainties I now use the uncer method (replacing
+bootstrap), for which there is a <a href="uncer.html">brief description</a>.
+Its faster and more accurate.<br>
+(3) The calculation of the expected value of tau^2 has been improved, and is
+now done in a program called tau2, which replaces tau.
+The old estimate became increasingly poor as the number of free parameters
+increased.
+</p>
+<h3>19 February 2008</h3>
+<p>
+(1) A correction to Example 2.
+The extra uncertainty to be added to the colour was given as 0.03, it
+should be 0.042.
+Both the web-page and the sample files have been updated to reflect this
+change.<br>
+</p>
+<h3>21 August 2007</h3>
+<p>
+(1) V vs V-I for the Geneva isochrones.<br>
+(2) V vs B-V for the Siess and Baraffe isochrones.<br>
+(3) The option to use Bessell et al (1998) colour and bolometric corrections.<br>
+(4) Grid now imposes the upper limit on tau-squared to be the tau-squared of
+the best fitting data point (i.e. that with the lowest tau-squared) plus
+some value.
+We do this so that if a different normalisation for tau-squared is used,
+which effectively adds a constant to all the tau-squared values, the answer
+remains the same.
+With the chi-squared-like normalisation the lowest tau-squared value was
+so close to zero this has little effect on the fits.<br>
+</p>
+<h3>05 June 2007</h3>
+<p>
+(1) The Padova option was using the z=0.004 tracks from the Cioni et
+al (2006) papers, not as stated on the web pages Girardi et al (2002).
+The code has been changed so the web page is correct, and the web
+page now explicitly states its the z=0.019 models.<br>
+</p>
+<h3>03 October 2006</h3>
+<p>
+(1) Corrected a problem whereby if the mass-range you requested outran
+that available in the isochrones for model numbers greater than 20
+(i.e. those which come ready calibrated in colour and magnitude), you
+got some strange low-level effects in the 2D isochrones.<br>
+(2) Updated Example 1 so the numbers are correct for the new code (the
+differences are within the uncertainties).<br>
+(3) Added .in files to Example 1, which contain the precise inputs
+needed to run the programs.<br>
+</p>
+<h3>30 September 2006 </h3>
+<p>
+(1) Corrected bundle so it includes files which are soft links on my 
+machine.<br>
+(2) Compiled all software statically, to improve portability.<br>
+</p>

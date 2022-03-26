@@ -1,0 +1,264 @@
+\documentclass[10pt, table, twoside]{article}
+
+%Geometry Class 
+\usepackage[a4paper]{geometry}
+\usepackage[myheadings]{fullpage}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{booktabs}
+
+%Figs 
+\usepackage{graphicx, wrapfig, subcaption, setspace, booktabs}
+\usepackage{titlepic}
+\usepackage{caption}
+
+%Fonts
+\usepackage[font=small, labelfont=bf]{caption}
+\usepackage[protrusion=true, expansion=true]{microtype}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+\usepackage{color}
+
+%Tables
+\usepackage{array}
+\usepackage{tabularx}
+\newcounter{tblerows}
+% \expandafter\let\csname c@tblerows\endcsname\rownumwhat the frick 
+\usepackage{makecell}
+\usepackage{longtable}
+\usepackage{multirow}
+\setlength{\heavyrulewidth}{1.5pt}
+\usepackage{adjustbox}
+\usepackage[font={small,it}]{caption}
+\usepackage[labelsep=space]{caption}
+\usepackage[version=3]{mhchem}
+\usepackage{longtable, booktabs,etoolbox}
+% \usepackage{pgfplotstable} % Generates table from .csv
+% \renewcommand{\tablename}{}
+% \renewcommand{\thetable}{}
+% Setup siunitx:
+
+
+
+%References
+\usepackage{url, lipsum}
+
+%Math
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{multicol}
+\usepackage[bitstream-charter]{mathdesign}
+\numberwithin{equation}{section}
+
+%ref stuff 
+\usepackage{hyperref, cleveref}
+\makeatletter
+\newcommand{\crefnames}[3]{%
+  \@for\next:=#1\do{%
+    \expandafter\crefname\expandafter{\next}{#2}{#3}%
+  }%
+}
+\makeatother
+
+\crefnames{section, subsection, subsubsection}{\S}{\S\S}
+
+
+\sisetup{
+  round-mode          = places, % Rounds numbers
+  round-precision     = 3, % to 2 places
+}
+
+
+
+%File Management
+\usepackage{subfiles}
+\usepackage{gensymb}
+
+%Code
+\usepackage{listings}
+\usepackage{tcolorbox}
+
+%Appendix 
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\appendix}{\@Alph}{\@Roman}{}{}
+\makeatother
+
+\newcommand{\HRule}[1]{\rule{\linewidth}{#1}}
+\onehalfspacing
+
+% \usepackage[backend=biber, sorting=none, citestyle=numeric-comp]{biblatex}
+\usepackage[style = phys, maxbibnames = 9, maxcitenames = 2, backend=biber]{biblatex}
+
+\addbibresource{citations.bib}
+
+\counterwithin{table}{section}
+\counterwithin{figure}{section}
+
+% \NewBibliographyString{refname}
+% \NewBibliographyString{refsname}
+% \DefineBibliographyStrings{english}{%
+%   refname = {ref\adddot},
+%   refsname = {refs\adddot}
+% }
+
+% \DeclareCiteCommand{\cite}
+%   {%
+%   \ifnum\thecitetotal=1
+%     \bibstring{refname}%
+%   \else%
+%     \bibstring{refsname}%
+%   \fi%
+%   \addspace\bibopenbracket%
+%   \usebibmacro{cite:init}%
+%     \usebibmacro{prenote}}
+%   {\usebibmacro{citeindex}%
+%     \usebibmacro{cite:comp}}
+%   {}
+%   {\usebibmacro{cite:dump}%
+%     \usebibmacro{postnote}%
+%     \bibclosebracket}
+
+% \renewrobustcmd*{\Cite}{\bibsentence\cite}
+
+
+%Spacing Revisions
+% \usepackage{titlesec}
+% \titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+% \titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+% \titlespacing\subsubsection{0pt}{12pt plus 4pt minus 2pt}{0pt plus 2pt minus 2pt}
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+%-------------------------------------------------------------------------------
+% PYTHON LISTING DEF 
+%------------------------------------------------------------------------------
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\lstset{ %
+  backgroundcolor=\color{white},   % choose the background color
+  basicstyle=\footnotesize,        % size of fonts used for the code
+  breaklines=true,                 % automatic line breaking only at whitespace
+  captionpos=b,                    % sets the caption-position to bottom
+  commentstyle=\color{mygreen},    % comment style
+  escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+  keywordstyle=\color{blue},       % keyword style
+  stringstyle=\color{mymauve},     % string literal style
+}
+
+
+%-------------------------------------------------------------------------------
+% HEADER & FOOTER
+%-------------------------------------------------------------------------------
+\pagestyle{fancy}
+\fancyhf{}
+\setlength\headheight{15pt}
+\fancyhead[R]{\rightmark}
+\fancyhead[EL]{Literature Review}
+\fancyhead[OL]{Owen Johnson - 18305971}
+
+%-------------------------------------------------------------------------------
+% TITLE PAGE
+%-------------------------------------------------------------------------------
+
+\begin{document}
+% \pgfplotsset{compat=1.17}
+\title{
+    \text{\small{PHYC40890: Astronomy Field Trip }}
+
+    \rule{\textwidth}{1.6pt}\vspace*{-\baselineskip}\vspace*{2pt} % Thick horizontal rule
+	\rule{\textwidth}{0.4pt} % Thin horizontal rule
+	
+	\vspace{0.10\baselineskip} % Whitespace above the title
+	
+	{\Huge Literature \\ Review} % Title
+	
+	\vspace{0.05\baselineskip} % Whitespace below the title
+	
+	\rule{\textwidth}{0.4pt}\vspace*{-\baselineskip}\vspace{3.2pt} % Thin horizontal rule
+	\rule{\textwidth}{1.6pt} % Thick horizontal rule
+	
+	\small{\today}
+	
+	\vspace{4cm} % Whitespace after the title block
+	
+   
+	}
+	
+
+
+\date{}
+
+\author{\textbf{Author:} Owen Johnson\\
+		\textbf{Student ID:} 18305971\\
+		\textbf{Supervisor:} Dr. Antonio Martin-Carrillo \\ 
+		\vspace{4cm}
+		}
+
+
+
+
+\titlepic{\includegraphics[width=8cm]{Images/physics.png}}
+
+%title-page 
+
+\maketitle 
+\thispagestyle{empty}
+\newpage
+
+%-------------------------------------------------------------------------------
+% Section title formatting
+% \sectionfont{\scshape}
+%-------------------------------------------------------------------------------
+
+%-------------------------------------------------------------------------------
+% BODY
+%-------------------------------------------------------------------------------
+% \begin{center}
+% 	\textbf{\textit{Disclaimer}} \\ 
+	
+% 	Due to the circumstances surrounding COVID-19 restrictions the data used throughout the duration of this report was provided by the UCD Department of Physics such that the lab could be completed remotely. 
+% \end{center}
+
+\input{sections/abstract}
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}} 
+
+\tableofcontents
+\thispagestyle{empty}
+
+\fancyfoot[R]{Page \thepage\ of \pageref{LastPage}}
+
+
+\newpage 
+
+\setcounter{page}{1} % Set page number to 0 
+
+% \input{sections/intro}
+
+\input{sections/theorey}
+
+
+
+\newpage
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+\printbibliography
+\noindent\makebox[\linewidth]{\rule{\textwidth}{1pt}}
+
+%-------------------------------------------------------------------------------
+% REFERENCES & APPENDICES
+%-------------------------------------------------------------------------------
+
+\newpage 
+
+% \section{Appendices}
+% \input{sections/appendix}
+
+
+
+
+
+\end{document}
+

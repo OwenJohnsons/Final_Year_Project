@@ -1,0 +1,2977 @@
+ What range of masses do you want (low, high)?
+ The following interior models are available.
+ -1  Single age user isochrone file
+  1  Schaller et al (1992) [Geneva]
+  2  D'Antona & Mazzitelli (1997)
+  3  Baraffe et al (1998) Lmix=1.0
+  4  Baraffe et al (1998) Lmix=1.9
+  5  Palla & Stahler (1999)
+  6  Chabrier et al (2000) [DUSTY00]
+  7  Siess, Dufour & Forestini (2000) z=0.02
+  8  Siess, Dufour & Forestini (2000) z=0.01
+  9  Girardi et al (2002) z=0.019 [Padova]
+ 10  Baraffe et al (2003) [COND03]
+ 11  Dotter et al (2008) z=0.018
+ 12  Dotter et al (2008) z=0.026
+ 13  Brott et al (2011)
+ 14  Tognelli et al (2012) + updates [Pisa]
+ 15  Baraffe et al (2015)
+ 16  PARSEC
+ 17  Ekstrom
+ What model number do you want?
+ This isochrone comes with the following colours V         R         I         J         H         K         L         M         
+ The following atmospheric models are available.
+ -1  user supplied file
+  1  BCs from Bessell Tycho
+  2  BCs from Kenyon & Hartmann (1995).
+  3  Tlusty         Bessell     energy
+  4  BT-Settl       Bessell     energy
+  5  BT-Settl       Bessell     photon
+  6  CIFIST         Bessell     photon
+  8  BT-Settl+Bell  Bessell     photon
+ 10  BT-Settl       INT-WFC     photon
+ 11  BT-Settl M+0.3 INT-WFC     photon
+ 14  BT-Settl+Bell  INT-WFC     photon
+ 16  BT-Settl       IPAHS/UVEX  photon
+ 19  BT-Settl+Bell  IPAHS/UVEX  photon
+ 21  BT-Settl M+0.3 SDSS        photon
+ 22  BT-Settl       SDSS        photon
+ 23  BT-Settl+Bell  SDSS        photon
+ 27  BT-Settl       CFHT        photon
+ 28  BT-Settl       UKIDSS      photon
+ 29  BT-Settl       2MASS       photon
+ 31  BT-Settl+Bell  2MASS       photon
+ 33  CIFIST M+0.5   INT-WFC     photon
+ 34  CIFIST         INT-WFC     photon
+ 35  CIFIST         2MASS       photon
+ 36  Kurucz         Bessell     energy (ext vect)
+ 37  Kurucz         Bessell     energy
+ 38  Kurucz         Bessell     photon
+ 39  Kurucz         INT-WFC     photon
+ 40  Kurucz         SDSS        photon
+ 41  Kurucz   M+0.3 SDSS        photon
+ 42  Kurucz         UKIDSS      photon
+ 43  Kurucz         2MASS       photon
+ 44  NEXTGEN        INT-WFC     photon
+ 45  BT-Settl       DECam       photon
+ 46  BT-Settl       Bess_2MASS  photon
+ 47  BT-Settl+Bell  Kepler      photon
+  0  Or the colours supplied with the isochrone
+ What model number do you want?
+ Available filters are B         V         R         I         
+ > Which magnitude do you require?
+ > Which colour do you require?
+ What E(B-V) you want? (Measured in an energy intergrating system
+ with the Bessell filters and the new ODF Kurucz atmospheres.)
+ Converting hot star E(B-V) to nominal E(B-V).
+ Nominal E(B-V) is   0.198074535    
+ What binary fraction do you want?
+ What range of log10(ages) do you want?
+ What step in age do you want?
+ Doing log10(age)   6.30000019    
+ With      1000000  simulated objects.
+ Using interior model data file /Users/timn/CMDfit/Data/Lyon/baraffe98alpha1.9.iso
+ Using bolometric correction file /Users/timn/CMDfit/Data/newbaraffe_19_btsettl_Mp0.0_johnson_tuned_photon.bc
+ Reading extinctions from file /Users/timn/CMDfit/Data/Ext_Tables/btsettl_Mp0.0_bessell_photon.ext
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2376
+ Covering mags    8.92999935      to    2.99249983    
+ and colours   0.429999977      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.300.fit
+ Doing log10(age)   6.31000042    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2374
+ Covering mags    8.93750000      to    3.00499988    
+ and colours   0.429999977      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.310.fit
+ Doing log10(age)   6.32000017    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2373
+ Covering mags    8.94750023      to    3.01749992    
+ and colours   0.429999977      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.320.fit
+ Doing log10(age)   6.33000040    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2372
+ Covering mags    8.95749950      to    3.02999997    
+ and colours   0.429999977      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.330.fit
+ Doing log10(age)   6.34000015    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2370
+ Covering mags    8.96500015      to    3.04250002    
+ and colours   0.427499980      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.340.fit
+ Doing log10(age)   6.35000038    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2369
+ Covering mags    8.97499943      to    3.05499983    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.350.fit
+ Doing log10(age)   6.36000013    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2368
+ Covering mags    8.98499966      to    3.06749988    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.360.fit
+ Doing log10(age)   6.37000036    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2366
+ Covering mags    8.99249935      to    3.07999992    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.370.fit
+ Doing log10(age)   6.38000011    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2365
+ Covering mags    9.00249958      to    3.09249997    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.380.fit
+ Doing log10(age)   6.39000034    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2365
+ Covering mags    9.01249981      to    3.10249996    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.390.fit
+ Doing log10(age)   6.40000010    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2363
+ Covering mags    9.01999950      to    3.11500001    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.400.fit
+ Doing log10(age)   6.41000032    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2367
+ Covering mags    9.04249954      to    3.12749982    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.410.fit
+ Doing log10(age)   6.42000008    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2372
+ Covering mags    9.06750011      to    3.13999987    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.420.fit
+ Doing log10(age)   6.43000031    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2376
+ Covering mags    9.09000015      to    3.15249991    
+ and colours   0.427499980      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.430.fit
+ Doing log10(age)   6.44000006    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2380
+ Covering mags    9.11250019      to    3.16499996    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.440.fit
+ Doing log10(age)   6.45000029    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2384
+ Covering mags    9.13500023      to    3.17750001    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.450.fit
+ Doing log10(age)   6.46000004    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2389
+ Covering mags    9.15999985      to    3.18999982    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.460.fit
+ Doing log10(age)   6.47000027    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2393
+ Covering mags    9.18249989      to    3.20249987    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.470.fit
+ Doing log10(age)   6.48000002    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2397
+ Covering mags    9.20499992      to    3.21499991    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.480.fit
+ Doing log10(age)   6.49000025    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2401
+ Covering mags    9.22749996      to    3.22749996    
+ and colours   0.424999982      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.490.fit
+ Doing log10(age)   6.50000000    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2406
+ Covering mags    9.25249958      to    3.24000001    
+ and colours   0.422499985      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.500.fit
+ Doing log10(age)   6.51000023    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2413
+ Covering mags    9.27750015      to    3.24749994    
+ and colours   0.422499985      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.510.fit
+ Doing log10(age)   6.51999998    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2420
+ Covering mags    9.30249977      to    3.25499988    
+ and colours   0.422499985      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.520.fit
+ Doing log10(age)   6.53000021    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          704        2427
+ Covering mags    9.32749939      to    3.26249981    
+ and colours   0.422499985      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.530.fit
+ Doing log10(age)   6.53999996    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2434
+ Covering mags    9.35249996      to    3.26999998    
+ and colours   0.419999987      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.540.fit
+ Doing log10(age)   6.55000019    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2441
+ Covering mags    9.37749958      to    3.27749991    
+ and colours   0.419999987      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.550.fit
+ Doing log10(age)   6.55999994    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          705        2448
+ Covering mags    9.40250015      to    3.28499985    
+ and colours   0.419999987      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.560.fit
+ Doing log10(age)   6.57000017    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          706        2456
+ Covering mags    9.42999935      to    3.29250002    
+ and colours   0.417499989      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.570.fit
+ Doing log10(age)   6.57999992    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          706        2463
+ Covering mags    9.45499992      to    3.29999995    
+ and colours   0.417499989      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.580.fit
+ Doing log10(age)   6.59000015    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          706        2470
+ Covering mags    9.47999954      to    3.30749989    
+ and colours   0.417499989      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.590.fit
+ Doing log10(age)   6.59999990    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          707        2477
+ Covering mags    9.50500011      to    3.31499982    
+ and colours   0.414999992      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.600.fit
+ Doing log10(age)   6.61000013    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          707        2481
+ Covering mags    9.52250004      to    3.32249999    
+ and colours   0.414999992      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.610.fit
+ Doing log10(age)   6.62000036    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          707        2486
+ Covering mags    9.53999996      to    3.32749987    
+ and colours   0.412499994      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.620.fit
+ Doing log10(age)   6.63000011    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          707        2490
+ Covering mags    9.55749989      to    3.33500004    
+ and colours   0.412499994      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.630.fit
+ Doing log10(age)   6.64000034    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          708        2494
+ Covering mags    9.57499981      to    3.34249997    
+ and colours   0.409999996      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.640.fit
+ Doing log10(age)   6.65000010    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          708        2498
+ Covering mags    9.59249973      to    3.34999990    
+ and colours   0.409999996      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.650.fit
+ Doing log10(age)   6.66000032    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          709        2502
+ Covering mags    9.60999966      to    3.35749984    
+ and colours   0.407499999      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.660.fit
+ Doing log10(age)   6.67000008    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          709        2506
+ Covering mags    9.62749958      to    3.36500001    
+ and colours   0.407499999      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.670.fit
+ Doing log10(age)   6.68000031    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          710        2510
+ Covering mags    9.64499950      to    3.37249994    
+ and colours   0.405000001      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.680.fit
+ Doing log10(age)   6.69000006    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          709        2514
+ Covering mags    9.66249943      to    3.37999988    
+ and colours   0.405000001      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.690.fit
+ Doing log10(age)   6.70000029    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          710        2518
+ Covering mags    9.67999935      to    3.38749981    
+ and colours   0.402500004      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.700.fit
+ Doing log10(age)   6.71000004    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          711        2527
+ Covering mags    9.69999981      to    3.38499999    
+ and colours   0.399999976      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.710.fit
+ Doing log10(age)   6.72000027    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          712        2537
+ Covering mags    9.72249985      to    3.38249993    
+ and colours   0.397499979      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.720.fit
+ Doing log10(age)   6.73000002    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          713        2546
+ Covering mags    9.74249935      to    3.37999988    
+ and colours   0.394999981      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.730.fit
+ Doing log10(age)   6.74000025    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          714        2555
+ Covering mags    9.76249981      to    3.37749982    
+ and colours   0.392499983      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.740.fit
+ Doing log10(age)   6.75000000    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          714        2564
+ Covering mags    9.78249931      to    3.37500000    
+ and colours   0.389999986      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.750.fit
+ Doing log10(age)   6.76000023    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          715        2574
+ Covering mags    9.80499935      to    3.37249994    
+ and colours   0.387499988      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.760.fit
+ Doing log10(age)   6.76999998    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          716        2583
+ Covering mags    9.82499981      to    3.36999989    
+ and colours   0.384999990      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.770.fit
+ Doing log10(age)   6.78000021    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          717        2592
+ Covering mags    9.84499931      to    3.36749983    
+ and colours   0.382499993      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.780.fit
+ Doing log10(age)   6.78999996    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          718        2602
+ Covering mags    9.86749935      to    3.36500001    
+ and colours   0.379999995      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.790.fit
+ Doing log10(age)   6.80000019    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          720        2611
+ Covering mags    9.88749981      to    3.36249995    
+ and colours   0.375000000      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.800.fit
+ Doing log10(age)   6.80999994    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          721        2625
+ Covering mags    9.90999985      to    3.34999990    
+ and colours   0.372500002      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.810.fit
+ Doing log10(age)   6.82000017    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          723        2639
+ Covering mags    9.93249989      to    3.33749986    
+ and colours   0.367499977      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.820.fit
+ Doing log10(age)   6.82999992    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          724        2653
+ Covering mags    9.95499992      to    3.32499981    
+ and colours   0.364999980      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.830.fit
+ Doing log10(age)   6.84000015    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          725        2666
+ Covering mags    9.97749996      to    3.31499982    
+ and colours   0.362499982      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.840.fit
+ Doing log10(age)   6.85000038    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          727        2680
+ Covering mags    10.0000000      to    3.30250001    
+ and colours   0.357499987      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.850.fit
+ Doing log10(age)   6.86000013    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          728        2693
+ Covering mags    10.0225000      to    3.29250002    
+ and colours   0.354999989      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.860.fit
+ Doing log10(age)   6.86999989    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          729        2706
+ Covering mags    10.0424995      to    3.27999997    
+ and colours   0.352499992      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.870.fit
+ Doing log10(age)   6.88000011    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          730        2719
+ Covering mags    10.0649996      to    3.26999998    
+ and colours   0.349999994      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.880.fit
+ Doing log10(age)   6.89000034    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          731        2732
+ Covering mags    10.0874996      to    3.25999999    
+ and colours   0.347499996      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.890.fit
+ Doing log10(age)   6.90000010    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          733        2746
+ Covering mags    10.1099997      to    3.24749994    
+ and colours   0.342500001      to    2.17249990    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.900.fit
+ Doing log10(age)   6.90999985    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          735        2765
+ Covering mags    10.1300001      to    3.22000003    
+ and colours   0.340000004      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.910.fit
+ Doing log10(age)   6.92000008    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          737        2784
+ Covering mags    10.1499996      to    3.19249988    
+ and colours   0.334999979      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.920.fit
+ Doing log10(age)   6.93000031    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          739        2803
+ Covering mags    10.1700001      to    3.16499996    
+ and colours   0.329999983      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.930.fit
+ Doing log10(age)   6.94000006    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          742        2822
+ Covering mags    10.1899996      to    3.13750005    
+ and colours   0.322499990      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.940.fit
+ Doing log10(age)   6.94999981    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          744        2841
+ Covering mags    10.2100000      to    3.10999990    
+ and colours   0.317499995      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.950.fit
+ Doing log10(age)   6.96000004    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          745        2859
+ Covering mags    10.2299995      to    3.08500004    
+ and colours   0.314999998      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.960.fit
+ Doing log10(age)   6.97000027    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          746        2877
+ Covering mags    10.2500000      to    3.05999994    
+ and colours   0.312500000      to    2.17499995    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.970.fit
+ Doing log10(age)   6.98000002    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          749        2896
+ Covering mags    10.2699995      to    3.03250003    
+ and colours   0.307500005      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.980.fit
+ Doing log10(age)   6.99000025    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          751        2915
+ Covering mags    10.2900000      to    3.00499988    
+ and colours   0.302499980      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_06.990.fit
+ Doing log10(age)   7.00000000    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          753        2934
+ Covering mags    10.3099995      to    2.97749996    
+ and colours   0.297499985      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.000.fit
+ Doing log10(age)   7.01000023    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          756        2963
+ Covering mags    10.3299999      to    2.92499995    
+ and colours   0.289999992      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.010.fit
+ Doing log10(age)   7.01999998    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          758        2991
+ Covering mags    10.3499994      to    2.87500000    
+ and colours   0.284999996      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.020.fit
+ Doing log10(age)   7.03000021    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          760        3021
+ Covering mags    10.3699999      to    2.81999993    
+ and colours   0.280000001      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.030.fit
+ Doing log10(age)   7.03999996    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          763        3050
+ Covering mags    10.3899994      to    2.76749992    
+ and colours   0.272500008      to    2.17750001    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.040.fit
+ Doing log10(age)   7.05000019    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          766        3079
+ Covering mags    10.4099998      to    2.71499991    
+ and colours   0.267499983      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.050.fit
+ Doing log10(age)   7.05999994    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          768        3107
+ Covering mags    10.4299994      to    2.66499996    
+ and colours   0.262499988      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.060.fit
+ Doing log10(age)   7.07000017    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          771        3136
+ Covering mags    10.4499998      to    2.61249995    
+ and colours   0.254999995      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.070.fit
+ Doing log10(age)   7.07999992    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          774        3165
+ Covering mags    10.4699993      to    2.55999994    
+ and colours   0.247499987      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.080.fit
+ Doing log10(age)   7.09000015    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          776        3194
+ Covering mags    10.4899998      to    2.50749993    
+ and colours   0.242499992      to    2.18000007    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.090.fit
+ Doing log10(age)   7.09999990    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          780        3223
+ Covering mags    10.5100002      to    2.45499992    
+ and colours   0.234999999      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.100.fit
+ Doing log10(age)   7.11000013    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          783        3237
+ Covering mags    10.5324993      to    2.44249988    
+ and colours   0.227499992      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.110.fit
+ Doing log10(age)   7.11999989    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          786        3250
+ Covering mags    10.5524998      to    2.42999983    
+ and colours   0.219999999      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.120.fit
+ Doing log10(age)   7.13000011    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          788        3262
+ Covering mags    10.5725002      to    2.41999984    
+ and colours   0.214999989      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.130.fit
+ Doing log10(age)   7.14000034    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          791        3275
+ Covering mags    10.5924997      to    2.40750003    
+ and colours   0.207499996      to    2.18249989    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.140.fit
+ Doing log10(age)   7.15000010    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          795        3288
+ Covering mags    10.6125002      to    2.39499998    
+ and colours   0.199999988      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.150.fit
+ Doing log10(age)   7.15999985    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          798        3300
+ Covering mags    10.6324997      to    2.38499999    
+ and colours   0.192499995      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.160.fit
+ Doing log10(age)   7.17000008    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          801        3313
+ Covering mags    10.6525002      to    2.37249994    
+ and colours   0.185000002      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.170.fit
+ Doing log10(age)   7.18000031    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          804        3325
+ Covering mags    10.6724997      to    2.36249995    
+ and colours   0.177499995      to    2.18499994    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.180.fit
+ Doing log10(age)   7.19000006    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          808        3338
+ Covering mags    10.6949997      to    2.35249996    
+ and colours   0.170000002      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.190.fit
+ Doing log10(age)   7.19999981    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          811        3350
+ Covering mags    10.7150002      to    2.34249997    
+ and colours   0.162499994      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.200.fit
+ Doing log10(age)   7.21000004    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          811        3347
+ Covering mags    10.7349997      to    2.36999989    
+ and colours   0.162499994      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.210.fit
+ Doing log10(age)   7.22000027    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3344
+ Covering mags    10.7550001      to    2.39750004    
+ and colours   0.164999992      to    2.18750000    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.220.fit
+ Doing log10(age)   7.23000002    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          811        3340
+ Covering mags    10.7749996      to    2.42750001    
+ and colours   0.164999992      to    2.19000006    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.230.fit
+ Doing log10(age)   7.23999977    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3338
+ Covering mags    10.7974997      to    2.45499992    
+ and colours   0.167499989      to    2.19000006    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.240.fit
+ Doing log10(age)   7.25000000    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3335
+ Covering mags    10.8175001      to    2.48249984    
+ and colours   0.167499989      to    2.19000006    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.250.fit
+ Doing log10(age)   7.26000023    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          811        3331
+ Covering mags    10.8374996      to    2.51250005    
+ and colours   0.167499989      to    2.19249988    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.260.fit
+ Doing log10(age)   7.26999998    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3328
+ Covering mags    10.8575001      to    2.53999996    
+ and colours   0.170000002      to    2.19249988    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.270.fit
+ Doing log10(age)   7.28000021    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3326
+ Covering mags    10.8800001      to    2.56749988    
+ and colours   0.170000002      to    2.19249988    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.280.fit
+ Doing log10(age)   7.28999996    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          809        3323
+ Covering mags    10.8999996      to    2.59500003    
+ and colours   0.172499999      to    2.19249988    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.290.fit
+ Doing log10(age)   7.30000019    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3319
+ Covering mags    10.9200001      to    2.62500000    
+ and colours   0.172499999      to    2.19499993    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.300.fit
+ Doing log10(age)   7.30999994    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          810        3329
+ Covering mags    10.9375000      to    2.61749983    
+ and colours   0.172499999      to    2.19499993    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.310.fit
+ Doing log10(age)   7.32000017    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          811        3339
+ Covering mags    10.9574995      to    2.61249995    
+ and colours   0.170000002      to    2.19499993    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.320.fit
+ Doing log10(age)   7.32999992    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          813        3349
+ Covering mags    10.9749994      to    2.60500002    
+ and colours   0.167499989      to    2.19749999    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.330.fit
+ Doing log10(age)   7.34000015    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          813        3359
+ Covering mags    10.9949999      to    2.59999990    
+ and colours   0.167499989      to    2.19749999    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.340.fit
+ Doing log10(age)   7.34999990    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          815        3368
+ Covering mags    11.0124998      to    2.59500003    
+ and colours   0.164999992      to    2.20000005    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.350.fit
+ Doing log10(age)   7.36000013    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          816        3378
+ Covering mags    11.0299997      to    2.58749986    
+ and colours   0.162499994      to    2.20000005    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.360.fit
+ Doing log10(age)   7.36999989    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          816        3388
+ Covering mags    11.0500002      to    2.58249998    
+ and colours   0.162499994      to    2.20000005    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.370.fit
+ Doing log10(age)   7.38000011    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          818        3398
+ Covering mags    11.0675001      to    2.57500005    
+ and colours   0.159999996      to    2.20249987    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.380.fit
+ Doing log10(age)   7.38999987    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          819        3408
+ Covering mags    11.0874996      to    2.56999993    
+ and colours   0.157499999      to    2.20249987    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.390.fit
+ Doing log10(age)   7.40000010    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          819        3418
+ Covering mags    11.1049995      to    2.56250000    
+ and colours   0.157499999      to    2.20249987    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.400.fit
+ Doing log10(age)   7.40999985    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          821        3427
+ Covering mags    11.1250000      to    2.55999994    
+ and colours   0.155000001      to    2.20499992    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.410.fit
+ Doing log10(age)   7.42000008    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          821        3437
+ Covering mags    11.1475000      to    2.55749989    
+ and colours   0.155000001      to    2.20499992    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.420.fit
+ Doing log10(age)   7.42999983    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          823        3446
+ Covering mags    11.1674995      to    2.55499983    
+ and colours   0.152500004      to    2.20749998    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.430.fit
+ Doing log10(age)   7.44000006    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          823        3457
+ Covering mags    11.1899996      to    2.54999995    
+ and colours   0.152500004      to    2.20749998    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.440.fit
+ Doing log10(age)   7.44999981    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          825        3466
+ Covering mags    11.2100000      to    2.54749990    
+ and colours   0.149999991      to    2.21000004    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.450.fit
+ Doing log10(age)   7.46000004    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          825        3476
+ Covering mags    11.2325001      to    2.54499984    
+ and colours   0.149999991      to    2.21000004    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.460.fit
+ Doing log10(age)   7.47000027    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          827        3485
+ Covering mags    11.2524996      to    2.54250002    
+ and colours   0.147499993      to    2.21249986    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.470.fit
+ Doing log10(age)   7.48000002    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          827        3495
+ Covering mags    11.2749996      to    2.53999996    
+ and colours   0.147499993      to    2.21249986    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.480.fit
+ Doing log10(age)   7.48999977    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          827        3504
+ Covering mags    11.2950001      to    2.53749990    
+ and colours   0.147499993      to    2.21249986    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.490.fit
+ Doing log10(age)   7.50000000    
+ With      1000000  simulated objects.
+ Created    10.0000000      percent of stars.
+ Created    20.0000000      percent of stars.
+ Created    30.0000000      percent of stars.
+ Created    40.0000000      percent of stars.
+ Created    50.0000000      percent of stars.
+ Created    60.0000000      percent of stars.
+ Created    70.0000000      percent of stars.
+ Created    80.0000000      percent of stars.
+ Created    90.0000000      percent of stars.
+ Created    100.000000      percent of stars.
+ There were       725436  usable stars.
+ Grid will be          829        3514
+ Covering mags    11.3175001      to    2.53499985    
+ and colours   0.144999996      to    2.21499991    
+ Placed    13.7848139      percent of stars in grid.
+ Placed    27.5696278      percent of stars in grid.
+ Placed    41.3544388      percent of stars in grid.
+ Placed    55.1392555      percent of stars in grid.
+ Placed    68.9240646      percent of stars in grid.
+ Placed    82.7088776      percent of stars in grid.
+ Placed    96.4936981      percent of stars in grid.
+ Written file I_R-I_07.500.fit

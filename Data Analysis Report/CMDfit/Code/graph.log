@@ -1,0 +1,8 @@
+read,ytab=11,yeta=12,yfta=13,xtab=14,xeta=15,xfta=16,xfil=0.100000001,yfil=0.100000001
+test.cat
+limi,yswp
+plot,dots
+axes
+xlab
+ylab
+keys

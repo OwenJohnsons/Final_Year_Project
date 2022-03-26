@@ -1,0 +1,7 @@
+# The Extinction vector has two regimes in B-V, as shown below.
+# For B-V < 0.065
+# B   B-V 3.308   0.0  0.0 0.232 0.0
+# For 0.065 < B-V < 0.5
+# B   B-V 3.335   0.0  0.0 0.204 0.0
+# mag col Const  red1 red2 col1 col2
+V   B-V 3.308   0.0  0.0 0.232 0.0

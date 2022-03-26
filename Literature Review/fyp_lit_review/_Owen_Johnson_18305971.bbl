@@ -1,0 +1,97 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{nilakshi_sagar_pandey_mohan_2002}{article}{}
+      \name{author}{4}{}{%
+        {{hash=b2345df7e5445f52140da70ea1fb0838}{%
+           family={Nilakshi},
+           familyi={N\bibinitperiod}}}%
+        {{hash=2598f37311f3fd27639046471766d847}{%
+           family={Sagar},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=8ff5c48af6ea2033ad253cdec5c37a87}{%
+           family={Pandey},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e0e8d7859a438347f95efa29f84d3eb4}{%
+           family={Mohan},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{5dd4c6caae372ba83fda08852311cd89}
+      \strng{fullhash}{9f2bebdcb0f297bfbbbb2ff6b876e05c}
+      \strng{bibnamehash}{9f2bebdcb0f297bfbbbb2ff6b876e05c}
+      \strng{authorbibnamehash}{9f2bebdcb0f297bfbbbb2ff6b876e05c}
+      \strng{authornamehash}{5dd4c6caae372ba83fda08852311cd89}
+      \strng{authorfullhash}{9f2bebdcb0f297bfbbbb2ff6b876e05c}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy \& Astrophysics}
+      \field{month}{2}
+      \field{number}{1}
+      \field{title}{A study of spatial structure of galactic open star clusters}
+      \field{volume}{383}
+      \field{year}{2002}
+      \field{pages}{153\bibrangedash 162}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1051/0004-6361:20011719
+      \endverb
+    \endentry
+    \entry{trumpler_1930}{article}{}
+      \name{author}{1}{}{%
+        {{hash=612556e7fc573ebb85fa55eaccb9713e}{%
+           family={Trumpler},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{612556e7fc573ebb85fa55eaccb9713e}
+      \strng{fullhash}{612556e7fc573ebb85fa55eaccb9713e}
+      \strng{bibnamehash}{612556e7fc573ebb85fa55eaccb9713e}
+      \strng{authorbibnamehash}{612556e7fc573ebb85fa55eaccb9713e}
+      \strng{authornamehash}{612556e7fc573ebb85fa55eaccb9713e}
+      \strng{authorfullhash}{612556e7fc573ebb85fa55eaccb9713e}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Lick Observatory Bulletins}
+      \field{number}{14}
+      \field{title}{Preliminary results on the distances, dimensions and space distribution of open star clusters}
+      \field{volume}{14}
+      \field{year}{1930}
+      \field{pages}{154\bibrangedash 188}
+      \range{pages}{35}
+      \verb{doi}
+      \verb 10.5479/ads/bib/1930licob.14.154t
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

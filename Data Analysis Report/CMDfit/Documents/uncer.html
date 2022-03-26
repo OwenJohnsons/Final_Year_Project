@@ -1,0 +1,23 @@
+<h2>An Alternative Uncertainty Calculator</h2>
+
+<p>
+Rather than using the bootstrap method, an alternative way to calculate 
+the uncertainty in fitted parameters is to use the tau-squared grid, in a way
+very similar to standard Bayesian analysis.
+By converting each pixel's tau-squared into a probability, one can 
+create a relative probability grid, and if you divide by the sum of all pixels,
+they become absolute probabilities.
+One can then sum all the probability below a given tau-squared to obtain
+a plot of tau-squared against probability.
+All you then need to do is choose the tau-squared level which 
+corresponds to (say) 67 percent, and use this as a confidence limit.
+</p>
+<p>
+I have implemented this method in the program uncer.
+In principle one must extend the grid over the full (potentially infinite)
+range of all the parameters, but for reasonable ranges of the parameters
+the error introduced seems to be negligible (though I'm still experimenting).
+This method gives very similar answers to the bootstrap for 67 percent
+confidence, but by 95 percent the answers are significantly different for
+reasons I have yet to fathom.
+</p>

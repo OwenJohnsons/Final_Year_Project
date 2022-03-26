@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<title>CMDfit Software</title>
+
+<link media='screen' rel='stylesheet' TYPE='text/css' href='http://www.astro.ex.ac.uk/css/screen.css'>
+</head>
+<body>
+<h1>CMDfit Software</h1>
+
+
+<p>
+If you are lucky and have a Mac, you will simply be able to download the software
+bundle from the link given below, and run the examples.
+</p>
+
+<p>
+<a href="cmdfit.tar.gz">Dowload software bundle.</a> (Last updated
+21 August 2015. <a href="changes.html">Change and bug-fix list.</a>)
+</p>
+
+<p>
+Download the software into your home directory, and unpack it with,<br>
+tar xzvf cmdfit.tar.gz<br>
+which will make a directory called CMDfit.
+Have a close look at startup.csh in the directory CMDfit, and change the
+definition of CMDDIR to match whichever directory you have downloaded the software into.
+Now, source startup.csh, make yourself an empty directory and try running example 1.
+Once you've run the startup script, the programmes should run if you
+simply type their names at the prompt.
+If you run into problems with the examples, then my output from
+running them is available in a sub-directory of the download bundle.
+</p>
+<p> 
+If the software simply does not work, then you will have to recompile
+it.
+It's built using the gfortran compiler, and although I have attempted to
+make the code as compiler independent as possible (it started life
+using the NAG compiler, then the g95 compiler), it obviously best if you can use gfortran.
+What's more its free, and available from the
+<a href="http://gcc.gnu.org/wiki/GFortranBinaries">gcc gfortran binaries site</a>.
+You build the software by running compile.csh, which is in the CMDfit
+directory.
+Individual programs can me remade from the Code directory, with a
+command like "make -f monte.make".
+</p>
+
+If the compile fails, I'm happy to give what help I can.
+
+
+
+</body></html>

@@ -1,0 +1,10 @@
+ First read in the best fitting model FITS file (normally best_model.fit).
+Give input file ("?" gives help)>  Reading file best_model.fit
+ And now the file of data points (normally fitted.cat).
+ > Give input cluster file name.
+ Cannot find file unclipped.cat
+ Try again.
+ > Give input cluster file name.
+ Cannot find file 2
+ Try again.
+ > Give input cluster file name.

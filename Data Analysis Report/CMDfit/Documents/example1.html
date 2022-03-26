@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC '-//W3C//DTD HTML 4.01 Transitional//EN' 'http://www.w3.org/TR/html4/loose.dtd'>
+<html><head>
+<meta http-equiv='Content-Type' content='text/html; charset=ISO-8859-1'>
+<TITLE>Tau-squared Example 1</TITLE>
+<link media='screen' rel='stylesheet' TYPE='text/css' href='http://www.astro.ex.ac.uk/css/screen.css'>
+</head>
+<body>
+<h2> Example 1 - High-mass stars.</h2>
+
+<p>
+This example is the fit to the high-mass stars presented in 
+<a href="http://adsabs.harvard.edu/cgi-bin/nph-bib_query?doi=10.1111%2Fj.1365-2966.2007.11327.x&amp;db_key=AST&amp;data_type=HTML&amp;format=&amp;high=45c84b2a4721026">Jeffries
+et al (2007)</a>.
+The output files are given in the download in a directory called
+Example1, but you should create a clean directory to try it in.
+The precise inputs to the programs are given in 
+a series of files with the suffix .in also in the Example1 directory.
+</p>
+<p>
+First we run monte to create the 2D isochrone.
+We will need a mass range of 1 to 16 solar masses.
+We will use the Geneva isochrones with the colours supplied with the
+isochrones (option 0), specifically V vs B-V.
+We require a binary fraction of 0.5.
+Since we only require one age, we set the age "range" to go from log10(age)
+is 7 to 7.
+</p>
+
+<p>
+Monte tends to take a couple of minutes to run (on my PC at least), but
+at the end produces a file called V_B-V_07.000.fit.
+This is a genuine FITS file, so you can
+use your favourite FITS reader to look at it, and convince yourself
+that its right.
+</p>
+
+<p>      
+Now you need to run grid.  
+The input data catalogue is called ubv.cat (which you can copy 
+from CMDfit/Example1).
+This has U-B as well as B-V in it, so you'll be prompted for which colours
+you want (numbers 1 and 2 on the list).
+Next you can add an extra uncertainty to the 
+magnitudes and colours of each star.
+This is added in quadrature to the uncertainties given in the data
+file.
+In this case, though, you should give the extra uncertainty to be
+added as zero.
+Next come the details of the isochrones you are using.
+The log10(age) range is 7 to 7, and
+you should search a distance modulus range of 9.7 to 10.5, with 100
+points in the "grid".     
+Finally, E(B-V)=0.20.
+You are now asked for the fraction of stars which are members, and as
+this is a good membership list the answer is 1.
+</p>
+
+<p>
+There are a host of useful output files. 
+The tau-squared space in this case is a simple plot of tau-squared
+against distance, and is given in grid.fit.
+Normally this is a two-dimensional space (say age and distance), and
+so is given as a FITS file (hence its extension).
+In this case, though, as its just one dimensional there is also 
+a simple ASCII file (grid.asc).
+The best fitting CMD, best_model.fit is also a FITS file.
+Obviously you want to see the data overlaid on this.
+We use the Starlink program gaia to look at images, and so provide you
+with the program for_gaia, which will take your data file (ubv.cat)
+and an image (in this case best_model.fit) to give you a regions
+definition file (ubv.ard), which the regions sub-menu in gaia allows
+you to plot the data over the model.
+For final publication plots you may wish to cut down the size of the
+FITS image, and bin it up in magnitude, before using for_gaia.
+Your favourite data reduction package will no doubt do this, but we
+also provide binup and subset to do it.
+<p>
+</p>        
+The output from grid should tell you that the best fitting value of
+parameter 2 (the distance modulus) was about 10.11, for a tau-squared of
+3.8 (though your answers may deviate slightly due to the the random
+process which generates the models).
+As explained in the paper, the tau-squared alone is meaningless, you
+need the reduced tau-squared.  
+You do this using the program tau2.
+You are first prompted for the best fitting model (best_model.fit),
+then you need the remaining data points after clipping, which was 
+written for you by grid into fitted.cat (though this should be
+identical to ubv.cat, provided you have not added an extra uncertainty
+in grid).
+Next you will be prompted for the number of the magnitude (1) and
+colour (2) being fitted
+from this file and the number of free parameters (1).
+This program tells you probability that the model is a good description 
+of the data (Pr(tau-squared).
+You will find that the chance of exceeding the 3.8 grid gave us, is 
+around 0.05.
+Thus this fit is on the margins of being acceptable, but we probably
+cannot justify clipping points out. 
+<p>
+</p>
+Finally, if you want to work out a confidence interval you need to run
+uncer.
+It automatically reads the file which is the
+tau-squared grid from grid (grid.fit) and writes a file called uncer.out,
+which is the tau-squared levels for given percentage confidence levels.
+It prints the 68 percent confidence level to the screen, 
+which it should say is a tau-squared of 382.
+If you look back at grid.fit.asc you find this gives you a 68 percent
+confidence interval in distance modulus of 10.06 to 10.18, but again 
+these numbers are also printed to the screen.
+These values deviate slightly, but not significantly from those in Jeffries et
+al. partly because of randomness, but partly due to improvements in the 
+technique and the software since that paper was published.
+
+<!-- START-OF-PHYSICS-FOOTER -->
+
+</div>
+<p>&nbsp;</p>
+<hr id=pexbottom width='100%'>
+
+<span class='e-crumbs'>
+ 
+   <a href='/'>Home</a>  &gt; <a href='./../../'>Group</a> &gt; <a href='./../'>Tim Naylor</a> &gt; <a href='./'>tau-squared</a> &gt; <span class='crumbs_here'>Example 1</span>
+</span>
+
+</table>
+<!-- End of main layout table -->
+
+<div  class=pexastro>
+<a  href='/'>Astrophysics</a>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,216 @@
+
+\documentclass{aastex63}
+\newcommand{\vdag}{(v)^\dagger}
+\newcommand\aastex{AAS\TeX}
+\newcommand\latex{La\TeX}
+
+%% Reintroduced the \received and \accepted commands from AASTeX v5.2
+\received{\today}
+
+%\revised{January 10, 2019}
+%\accepted{\today}
+
+%% Command to document which AAS Journal the manuscript was submitted to.
+%% Adds "Submitted to " the argument.
+\submitjournal{ApJ}
+
+%% If you wish, you may supply running head information, although
+%% this information may be modified by the editorial offices.
+\shorttitle{Simultaneous dual-site SETI with LOFAR international stations}
+\shortauthors{Gajjar et al.}
+
+\usepackage{graphics,graphicx,url,verbatim,xspace}
+\usepackage{subfig}
+\usepackage{glossaries}
+\usepackage{comment}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{todonotes}
+\usepackage{amsmath}
+
+%Tables
+% \usepackage{colortbl}
+% \usepackage{booktabs}
+% \usepackage{caption}
+% \usepackage{threeparttable}
+% \usepackage{tabularx}
+% \definecolor{lightgray}{gray}{0.9}
+
+%Reference 
+% \usepackage{cleveref}
+
+\glsdisablehyper
+
+\begin{document}
+
+\title{Simultaneous dual-site SETI with LOFAR international stations}
+
+\author[0000-0002-5927-0481]{Owen Johnson}
+
+
+\begin{abstract}
+\end{abstract}
+
+%% Keywords should appear after the \end{abstract} command. 
+%% See the online documentation for the full list of available subject
+%% keywords and the rules for their use.
+\keywords{}
+
+
+\section{Introduction}
+\label{sect:intro}
+
+
+\subsection{Signal Types}
+\label{sect:signal_types}
+
+\subsubsection{Narrowband signals}
+Narrow-band ($\sim$Hz) radio signals are one of the most common signal types aimed for by radio SETI. Ubiquitous in early terrestrial communication systems, such signals can be produced with relatively low energy and traverse the interstellar medium easily. They can be readily distinguished from natural astrophysical sources. These signals could either be transmitted intentionally or arise as leakage from extrasolar technologies. The apparent frequency of a distant narrow-band transmitter is expected to exhibit Doppler drift due to the relative motion between the transmitter and receiver. For a transmitter operating at 1400 MHz, the frequency drift rate is $\sim$0.14 Hz/sec due to the rotation of Earth. While the motion of the Earth is well known and can be exactly removed, the intrinsic or rotational/orbital drift of an arbitrary extraterrestrial transmitter is unknown, and thus Doppler drift represents a search parameter for narrow-band SETI. The Breakthrough Listen group have developed an efficient narrow-band search software package which includes a search for such drifting signals, named turboSETI. For this proposed survey with the LOFAR stations, we will use turboSETI to conduct a similar search and candidate selection procedure as described in \cite{Enriquez:2017}. 
+
+\subsubsection{Artificially and naturally dispersed signals}
+Astrophysical sources such as pulsars (Hewish et al. 1968), rotating radio transients (RRATs; McLaughlin et al. 2006) and fast radio bursts (Lorimer et al. 2007) exhibit broad-band pulses that are dispersed due to their propagation through the intervening ionized medium. This dispersion causes the higher-frequency component of the pulse to arrive earlier than the lower-frequency component. LOFAR has already demonstrated its ability to find such signals by discovering many new pulsars \citep{LOFAR_pilot_pulsar_2014} and detecting many known RRATs (McKenna et al. in prep). Recently, one of the periodically repeating FRBs was also detected with LOFAR \citep{LOFAR_R3_2021}. We will also search for such fast transients emanating from any bright galactic and extragalactic FRBs and new RRATs to double the science output from our survey. \cite{Gajjar_2021_BLGC1} have speculated that an advanced civilization might intentionally create a beacon of “pulses” with artificial (nonphysical) dispersion (hereafter aDM). In addition, they also suggested that the energy required for such a signal is relatively similar to the energy required for a persistent narrow-band signal. They outlined three different kinds of aDM signals which are not known to occur in nature and can be used as powerful beacons by any advanced ETI. With this current proposal, the targeted searches would be ideal to investigate such signals. 
+
+\subsubsection{Periodic spectral modulation signals}
+Narrowband and wideband signals with periodic spectral modulation (PSM) patterns have also been proposed to be a good indicator of artificial origin, as humans routinely use such signals for communication applications. An advanced ETI might intentionally choose to transmit such periodic narrowband or wideband signals as a powerful beacon or may “leak” radio emission as a byproduct of their activities. In the past, there have been a few dedicated searches performed to find such signals from ETIs. These searches, being highly computationally intensive, were limited to a few targets and conducted at 1 GHz. Conducting a comprehensive search for signals with PSM would open up a new domain of unexplored parameter space in search of ETIs. To search for PSM signals, individual channels or a group of channels need to be extracted and inspected across the entire observing duration to search for any periodic fluctuations. The Fast Folding Algorithm (FFA) provides one of the best possible ways if the modulation pattern has a small duty cycle ($<$1\%) and long repetition period ($>$500 milliseconds) compared to widely known Fast Fourier Transform (FFT) techniques. We plan to use the recently released toolkit named {\itshape riptide}\footnote{\url{https://pypi.org/project/riptide-ffa/}} which is a Python-based FFA algorithm module to search for such PSM signals. 
+
+\subsection{Targets}
+{\itshape What are the ideal targets for a SETI survey with LOFAR?} Previous prominent SETI surveys focused their search towards Sun-like stars \citep{Tarter:1996jf}. However, since our understanding of the origin of life is limited, life could likely arise on a planet that is not strictly Earth-like and located in the habitable zone. Thus, any sensitive radio SETI survey, to maximize the chance of detecting weak radio signals, should expand the search to the most nearby stars of all spectral types and with exoplanets of all sizes and distances from their parent star. With this proposal, we plan to conduct targeted observations towards nearby exoplanet systems and photometric anomalies identified by the Transiting Exoplanet Survey Satellite (TESS). It should be noted that a large fraction of Earth's prominent radio leakage happens to occur in the ecliptic plane. For example, we use powerful planetary radars to explore solar system objects and also to communicate with solar system probes using powerful beacons. It is likely that such leakage radiation also might be emanating from ETI worlds in their ecliptic planes. Since these targets are the closest transiting exoplanet systems (compared to numerous system found from the Kepler mission), a deep dual-site SETI survey will provide robust constraints on putative low-frequency artificial radio emission associated with them. With these targeted observations with the HBA array, we will be able to constrain the presence of ETI transmitters with the output power equivalent to Kardashev Type-I societies among TESS targets up to 4500 light-years. 
+
+For this proposal, our goal is to conduct simultaneous observations using I-LOFAR and LOFAR-SE with the HBA array towards TESS targets of interests (TOIs). The latest list of TESS object of interests (TOIs) was  scanned\footnote{\url{https://exofop.ipac.caltech.edu/tess/view_toi.php}} and a shortlist of targets were obtained rejecting possible false positives. Since the sensitivity of the HBA array is best within the hour angle of $\pm$30$^\circ$ around the zenith, the suitable sky with the required overlap for both LOFAR international stations spans within the declination range of +27$^\circ$ to +83$^\circ$.  Thus, from a list of valid candidates, we selected 839 targets that can simultaneously be observed. Figure \ref{fig:TESS_TOIs} shows the distribution of these sources and they are attached in a separate file along with this proposal.  We plan to retain the raw baseband voltages from our observations and based on the available disk space on our existing compute nodes, {\bf we propose for 100 hours of observing time. We plan to observe each source for around 15-minutes.} 
+
+\begin{figure}
+    \centering
+    \subfig{\includegraphics[scale=0.25]{figures/mollweide_TESS_progress.png}}
+    \centering
+    \subfig{\includegraphics[scale=0.25]{figures/histogram_TESS_progress.png}}
+    \caption{Selected TESS TOIs for the simultaneous dual-site SETI survey. {\itshape Left:} Distribution of these targets in equatorial coordinates. {\itshape Right:} Histogram of the RA of the selected TOIs. It can be seen that scheduling multiple observations between the LST range of 15 to 24 hours will provide maximum targets per session.}
+    \label{fig:TESS_TOIs}
+\end{figure}
+
+%For wide-field commensal radio survey observations, we will form 8 beams (12 MHz per beam) with each station, pointing with a slight offset from the local meridian. These offsets will correspond to the difference in longitude required to cover the same part of the sky from both stations for each beam.  For example, I-LOFAR would point east of the station's local meridian, and LOFAR-SE will point west. Each beam would cover a complete right ascension scan every day. For the LBA, we will be able to complete the observable declinations within 16 days, and for the HBA, we will be able to complete them in 22 to 80 days, depending upon tuning. We plan to carry out these observations by the end of 2021. This blind survey will be able to constrain the presence of ETI transmission across 10 to 250 MHz with output power equivalent to K1-type societies in more than 1 million stars. 
+
+\section{Technical Justification}
+\label{sect:technical_justification}
+We have already deployed and successfully installed head-nodes and compute-nodes with GPUs at both these sites. We are using iLiSA\footnote{\url{https://github.com/2baOrNot2ba/iLiSA}} which is a tool developed for operating an international station in a stand-alone mode to record beamformed voltage stream data to disk. Towards the end of 2020, we have successfully developed and tested tools\footnote{\url{https://github.com/David-McKenna/udpPacketManager/blob/readers/src/CLI/lofar_cli_guppi_raw.c}} to convert the beamformed voltage stream data to GUPPI raw voltage \citep{lebofsky2019} format for both the LOFAR stations. This already enabled us to utilize all our current search tools to look for signals from ETIs. We convert these GUPPI raw voltages data to three different resolutions, total intensity, SIGPROC formatted, filterbank files as listed in Table \ref{tab:formats} to search for three different types of ETI beacons listed in Section \ref{sect:signal_types}. 
+
+\begin{table}[h]
+\caption{Summary of data products produced from the standard \gls{bl} reduction pipeline and various signal types we plan to search with this proposal. All these data products from our survey will be publicly available for the community.}
+    \centering
+    \begin{tabular}{c c c c}
+    Data product    & Frequency Resolution  & Temporal Resolution & Possible Signal Searches\\
+    \hline
+    \hline
+   High-spectral resolution &   $\sim$ 3\,Hz &  $\sim$ 18\,s  & narrowband drifting signals \\
+   Mid-spectral resolution  &   $\sim$ 3\,kHz &  $\sim$ 1\,s  & PSM signals \\
+   High-temporal resolution &    $\sim$ 350\,kHz &  $\sim$ 349 $\mu$s & aDM transients, Pulsars, and FRBs \\
+   \hline
+    \end{tabular}
+    \label{tab:formats}
+\end{table}{}
+
+We have also carried out commissioning observations between February and March 2021 by simultaneously observing test pulsar -- PSR B2217+47-- using iLiSA to control recording on both stations. We were able to successfully record data on the BL nodes at both the sites and then were able to convert them to different resolution filterbank formats listed in Table \ref{tab:formats}. We used {\itshape turboSETI} to search for narrowband Doppler drifting signals from the high-spectral resolution data collected at both the LOFAR stations.  We have also installed BL transient pipeline named {\itshape SPANDAK}\footnote{\url{https://github.com/gajjarv/PulsarSearch}} \citep{gaj18apj} to look for single pulses from pulsars, FRBs, and aDM transient signals. Figure \ref{fig:sp_2217} shows an example plot of a single pulse detected from the PSR B2217+47 at LOFAR-SE with the BL backend using the SPANDAK pipeline. Figure \ref{fig:sp_2217} also shows simultaneously detected single pulses at both LOFAR stations. 
+
+\begin{figure}
+    \centering
+    \subfig{\includegraphics[scale=0.5]{SP_B2217_LOFARse.png}}
+    \subfig{\includegraphics[scale=0.63]{B2217+47_40.0-42.0sec.png}}
+    \caption{{\itshape Left:}Detection of a single pulse from PSR B2217+47 using the SPANDAK pipeline with the BL backend at LOFAR-SE (for panels description see caption in Figure 9 in \citealt{Gajjar_2021_BLGC1}). {\itshape Right:} Detection of simultaneous single pulses from PSR B2217+47 at both LOFAR stations with the BL compute nodes. The top panel shows single pulses from I-LOFAR and the bottom panel shows detected single pulses at LOFAR-SE. The flux is in arbitrary units.}
+    \label{fig:sp_2217}
+\end{figure}
+
+\subsection{Technical Challenges and Software Modifications}
+All filterbank files produced at I-LOFAR and LOFAR-SE are analysed using Blimpy\footnote{\url{https://github.com/UCBerkeleySETI/blimpy}}, a software suite developed specifically for processing Breakthrough Listen data \citep{2019JOSS....4.1554P}. While Blimpy has been designed primarily for use with data obtained from steerable telescopes (i.e.\ Green Bank, Parkes), which employ an 'ON-OFF' observation strategy \citep{Gajjar_2021_BLGC1}, most of its features can also be applied to data from stationary telescopes such as LOFAR.
+
+However, when observing a source for 15 minutes, each LOFAR station typically generates a high spectral resolution filterbank with a file size of 134.89 GB. Despite Blimpy's dedicated \verb|max_load| option for handling large files, filterbanks produced by I-LOFAR and LOFAR-SE are too large to load into memory all at once. Therefore, with 97.612796 GB of RAM available on each LOFAR compute node, generating a single waterfall plot for each target scan was impossible.
+
+Thus, Blimpy required additional features in order to fully support dual-site SETI observations. One such feature is `stix', a utility which divides the frequency range of a large filterbank file into a user-defined number of `chunks' and creates a separate waterfall plot for each chunk. The user then has the option to stitch these separate waterfall plots together vertically, horizontally, or not at all. The user also has control over the size and DPI resolution of each plot. Furthermore, the source names of most LOFAR-generated filterbanks read `UNKNOWN'. To prevent confusion, stix automatically gives a more meaningful name to any files whose source name is not known. Alternatively, the user may choose the source name, if desired. Since version 2.0.20, Blimpy contains stix as standard. Improvements are ongoing.
+
+\begin{figure}[htp]
+    \centering
+    \includegraphics[width=\textwidth]{figures/59402.42667.png}
+    \includegraphics[width=\textwidth]{figures/TIC142090065.png}
+    \caption{Stitched Waterfall plots of TESS target TIC142090065 from I-LOFAR (top) and LOFAR-SE (bottom).}
+    \label{fig:stix}
+\end{figure}
+
+\subsection{Sensitivity}
+\label{sect:sensitivity}
+The required power for a certain ETI transmitter to be detected depends on its directionality and other characteristics of the signals. For all three signal types, we can measure transmitter power of an ETI beacon in terms of the effective isotropic radiated power (EIRP; \citealt{Enriquez:2017}) as, 
+\begin{equation}
+    {\rm EIRP} = \sigma \times {4 \pi d_\star^2} \frac{\rm SEFD_{\rm HBA}}{\delta{\nu}_{t}} \sqrt{\frac{\delta{\nu}}{n_{p}t_{obs}{\omega}}}  \>\> W/Hz,
+    \label{Eq:EIRP}
+\end{equation}
+
+Here, $\sigma$ is the required S/N, $\delta{\nu}$ is the bandwidth of the received signal, $\delta{\nu}_{t}$ is the transmitted bandwidth, $t_{obs}$ is the observing integration time, SEFD is the System Equivalent Flux Density, $n_p$ is the number of polarization, $\omega$ is the duty cycle of the signal, and $d_\star$ is the distance between the transmitter and the receiver, i.e., distance to the star. For narrowband signals, $\omega$ is assumed to be 100\% and $\delta{\nu}$ and $\delta{\nu}_{t}$ are assumed to be 3Hz. For PSM signals, we assumed the narrowest wide-band signal to be 3 kHz and $\omega$ to be 10\%. For the broadband aDM transients signals, we assumed $\delta{\nu}$ and $\delta{\nu}_{t}$ is assumed to be 80 MHz and $t_{obs}$ is assumed to be 1 msec. 
+
+The measured SEFD of the HBA between 120 MHz and 180 MHz is around 2 kJy, and increases significantly up to 12 kJy at 240 MHz. For reference, the SEFD of the GBT at L-band is around 10 Jy. This difference in sensitivity is due to the larger collecting area of the GBT and the cooled analogue front-end, but primarily because the sky temperature is a factor of 100-1000 times hotter at LOFAR frequencies compared to L-band. We plan to primarily use 110 to 190 MHz band of the HBA for this project. We measured the EIRP for the three signals we aim to search for all three signal types towards all the TESS TOIs we plan to observe. They are shown in Figure \ref{fig:EIRP}. It can be seen that we will be able to scrutinize bright emission likely to be produced by Kardashev Type-I societies from all our targets. Moreover, for a handful of targets, our survey will also be sensitive to detect emissions with output power equivalent to our planetary radars. 
+
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.5]{Dist_EIRP.pdf}
+    \caption{Limits on the ETI beacons with the Effective Isotropic Radiated Power (EIRP) we are likely to obtain towards all the TESS TOIs we are planning to observe with this proposal. Three histogram shows the distribution of these measure EIRP limit for three signal types we are planning to search. The plot also shows approximate equivalent output power from K1-type societies, planetary radars, and ground-based aircraft radars with dashed, dot-dashed, and dotted lines, respectively.}
+    \label{fig:EIRP}
+\end{figure}
+
+\subsection{Dual-site coincidence rejection}
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.5]{dual_site_rejection_ex.png}
+    \caption{Dynamic spectra (waterfall plots) of detected narrowband signal centered around the detected frequency towards PSR B2217+47 demonstrating the excellent capabilities of dual-site coincidence rejection of anthropogenic signals.}
+    \label{fig:dual_site_SETI}
+\end{figure}
+
+One of the biggest challenges in the field of radio SETI is the discrimination of truly ETI signals from signals of anthropogenic origin. One of the ways to discriminate terrestrial interference is to carry out on-off observations for a given target and reject similar candidates \citep{Enriquez:2017}. However, with our current proposed dual-site simultaneous observations, we will have a unique opportunity to carry out coincidence rejection of RFI as these two sites likely to have a very different RFI environment. As discussed in Section \ref{sect:signal_types}, we aim to search for three different types of signals and our RFI rejection strategies will be adapted accordingly. For example, for the narrowband signal search, we aim to first convert our fine spectral resolution data products to the solar system barycentric frame of reference. A true sky-bound signal is likely to show up at the same barycentric frequency and should show similar Doppler drift (if the source is located at the centre of the beam) at both stations due to any relative motion of the source (for example rotation of ETI planet-hosting such a transmitter) with respect to our solar system barycenter. Most of the terrestrial interference will either not show up at the same barycentric frequencies and/or will show very different drift rates when compared across both stations. For signals with PSM, we will use mid-frequency resolution products that have relatively large channel bandwidth ($\sim$1 kHz) while for artificial dispersed signals, we will use finer time and coarser frequency resolution products. For the PSM signals, we will compare their barycentric frequency of the detected periodicity across both sites. For the artificially dispersed signals, we will compare their arrival times at both sites and compare the time delay with the expected geometric delay to discriminate true sky-bound signals from RFI. 
+
+As mentioned earlier, we already carried out commissioning observations towards PSR B2217+47 and converted the observed raw baseband voltages to different resolution filterbank products. We ran {\itshape turboSETI} on the fine resolution products at both stations which resulted in around 1000 candidates. We then compared the detected narrowband candidates across both stations and were able to reject about 95\% of the false positives arising due to local interference. Figure \ref{fig:dual_site_SETI} shows one example of such a narrowband signal which was only detected at I-LOFAR and was not detected at LOFAR-SE, confirming its terrestrial origin. We would like to emphasize that in the entire history of radio SETI, as no such observations have been performed before, our proposed observations are the most unique and likely help us answer the question, “{\itshape are we alone?}”
+
+\subsection{Scheduling}
+Since we only plan to observe during the epochs when I-LOFAR/LOFAR-SE is in local mode, we propose to divide these observing hours into multiple sessions with each session lasting only 4 hours. With this survey, we will be able to conduct observations of roughly 400 stars but we have selected double that number of targets to allow slightly relaxed scheduling constraint. As shown in Figure \ref{fig:TESS_TOIs}, a large number of these targets are located between the LST range of 1500 to 0200 hours. Luckily, for the next few months, this LST range happens to also occur during the night times (for example, on June 15th, the ideal time would be between 2100 to 0600 hours UTC), which should not impact ongoing solar observations at I-LOFAR and other activities at LOFAR-SE. 
+
+\subsection{Observations}
+Currently \textcolor{red}{XX} targets have been successfully observed at both I-LOFAR and LOFAR-SE. This compares to a total of \textcolor{red}{XX} hours of observation time at both stations. A successful pipeline has been developed for data acquisition and processing at both stations allowing for SETI searches take place. The details details of successfully observed targets can be found in table \ref{tb: TESS_observed_targets} 
+
+\section{Conclusion}
+
+\bibliographystyle{aasjournal.bst}
+\bibliography{references_BLGC,references,SETI_list}
+
+\appendix
+\restartappendixnumbering
+\begin{table}[h!]
+    \caption{List of successful dual-site TESS target observations carried out to-date. Distance values and error estimates (where available) were queried using the SIMBAD Astronomical Database via the `astroquery' Python library.}
+%   \rowcolors{1}{}{lightgray}
+    \begin{tabular*}{\textwidth}{c @{\extracolsep{\fill}} ccccc}
+        \toprule
+        \textbf{Target Name} & \textbf{J2000 RA (hrs)} & \textbf{J2000 DEC (deg)} & \textbf{MJD Start} & \textbf{Distance (pc)} \\
+        \hline \hline
+        TIC317597583 & 23.467778 & 75.552607 & 59402.348784722220 & 66.2 \(\pm\) 0.129 \\
+        TIC427730490 & 23.484982 & 71.506474 & 59402.359895833331 & 145.3 \(\pm\) 0.492 \\
+        TIC367858035 & 23.649439 & 75.685232 & 59402.371006944442 & 96.9 \(\pm\) 0.342 \\
+        TIC407394748 & 0.361377 & 77.880071 & 59402.382118055553 & \\
+        TIC435680451 & 1.194334 & 79.165492 & 59402.393229166664 & 175.1 \(\pm\) 0.766\\
+        TIC395393265 & 1.755931 & 77.790123 & 59402.404340277775 & 305.6 \(\pm\) 3.110\\
+        TIC396562848 & 2.955925 & 76.551405 & 59402.415451388886 & 18.2 \(\pm\) 0.011 \\
+        TIC142090065 & 5.271567 & 79.737727 & 59402.426562499997 & \\
+        TIC142117976 & 5.416015 & 79.74934 & 59402.437673611108 & 110.5 \(\pm\) 0.329 \\
+        TIC445805961 & 6.285589 & 76.21102 & 59402.448784722219 & 81.4 \(\pm\) 0.176 \\
+        TIC372757221 & 10.859545 & 81.322175 & 59403.550173611111 & 222.3 \(\pm\) 5.012 \\
+        TIC288132261 & 13.965621 & 79.583322 & 59403.561284722222 & 155.6 \(\pm\) 0.521 \\
+        TIC158002130 & 14.303713 & 82.193773 & 59403.572395833333 & 72.2 \(\pm\) 0.132 \\
+        TIC250724252 & 2.233683 & 53.121508 & 59410.296701388892 & \\
+        TIC249862365 & 2.541534 & 52.704091 & 59410.307812500003 & 185.7 \(\pm\) 1.293 \\
+        TIC51024887 & 2.810346 & 62.18926 & 59410.318923611114 & \\
+        TIC81831095 & 3.187109 & 61.762385 & 59410.330034722225 & 404.0 \(\pm\) 5.385 \\
+        TIC316254876 & 3.465923 & 54.865617 & 59410.341145833336 & 250.3 \(\pm\) 2.375 \\
+        TIC431899140 & 3.748169 & 45.507188 & 59410.352256944447 & 724.7 \(\pm\) 27.261 \\
+        TIC266500992 & 4.078149 & 52.256992 & 59410.363368055558 & 166.1 \(\pm\) 0.990 \\
+        TIC470315428 & 4.309899 & 52.865032 & 59410.374537037038 & \\
+        TIC27677846 & 4.424676 & 46.365902 & 59410.385590277780 & 78.9 \(\pm\) 0.329 \\
+        TIC121966220 & 5.053188 & 41.785784 & 59410.396701388891 & 479.0 \(\pm\) 9.314 \\
+        TIC191146556 & 0.553625 & 46.340305 & 59410.407812500001 & 285.1 \(\pm\) 3.040\\
+         \hline
+    \end{tabular*}
+    \label{tb: TESS_observed_targets}
+\end{table}
+
+\end{document}
