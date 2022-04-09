@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  23 MAR 2022 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  9 APR 2022 12:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **"/Users/oj/Dropbox/UCD - Physics Undergrad/4 - Fourth Year/Final Year Project/Final Report/Report/LaTeX Files/sample631.tex"
 (/Users/oj/Dropbox/UCD - Physics Undergrad/4 - Fourth Year/Final Year Project/Final Report/Report/LaTeX Files/sample631.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2022-02-24> (./aastex631.cls
+L3 programming layer <2022-02-24> (/usr/local/texlive/2021/texmf-dist/tex/latex/aastex/aastex631.cls
 Document Class: aastex631 2020/12/20 Version 6.3.1d/AAS markup document class
 Class aastex Info: 
  
@@ -459,19 +459,20 @@ LaTeX Info: Redefining \nameref on input line 25.
 \@outlinefile=\write4
 \openout4 = `sample631.out'.
 
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 48.
+ (./body.tex
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./body.tex
-<Orcid-ID.png, id=26, 220.825pt x 220.825pt>
+)
+<Orcid-ID.png, id=25, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
 Package pdftex.def Info: Orcid-ID.png  used on input line 1.
@@ -491,23 +492,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Orcid-ID.png>]) (./sample631.bbl) [2] (./sample631.aux)
+) (./sample631.bbl [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Orcid-ID.png>]) [2] [3] (./sample631.aux)
 Package rerunfilecheck Info: File `sample631.out' has not changed.
-(rerunfilecheck)             Checksum: 7025684A45183B4DA86FD1A92F947166;556.
+(rerunfilecheck)             Checksum: E23396F27E46E7B59167B4A49BC6112C;602.
  ) 
 Here is how much of TeX's memory you used:
- 13937 strings out of 478276
- 221581 string characters out of 5846490
- 587220 words of memory out of 5000000
- 31972 multiletter control sequences out of 15000+600000
- 478750 words of font info for 67 fonts, out of 8000000 for 9000
+ 13961 strings out of 478276
+ 222094 string characters out of 5846490
+ 597962 words of memory out of 5000000
+ 31993 multiletter control sequences out of 15000+600000
+ 478402 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,77p,781b,386s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample631.pdf (2 pages, 147768 bytes).
+ 75i,11n,77p,781b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on sample631.pdf (3 pages, 172093 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 86 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
+ 128 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
+ 17 named destinations out of 1000 (max. 500000)
  46 words of extra memory for PDF output out of 10000 (max. 10000000)
 
