@@ -1,9 +1,4 @@
-
-UBV CCD observations
-https://ui.adsabs.harvard.edu/abs/1994ApJS...90...31P/abstract
-
   No    Ref    V       B-V     U-B
-
  0001    86  19.811   1.596         
  0001   303  19.743   1.506         
  0002    86  18.202   1.220         

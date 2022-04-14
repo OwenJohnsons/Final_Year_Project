@@ -1,0 +1,113 @@
+J/A+A/623/A108      Age of 269 GDR2 open clusters              (Bossini+, 2019)
+================================================================================
+Age determination for 269 Gaia DR2 open clusters.
+    Bossini D., Vallenari A., Bragaglia A., Cantat-Gaudin T., Sordo R.,
+    Balaguer-Nunez L., Jordi C., Moitinho A., Soubiran C., Casamiquela L.,
+    Carrera R., Heiter U.
+    <Astron. Astrophys. 623, A108 (2019)>
+    =2019A&A...623A.108B        (SIMBAD/NED BibCode)
+================================================================================
+ADC_Keywords: Clusters, open ; Stars, ages ; Stars, distances ; Extinction
+Keywords: methods: statistical - open clusters and associations -
+          catalogs - Galaxy: stellar content
+
+Abstract:
+    The Gaia Second Data Release provides precise astrometry and
+    photometry for more than 1.3 billion sources. This catalog opens a new
+    era concerning the characterization of open clusters and test stellar
+    models, paving the way for better understanding of the disk
+    properties.
+
+    The aim of the paper is to improve the knowledge of cluster
+    parameters, using only the unprecedented quality of the Gaia
+    photometry and astrometry.
+
+    We have made use of the membership determination based on the precise
+    Gaia astrometry and photometry. We applied an automated Bayesian tool,
+    BASE-9, to fit stellar isochrones on the observed G, GBP, GRP
+    magnitudes of the high probability member stars.
+
+    We derive parameters such as age, distance modulus, and extinction for
+    a sample of 269 open clusters, selecting only low reddening objects
+    and discarding very young clusters, for which techniques other than
+    isochrone-fitting are more suitable for estimating ages.
+
+Description:
+    Estimated age, distant modulus, and extinction for 269 open clusters
+    observed in Gaia second data release as delivered in this study.
+    Summary of joined tables A.1, A.2, and A.3 of the paper.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName      Lrecl  Records   Explanations
+--------------------------------------------------------------------------------
+ReadMe            80        .   This file
+tablea.dat       180      269   Summary of OCs parameters characterised in this
+                                 study (tables A1-A3)
+--------------------------------------------------------------------------------
+
+See also:
+          I/345 : Gaia DR2 (Gaia Collaboration, 2018)
+          B/ocl : Optically visible open clusters & Candidates (Dias+ 2002-2015)
+ J/A+A/558/A53  : Milky Way global survey of star clusters II (Kharchenko+ 2013)
+ J/A+A/585/A150 : On the metallicity of open clusters. III. (Netopil+, 2016)
+ J/A+A/601/A70  : GES: pre-main-sequence clusters [Fe/H] (Spina+, 2017)
+ J/A+A/603/A2   : Gaia-ESO Survey abundances radial distribution (Magrini+ 2017)
+ J/A+A/616/A10  : 46 open clusters GaiaDR2 HR diagrams (Gaia Collaboration 2018)
+ J/A+A/618/A93  : Gaia DR2 open clusters in the Milky Way (Cantat-Gaudin+, 2018)
+ J/A+A/619/A155 : Open cluster kinematics with Gaia DR2 (Soubiran+, 2018)
+
+Byte-by-byte Description of file: tablea.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1- 20  A20   ---     Cluster Cluster name
+  21- 30  F10.3 deg     RAdeg   Mean right ascension of the cluster (ICRS)
+                                 at epoch 2015.5
+  31- 40  F10.3 deg     DEdeg   Mean declination of the cluster (ICRS)
+                                 at epoch 2015.5
+  41- 50  F10.3 [yr]    logA    Bayesian estimation of Age (in log t)
+  51- 60  F10.3 [yr]  e_logA    16th percentile confidence level
+                                 of Age (in log t)
+  61- 70  F10.3 [yr]  E_logA    84th percentile confidence level
+                                 of Age (in log t)
+  71- 80  F10.3 mag     Dist    Bayesian estimation of distant modulus
+  81- 90  F10.3 mag   e_Dist    16th percentile confidence level
+                                 of distance modulus
+  91-100  F10.3 mag   E_Dist    84th percentile confidence level
+                                 of distance modulus
+ 101-110  F10.3 mag     AV      Bayesian estimation of extinction in V band
+ 111-120  F10.3 mag   e_AV      16th percentile confidence level
+                                 of extinction in V band
+ 121-130  F10.3 mag   E_AV      84th percentile confidence level
+                                  of extinction in V band
+ 131-140  F10.3 mag     AGTO    Extinction in G band (GaiaDR2 Evans et al.,
+                                 2018A&A...616A...4E, Cat. I/345) at the turn
+                                 off of the cluster
+ 141-150  F10.3 mag   e_AGTO    16th percentile confidence level of
+                                 extinction in G band at the turn off
+ 151-160  F10.3 mag   E_AGTO    84th percentile confidence level of
+                                 extinction in G band at the turn off
+ 161-170  F10.3 ---     Fe/H    Cluster metallicity assumed (in dex)
+ 171-180  A10   ---   r_Fe/H    Reference for the metallicity assumed (1)
+--------------------------------------------------------------------------------
+Note (1): References as follows:
+ HRS = Metallicity from high-quality spectroscopic data
+        (from Netopil et al., 2016, Cat. J/A+A/585/A150)
+ GES = Metallicity from Gaia-ESO survey (Spina et al., 2017, Cat. J/A+A/601/A70;
+        Magrini et al., 2017, Cat. J/A+A/603/A2)
+ LRS = Metallicity from low-quality spectroscopic data
+        (from Netopil et al., 2016, Cat. J/A+A/585/A150)
+ PHC = Metallicity from photometry
+        (from Netopil et al., 2016, Cat. J/A+A/585/A150)
+ D02 = Metallicity from Dias et al. (2002A&A...389..871D, Cat. B/ocl)
+ K13 = Metallicity from Kharchenko et al. (2013, Cat. J/A+A/558/A53)
+  NC = no metallicity reference
+--------------------------------------------------------------------------------
+
+Acknowledgements:
+    Diego Bossini, diego.bossini(at)inaf.it,
+       Osservatorio astronomico di Padova-INAF
+
+================================================================================
+(End)  Diego Bossini [Padova-INAF], Patricia Vannier [CDS]           05-Feb-2019
