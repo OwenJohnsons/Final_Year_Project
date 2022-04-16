@@ -9,12 +9,28 @@
 {Becker}, W., \& {Fenkart}, R.~B. 1970, in The Spiral Structure of our Galaxy,
   ed. W.~{Becker} \& G.~I. {Kontopoulos}, Vol.~38, 205
 
+\bibitem[{{Bossini} {et~al.}(2019){Bossini}, {Vallenari}, {Bragaglia},
+  {Cantat-Gaudin}, {Sordo}, {Balaguer-N{\'u}{\~n}ez}, {Jordi}, {Moitinho},
+  {Soubiran}, {Casamiquela}, {Carrera}, \& {Heiter}}]{2019A&A...623A.108B}
+{Bossini}, D., {Vallenari}, A., {Bragaglia}, A., {et~al.} 2019, \aap, 623,
+  A108, \dodoi{10.1051/0004-6361/201834693}
+
+\bibitem[{{Bressan} {et~al.}(2012){Bressan}, {Marigo}, {Girardi}, {Salasnich},
+  {Dal Cero}, {Rubele}, \& {Nanni}}]{2012MNRAS.427..127B}
+{Bressan}, A., {Marigo}, P., {Girardi}, L., {et~al.} 2012, \mnras, 427, 127,
+  \dodoi{10.1111/j.1365-2966.2012.21948.x}
+
 \bibitem[{{Herschel}(1785)}]{1785RSPT...75..213H}
 {Herschel}, W. 1785, Philosophical Transactions of the Royal Society of London
   Series I, 75, 213
 
 \bibitem[{{Shapley}(1918)}]{1918ApJ....48..154S}
 {Shapley}, H. 1918, \apj, 48, 154, \dodoi{10.1086/142423}
+
+\bibitem[{{Siegel} {et~al.}(2019){Siegel}, {Laporte}, {Porterfield}, {Hagen},
+  \& {Gronwall}}]{2019yCat..51580035S}
+{Siegel}, M.~H., {Laporte}, S.~J., {Porterfield}, B.~L., {Hagen}, L.~M.~Z., \&
+  {Gronwall}, C.~A. 2019, VizieR Online Data Catalog, J/AJ/158/35
 
 \bibitem[{{Trumpler}(1930)}]{1930LicOB..14..154T}
 {Trumpler}, R.~J. 1930, Lick Observatory Bulletin, 420, 154,

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  9 APR 2022 12:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  15 APR 2022 20:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -472,7 +472,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Orcid-ID.png, id=25, 220.825pt x 220.825pt>
+<Orcid-ID.png, id=29, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
 Package pdftex.def Info: Orcid-ID.png  used on input line 1.
@@ -492,23 +492,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--20
 
  []
 
-) (./sample631.bbl [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Orcid-ID.png>]) [2] [3] (./sample631.aux)
+<figures/target_selection.pdf, id=44, 722.7pt x 361.35pt>
+File: figures/target_selection.pdf Graphic file (type pdf)
+<use figures/target_selection.pdf>
+Package pdftex.def Info: figures/target_selection.pdf  used on input line 54.
+(pdftex.def)             Requested size: 410.4955pt x 205.24934pt.
+[1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Orcid-ID.png>]
+<figures//supplementary_data_plot.pdf, id=79, 722.7pt x 722.7pt>
+File: figures//supplementary_data_plot.pdf Graphic file (type pdf)
+<use figures//supplementary_data_plot.pdf>
+Package pdftex.def Info: figures//supplementary_data_plot.pdf  used on input line 67.
+(pdftex.def)             Requested size: 205.92802pt x 205.92752pt.
+) (./sample631.bbl
+Overfull \vbox (14.33047pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (14.33047pt too high) has occurred while \output is active []
+
+ [2 <./figures/target_selection.pdf>]) [3 <./figures//supplementary_data_plot.pdf>] [4] (./sample631.aux)
 Package rerunfilecheck Info: File `sample631.out' has not changed.
-(rerunfilecheck)             Checksum: E23396F27E46E7B59167B4A49BC6112C;602.
+(rerunfilecheck)             Checksum: 7D19C9B6C6B7FC100BDE856698AF45D4;742.
  ) 
 Here is how much of TeX's memory you used:
- 13961 strings out of 478276
- 222094 string characters out of 5846490
- 597962 words of memory out of 5000000
- 31993 multiletter control sequences out of 15000+600000
+ 14048 strings out of 478276
+ 223535 string characters out of 5846490
+ 596962 words of memory out of 5000000
+ 32068 multiletter control sequences out of 15000+600000
  478402 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,781b,486s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on sample631.pdf (3 pages, 172093 bytes).
+ 75i,11n,77p,1409b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on sample631.pdf (4 pages, 409056 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 200 PDF objects out of 1000 (max. 8388607)
+ 152 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 64 words of extra memory for PDF output out of 10000 (max. 10000000)
 

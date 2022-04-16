@@ -26,7 +26,7 @@ This study used the 1.25 m optical telescope at the Calar Alto Observatory (CAHA
 
 As open clusters span many different distribtuions in both density, size and stellar constituents. Open clusters can contain large stellar agglomerations to just a handfull of stars. While classification systems can vary based on the context of the study the scheme coined by \cite{1930LicOB..14..154T} sees promeinant use. \\ This scheme classifies cluster based on three factors of the stellar population. a) their range of brightness, b) degree of concerntration and c) star population in the cluster. The details of this classification scheme can be seen in \cref{tab:trumpler_scheme}. 
 
-\begin{deluxetable*}{lBl}
+\begin{deluxetable*}{lll}
     \tablecaption{Trumpler classification scheme. \label{tab:trumpler_scheme}}
     \tablehead{
     \colhead{Range of Brightness} & \colhead{Degree of Concerntration} & \colhead{Cluster Population} \\
@@ -47,8 +47,41 @@ As open clusters span many different distribtuions in both density, size and ste
 
 \section{Observations} 
 
+\subsection{Target Selection}
+
+\begin{figure*}
+  \gridline{\fig{figures/target_selection.pdf}{0.8\textwidth}{}
+            }
+  \caption{Aitoff projection of targets in terms of galactic co-ordinates, longitude ($l$) and laititude ($b$). Targets observed at CAHA are observed in X, the orginal proposal targets shown in X and studies by \cite{2019A&A...623A.108B} and 
+  \label{fig:TargetSelection}}
+\end{figure*}
+  
+
 \subsection{Photometry}
 
-% \subsection{Astrometry}
-
 \section{Supplementary Data}
+
+This study compiles X clusters to aid the observational data. When searching for studies to compliment this work use Gaia's second data release (DR2) was set given preference. The reason for the use of supplementary data was to provide a more varying survey of the galactic disk. The first data set implented was 269 clusters analysed and catalogued by \cite{2019A&A...623A.108B}. This dataset contains large sample of clusters analysed from Gaia DR2, with each of the clusters containg a high degree homogenity amoung the stelllar population. The cluster populations were determined using Bayesian methods of statistics along with DR2 astrometric data. In doing this the probablity of each star being a member of each clusters was approximately X. The parameters of each cluster was found using PARSEC isochrones \citep{2012MNRAS.427..127B}. This data set worked well to fill out a sample size in the galactic disk as seen in \cref{fig:TargetSelection}. Although this survey contained a good amount of clusters with varying age it lacked some the ancient clusters of the milkey way. To supplement this gap the Swift UVOT near-infrared isochrone study using Gaia DR2 \citep{2019yCat..51580035S} was added to the pool of clusters for analysis.
+
+\begin{figure}[ht!]
+  \plotone{supplementary_data_plot.pdf}
+  \caption{Distance against the log age of both observed targets, proposed targets and supplementary targets.   \label{fig:supplementarydatafig}}
+\end{figure}
+
+
+\begin{deluxetable*}{lccccc}
+  \tablecaption{Results of Trumpler classification on observed targets. \label{tab:trumpler_results}}
+  \tablehead{
+  \colhead{Target} & \colhead{$\Delta V_{mag}$} & \colhead{$\Delta B_{mag}$} & \colhead{$\sigma_s$} & \colhead{Population $n$} 
+  }
+  \decimalcolnumbers
+  % \tablewidth{}
+  \startdata
+  Berkeley 28  &  &  &  &  & m \\ 
+  Bochum 2 &  &  &  &  & \\ 
+  NGC2324 & 12 & 12 & 12 & 333 & r \\
+  NGC2324 &  &  &  &  & r \\ 
+  \enddata
+  \tablecomments{Where $n$ denotes the amounts the stellar population in a given cluster. For example Pleiades is a I3rn cluster and Hyades is a II3m cluster. Where the 'n' flag on a classification relates if the cluster shows nebulosity.}
+\end{deluxetable*}
+
