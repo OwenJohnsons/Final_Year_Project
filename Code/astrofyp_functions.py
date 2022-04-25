@@ -18,6 +18,8 @@ def SigmaCombine(filenames, nsig, iter, x1, x2, y1, y2):
     Output 
     --- 
     A single array equivalent to the inputted fits file. 
+
+    Adapted from Caimin McKenna's orginal code.
     '''
 
     datalist = []
