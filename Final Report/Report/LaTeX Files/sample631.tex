@@ -1,5 +1,6 @@
 \documentclass[twocolumn]{aastex631}
 \usepackage{cleveref}
+
 % \usepackage{multicol,lipsum,environ}
 
 % \NewEnviron{auxmulticols}[1]{%
@@ -17,13 +18,15 @@
 \newcommand\aastex{AAS\TeX}
 \newcommand\latex{La\TeX}
 
+\newcommand{\mreal}{M_{\text{real}}}
+\newcommand{\minst}{M_{\text{inst.}}}
 
-\shorttitle{Data Analysis Report}
+\shorttitle{Path finding with the old breed}
 \shortauthors{O. Johnson}
 
 \graphicspath{{./}{figures/}}
 \begin{document}
-\title{Pathfinding with the Old Breed:}
+\title{Pathfinding with the Old Breed: Using old clusters of the Milky Way for Galatic Tracing}
 \author[0000-0002-5927-0481]{Owen Johnson}
 \affiliation{School of Physics, University College Dublin, Ireland}
 
@@ -31,6 +34,8 @@
 
 %% Mark off the abstract in the ``abstract'' environment. 
 \begin{abstract}
+
+    Open clusters have been long used as stellar laboratories, and galactic tracers in this study both are used in tandem to investigate the distribution of old ($> 1000$ Myr) open clusters in a milky way. UB photometric data were collected for Berkeley 28, Bochum 2, NGC 2124 and NGC 2155. Each cluster's population was determined using Gaia data and parameterised using MIST and DSEP isochrones. Along with classification based on the Trumpler scheme and cataloguing of the stellar population. These clusters were combined with 266 open clusters from newly available catalogues. It was found that there is an underabundance of old open clusters within the inner galactic disk of the Milky Way despite production outweighing disruptive dynamical forces in the galaxy. It is shown that there is no direct correlation between cluster age and galactic position. Indicating sprawling embedment of older clusters throughout the milky way is due to a layered relationship between internal cluster dynamics and the disk environment. It is deemed that an underabundance of old clusters is due to dispersion due to destructive interactions and misrepresentation due to observational selection. With the old breed of open clusters found to be inflating the galactic disk. 
 
 % This example manuscript is intended to serve as a tutorial and template for
 % authors to use when writing their own AAS Journal articles. The manuscript
@@ -55,6 +60,16 @@
 \keywords{Open Clusters --- Galactic Tracing --- Galactic Disk --- MIST Isochrone Fitting}
 \input{body}
 
+\begin{acknowledgments}
+    \section*{Acknowledgments}
+    I would like to give my thanks to Dr Antonio Martin-Carillo for his patience, warmth and depth throughout this project. He made this project an absolute joy from start to finish. I want to give a special thanks to Camin Mac Cionna for his marvellous code, coffee and 'career' advice, to my open cluster partner in crime, Eoin Fitzpatrick, for making my exploration of the universe a little less lonely and to Sean J. Brennan for the wise insights and advice in cycling and astrophysics a-like. \\ 
+    Furthermore, I would like to thank my peers for making the last four years of learning about the cosmos the best experience I've ever had. I wish them every luck and success in their future careers. \\
+To A-a-ron, Ben, Ciara, Cian, Hugh, Joe, Laura, Sharon, and Tiernan, thank you for taking care of me for the past few years. Your friendship is both invaluable and necessary. 
+ \\ Finally, to my family, for their unwavering support and help in the pursuit of my dreams always. Thank you for making all of this possible. \\
+
+\end{acknowledgments}
+
+\clearpage 
 
 \bibliography{sample631}{}
 \bibliographystyle{aasjournal}
@@ -70,13 +85,14 @@
 %% commands to see a summary list of all changes at the end of the article.
 %\listofchanges
 
-\begin{acknowledgments}
-    \section*{Acknowledgments}
-    I would like to give my thanks to Dr. Antionio Martin Carillo for his patience, warmth and depth throughout this project. He made this project an absolute joy from start to finish. I would like to give a special thanks to Camin Mac Cionna for his marvellous code, coffee and 'career' advice and to my open cluster partner in crime, Eoin Fitzpatrick, for making my exploration of the universe a little less lonely. \\ 
-    Furthermore, I would like to thank my peers for making the last four years of learning about the cosmos the best experience I've ever had. I wish them every luck and success in their future careers.  \\ Finally, to my family, for their unwavering support and help in the pursuit of my dreams always. Thank you for making all of this possible. 
-\end{acknowledgments}
+
+
+\clearpage
 
 \appendix
+
+\section{Stellar Catalogs} \label{sec:star_catalog}
+\input{tables.tex}
 
 \end{document}
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  17 APR 2022 21:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2022/dev) (preloaded format=pdflatex 2022.2.25)  24 APR 2022 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -393,11 +393,11 @@ LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 )
-Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 25.
-Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with fingers crossed) on input line 25.
-Class revtex4-1 Info: cite was not loaded (OK!) on input line 25.
-Class revtex4-1 Info: mcite was not loaded (OK!) on input line 25.
-Class revtex4-1 Info: multicol was not loaded (OK!) on input line 25.
+Class revtex4-1 Info: Unrecognized array package. Please update this document class! (Proceeding with fingers crossed.) on input line 28.
+Class revtex4-1 Info: Patching unrecognized longtable package. (Proceeding with fingers crossed) on input line 28.
+Class revtex4-1 Info: cite was not loaded (OK!) on input line 28.
+Class revtex4-1 Info: mcite was not loaded (OK!) on input line 28.
+Class revtex4-1 Info: multicol was not loaded (OK!) on input line 28.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count330
@@ -405,24 +405,24 @@ File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
 ) (./sample631.aux)
 \openout1 = `sample631.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
  (/usr/local/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
@@ -442,7 +442,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (/usr/local/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 25.
+Package hyperref Info: Link coloring ON on input line 28.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2021/texmf-dist/tex/latex/refcount/refcount.sty
@@ -452,27 +452,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count337
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
- (./sample631.out) (./sample631.out)
+LaTeX Info: Redefining \ref on input line 28.
+LaTeX Info: Redefining \pageref on input line 28.
+LaTeX Info: Redefining \nameref on input line 28.
 \@outlinefile=\write4
 \openout4 = `sample631.out'.
 
- (./body.tex
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 38.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
  (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-<Orcid-ID.png, id=29, 220.825pt x 220.825pt>
+) (./body.tex
+<Orcid-ID.png, id=5, 220.825pt x 220.825pt>
 File: Orcid-ID.png Graphic file (type png)
 <use Orcid-ID.png>
 Package pdftex.def Info: Orcid-ID.png  used on input line 1.
@@ -483,49 +481,562 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
  []
 
 
+Package natbib Warning: Citation `1785RSPT...75..213H' on page 1 undefined on input line 16.
+
+
+Package natbib Warning: Citation `1918ApJ....48..154S' on page 1 undefined on input line 16.
+
+
+Package natbib Warning: Citation `1930LicOB..14..154T' on page 1 undefined on input line 16.
+
+
+Package natbib Warning: Citation `1970IAUS...38..205B' on page 1 undefined on input line 16.
+
+
+Package natbib Warning: Citation `1958ZA.....46..176V' on page 1 undefined on input line 16.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--20
+Package natbib Warning: Citation `2006Bon' on page 1 undefined on input line 18.
+
+
+Package natbib Warning: Citation `1988ESOC...28..379L' on page 1 undefined on input line 20.
+
+
+Package natbib Warning: Citation `2008A&A...486..771K' on page 1 undefined on input line 20.
+
+
+Package natbib Warning: Citation `2018A&A...616A...1G' on page 1 undefined on input line 20.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--22
 
  []
 
-<figures/target_selection.pdf, id=44, 722.7pt x 361.35pt>
-File: figures/target_selection.pdf Graphic file (type pdf)
-<use figures/target_selection.pdf>
-Package pdftex.def Info: figures/target_selection.pdf  used on input line 54.
-(pdftex.def)             Requested size: 410.4955pt x 205.24934pt.
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 1 undefined on input line 23.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 1 undefined on input line 23.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+./body.tex:26: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 
+     
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
 [1{/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Orcid-ID.png>]
-<figures//supplementary_data_plot.pdf, id=79, 722.7pt x 722.7pt>
+
+LaTeX Warning: Reference `fig:TargetSelection' on page 1 undefined on input line 40.
+
+
+LaTeX Warning: Reference `tab:target_list' on page 1 undefined on input line 40.
+
+
+Package natbib Warning: Citation `1988Mohan' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1993Turbide' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1998Frandsen' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1991Kalunzy' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2001Durgapal' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2005Ortolani' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2004Lata' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1994Phelps' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2006Carraro' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2012Bhatt' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1988Mohan' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1993Turbide' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1998Frandsen' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1991Kalunzy' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2001Durgapal' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2005Ortolani' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2004Lata' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `1994Phelps' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2006Carraro' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `2012Bhatt' on page 2 undefined on input line 63.
+
+
+Package natbib Warning: Citation `bevington_d' on page 2 undefined on input line 79.
+
+
+Package natbib Warning: Citation `2006A&A...456..523S' on page 2 undefined on input line 89.
+
+
+Package natbib Warning: Citation `2022A&A...658A.141V' on page 2 undefined on input line 89.
+
+
+Package natbib Warning: Citation `2018A&A...609A..36S' on page 2 undefined on input line 89.
+
+
+Package natbib Warning: Citation `Ester96adensity-based' on page 2 undefined on input line 95.
+
+
+LaTeX Warning: Reference `fig:DBScan_example' on page 1 undefined on input line 95.
+
+
+Package natbib Warning: Citation `HBSCAN_Campello' on page 2 undefined on input line 95.
+
+[2]
+<figures/dbscan_ester_1996.png, id=45, 412.54124pt x 96.36pt>
+File: figures/dbscan_ester_1996.png Graphic file (type png)
+<use figures/dbscan_ester_1996.png>
+Package pdftex.def Info: figures/dbscan_ester_1996.png  used on input line 99.
+(pdftex.def)             Requested size: 256.55872pt x 59.92635pt.
+
+Overfull \hbox (14.29219pt too wide) in paragraph at lines 99--100
+ [][] 
+ []
+
+
+Package natbib Warning: Citation `Ester96adensity-based' on page 3 undefined on input line 100.
+
+
+Package natbib Warning: Citation `Ester96adensity-based' on page 3 undefined on input line 100.
+
+
+LaTeX Warning: Reference `fig:gaiaexample' on page 1 undefined on input line 104.
+
+
+LaTeX Warning: Reference `tb: population_classification' on page 1 undefined on input line 110.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 3 undefined on input line 110.
+
+
+Package natbib Warning: Citation `1993Turbide' on page 3 undefined on input line 110.
+
+<figures//gaia_plot_example.pdf, id=46, 722.7pt x 722.7pt>
+File: figures//gaia_plot_example.pdf Graphic file (type pdf)
+<use figures//gaia_plot_example.pdf>
+Package pdftex.def Info: figures//gaia_plot_example.pdf  used on input line 127.
+(pdftex.def)             Requested size: 230.90128pt x 230.89378pt.
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 3 undefined on input line 132.
+
+
+Package natbib Warning: Citation `1988Mohan' on page 3 undefined on input line 132.
+
+
+Package natbib Warning: Citation `1998Frandsen' on page 3 undefined on input line 132.
+
+
+Package natbib Warning: Citation `1991Kalunzy' on page 3 undefined on input line 132.
+
+[3 <./figures/dbscan_ester_1996.png>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 133.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 133.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+
+Package natbib Warning: Citation `2016ApJ...823..102C' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `2018ApJS..234...34P' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `doi:10.1146/annurev.astro.46.060407.145222' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `2001A&A...369..574V' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `1988A&AS...72..259D' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `2000A&A...360..227N' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `1947ApJ...105..305L' on page 4 undefined on input line 140.
+
+
+Package natbib Warning: Citation `2000A&A...360..952H' on page 4 undefined on input line 140.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 140--141
+
+ []
+
+
+Package natbib Warning: Citation `2022MNRAS.512.5717A' on page 4 undefined on input line 143.
+
+
+Package natbib Warning: Citation `2015ascl.soft03010M' on page 4 undefined on input line 144.
+
+
+LaTeX Warning: Reference `tab:target_list' on page 1 undefined on input line 149.
+
+
+LaTeX Warning: Reference `tab:isochrone_parameters' on page 1 undefined on input line 149.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 4 undefined on input line 149.
+
+
+LaTeX Warning: Reference `fig:obs_CMDs' on page 1 undefined on input line 149.
+
+<figures/master_cmd.pdf, id=59, 722.7pt x 1445.4pt>
+File: figures/master_cmd.pdf Graphic file (type pdf)
+<use figures/master_cmd.pdf>
+Package pdftex.def Info: figures/master_cmd.pdf  used on input line 156.
+(pdftex.def)             Requested size: 236.03746pt x 472.06522pt.
+
+Package natbib Warning: Citation `dyson1980physics' on page 4 undefined on input line 162.
+
+
+Package natbib Warning: Citation `2021A&A...649A.127V' on page 4 undefined on input line 168.
+
+[4 <./figures//gaia_plot_example.pdf>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 169.
+
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 169.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+<figures//isochrones/Berkeley28.pdf, id=91, 722.7pt x 722.7pt>
+File: figures//isochrones/Berkeley28.pdf Graphic file (type pdf)
+<use figures//isochrones/Berkeley28.pdf>
+Package pdftex.def Info: figures//isochrones/Berkeley28.pdf  used on input line 175.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/Bochum2.pdf, id=92, 722.7pt x 722.7pt>
+File: figures//isochrones/Bochum2.pdf Graphic file (type pdf)
+<use figures//isochrones/Bochum2.pdf>
+Package pdftex.def Info: figures//isochrones/Bochum2.pdf  used on input line 175.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/NGC2324.pdf, id=93, 722.7pt x 722.7pt>
+File: figures//isochrones/NGC2324.pdf Graphic file (type pdf)
+<use figures//isochrones/NGC2324.pdf>
+Package pdftex.def Info: figures//isochrones/NGC2324.pdf  used on input line 178.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/NGC2355.pdf, id=94, 722.7pt x 722.7pt>
+File: figures//isochrones/NGC2355.pdf Graphic file (type pdf)
+<use figures//isochrones/NGC2355.pdf>
+Package pdftex.def Info: figures//isochrones/NGC2355.pdf  used on input line 178.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/Berkeley20.pdf, id=95, 722.7pt x 722.7pt>
+File: figures//isochrones/Berkeley20.pdf Graphic file (type pdf)
+<use figures//isochrones/Berkeley20.pdf>
+Package pdftex.def Info: figures//isochrones/Berkeley20.pdf  used on input line 186.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/Berkeley34.pdf, id=96, 722.7pt x 722.7pt>
+File: figures//isochrones/Berkeley34.pdf Graphic file (type pdf)
+<use figures//isochrones/Berkeley34.pdf>
+Package pdftex.def Info: figures//isochrones/Berkeley34.pdf  used on input line 186.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/King1.pdf, id=97, 722.7pt x 722.7pt>
+File: figures//isochrones/King1.pdf Graphic file (type pdf)
+<use figures//isochrones/King1.pdf>
+Package pdftex.def Info: figures//isochrones/King1.pdf  used on input line 189.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/King15.pdf, id=98, 722.7pt x 722.7pt>
+File: figures//isochrones/King15.pdf Graphic file (type pdf)
+<use figures//isochrones/King15.pdf>
+Package pdftex.def Info: figures//isochrones/King15.pdf  used on input line 189.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/NGC2129.pdf, id=99, 722.7pt x 722.7pt>
+File: figures//isochrones/NGC2129.pdf Graphic file (type pdf)
+<use figures//isochrones/NGC2129.pdf>
+Package pdftex.def Info: figures//isochrones/NGC2129.pdf  used on input line 197.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+<figures//isochrones/stock18.pdf, id=100, 722.7pt x 722.7pt>
+File: figures//isochrones/stock18.pdf Graphic file (type pdf)
+<use figures//isochrones/stock18.pdf>
+Package pdftex.def Info: figures//isochrones/stock18.pdf  used on input line 197.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+
+LaTeX Warning: Reference `tab:target_list' on page 1 undefined on input line 225.
+
+
+Package natbib Warning: Citation `1930LicOB..14..154T' on page 5 undefined on input line 235.
+
+
+LaTeX Warning: Reference `tab:trumpler_scheme' on page 1 undefined on input line 235.
+
+
+LaTeX Warning: Reference `fig:obs_CMDs' on page 1 undefined on input line 261.
+
+
+LaTeX Warning: Reference `fig:obs_CMDs_2' on page 1 undefined on input line 261.
+
+
+LaTeX Warning: Reference `tab:trumpler_results' on page 1 undefined on input line 262.
+
+
+Package natbib Warning: Citation `1981ADCBu...1...90L' on page 5 undefined on input line 262.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 5 undefined on input line 266.
+
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 5 undefined on input line 266.
+
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 5 undefined on input line 266.
+
+
+Package natbib Warning: Citation `2012MNRAS.427..127B' on page 5 undefined on input line 266.
+
+
+LaTeX Warning: Reference `fig:TargetSelection' on page 1 undefined on input line 266.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 5 undefined on input line 266.
+
+<figures//supplementary_data_plot.pdf, id=101, 722.7pt x 722.7pt>
 File: figures//supplementary_data_plot.pdf Graphic file (type pdf)
 <use figures//supplementary_data_plot.pdf>
-Package pdftex.def Info: figures//supplementary_data_plot.pdf  used on input line 67.
-(pdftex.def)             Requested size: 205.92802pt x 205.92752pt.
-) (./sample631.bbl
-Overfull \vbox (14.33047pt too high) has occurred while \output is active []
+Package pdftex.def Info: figures//supplementary_data_plot.pdf  used on input line 282.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 5 undefined on input line 283.
 
 
-Overfull \vbox (14.33047pt too high) has occurred while \output is active []
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 5 undefined on input line 283.
 
- [2 <./figures/target_selection.pdf>]) [3 <./figures//supplementary_data_plot.pdf>] [4] (./sample631.aux)
-Package rerunfilecheck Info: File `sample631.out' has not changed.
-(rerunfilecheck)             Checksum: 7D19C9B6C6B7FC100BDE856698AF45D4;742.
+[5 <./figures/master_cmd.pdf>] [6 <./figures//isochrones/Berkeley28.pdf> <./figures//isochrones/Bochum2.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/Bochum2.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//isochrones/NGC2324.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/NGC2324.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//isochrones/NGC2355.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/NGC2355.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 285.
+
+[7 <./figures//isochrones/Berkeley20.pdf> <./figures//isochrones/Berkeley34.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/Berkeley34.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//isochrones/King1.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/King1.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./figures//isochrones/King15.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/King15.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 285.
+
+
+Class revtex4-1 Warning: Deferred float stuck during \clearpage processing.
+
+[8 <./figures//isochrones/NGC2129.pdf> <./figures//isochrones/stock18.pdf
+
+pdfTeX warning: pdflatex (file ./figures//isochrones/stock18.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: A float is stuck (cannot be placed) on input line 285.
+
+[9]
+<figures/target_selection.pdf, id=305, 722.7pt x 361.35pt>
+File: figures/target_selection.pdf Graphic file (type pdf)
+<use figures/target_selection.pdf>
+Package pdftex.def Info: figures/target_selection.pdf  used on input line 305.
+(pdftex.def)             Requested size: 410.4955pt x 205.24934pt.
+
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 10 undefined on input line 307.
+
+
+Package natbib Warning: Citation `2019A&A...623A.108B' on page 10 undefined on input line 307.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 10 undefined on input line 312.
+
+
+Overfull \hbox (10.88353pt too wide) in paragraph at lines 312--312
+[][]| [] [][][]| 
+ []
+
+
+Package natbib Warning: Citation `2018A&A...616A...1G' on page 10 undefined on input line 312.
+
+
+LaTeX Warning: Reference `fig:TargetSelection' on page 1 undefined on input line 316.
+
+
+LaTeX Warning: Reference `fig:supplementarydatafig' on page 1 undefined on input line 316.
+
+
+LaTeX Warning: Reference `fig:oc_dist' on page 1 undefined on input line 316.
+
+<figures/opencluster_distribution.png, id=307, 1445.4pt x 722.7pt>
+File: figures/opencluster_distribution.png Graphic file (type png)
+<use figures/opencluster_distribution.png>
+Package pdftex.def Info: figures/opencluster_distribution.png  used on input line 320.
+(pdftex.def)             Requested size: 513.11743pt x 256.55478pt.
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 10 undefined on input line 321.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 10 undefined on input line 321.
+
+
+Package natbib Warning: Citation `1950BAN....11...91O' on page 10 undefined on input line 326.
+
+
+Package natbib Warning: Citation `1973SvA....16..837K' on page 10 undefined on input line 326.
+
+
+Package natbib Warning: Citation `2019A&A...624A...8A' on page 10 undefined on input line 326.
+
+
+Package natbib Warning: Citation `1958ApJ...127...17S' on page 10 undefined on input line 326.
+
+
+Package natbib Warning: Citation `2020A&A...640A...1C' on page 10 undefined on input line 331.
+
+
+Overfull \hbox (10.88353pt too wide) in paragraph at lines 331--331
+[][]| [] [][][]| 
+ []
+
+
+Package natbib Warning: Citation `lynga1982open' on page 10 undefined on input line 332.
+
+
+Package natbib Warning: Citation `dias2002new' on page 10 undefined on input line 332.
+
+[10 <./figures//supplementary_data_plot.pdf>]
+<figures/agevsrgc.pdf, id=332, 722.7pt x 722.7pt>
+File: figures/agevsrgc.pdf Graphic file (type pdf)
+<use figures/agevsrgc.pdf>
+Package pdftex.def Info: figures/agevsrgc.pdf  used on input line 336.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+
+
+LaTeX Warning: Reference `fig:agevsrgc' on page 1 undefined on input line 341.
+
+
+LaTeX Warning: Reference `fig:oc_dist' on page 1 undefined on input line 341.
+
+
+LaTeX Warning: Reference `fig:agevszpos' on page 1 undefined on input line 341.
+
+<figures/agevszpos.pdf, id=333, 722.7pt x 722.7pt>
+File: figures/agevszpos.pdf Graphic file (type pdf)
+<use figures/agevszpos.pdf>
+Package pdftex.def Info: figures/agevszpos.pdf  used on input line 345.
+(pdftex.def)             Requested size: 236.03746pt x 236.0326pt.
+
+Package natbib Warning: Citation `2006Bon' on page 11 undefined on input line 353.
+
+[11 <./figures/target_selection.pdf>] [12 <./figures/opencluster_distribution.png> <./figures/agevsrgc.pdf> <./figures/agevszpos.pdf
+
+pdfTeX warning: pdflatex (file ./figures/agevszpos.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>])
+Underfull \hbox (badness 10000) in paragraph at lines 65--69
+
+ []
+
+[13]
+No file sample631.bbl.
+(./tables.tex
+Overfull \vbox (0.86345pt too high) has occurred while \output is active []
+
+ [14] [15] [16] [17]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6 on input line 261.
+
+[18] [19])
+
+Package natbib Warning: There were undefined citations.
+
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+[20] (./sample631.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `sample631.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `sample631.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FA74FD30FE5E0E07575E05CCBFA288D5;4220.
  ) 
 Here is how much of TeX's memory you used:
- 14048 strings out of 478276
- 223535 string characters out of 5846490
- 596962 words of memory out of 5000000
- 32068 multiletter control sequences out of 15000+600000
- 478402 words of font info for 63 fonts, out of 8000000 for 9000
+ 14217 strings out of 478276
+ 228212 string characters out of 5846490
+ 803801 words of memory out of 5000000
+ 32172 multiletter control sequences out of 15000+600000
+ 480516 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,77p,1409b,499s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on sample631.pdf (4 pages, 409046 bytes).
+ 75i,11n,77p,1781b,602s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on sample631.pdf (20 pages, 1112912 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 152 compressed objects within 2 object streams
- 25 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 558 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
